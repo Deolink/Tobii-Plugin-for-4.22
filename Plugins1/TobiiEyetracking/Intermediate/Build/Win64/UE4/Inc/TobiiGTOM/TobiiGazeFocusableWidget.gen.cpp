@@ -1,4 +1,4 @@
-// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -59,7 +59,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiGazeFocusableWidget() {}
 		{ "EditInline", "true" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UDelegateFunction_TobiiGTOM_WidgetHoverSignature__DelegateSignature_Statics::NewProp_FocusedWidget = { UE4CodeGen_Private::EPropertyClass::Object, "FocusedWidget", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000080080, 1, nullptr, STRUCT_OFFSET(_Script_TobiiGTOM_eventWidgetHoverSignature_Parms, FocusedWidget), Z_Construct_UClass_UTobiiGazeFocusableWidget_NoRegister, METADATA_PARAMS(Z_Construct_UDelegateFunction_TobiiGTOM_WidgetHoverSignature__DelegateSignature_Statics::NewProp_FocusedWidget_MetaData, ARRAY_COUNT(Z_Construct_UDelegateFunction_TobiiGTOM_WidgetHoverSignature__DelegateSignature_Statics::NewProp_FocusedWidget_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UDelegateFunction_TobiiGTOM_WidgetHoverSignature__DelegateSignature_Statics::NewProp_FocusedWidget = { "FocusedWidget", nullptr, (EPropertyFlags)0x0010000000080080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(_Script_TobiiGTOM_eventWidgetHoverSignature_Parms, FocusedWidget), Z_Construct_UClass_UTobiiGazeFocusableWidget_NoRegister, METADATA_PARAMS(Z_Construct_UDelegateFunction_TobiiGTOM_WidgetHoverSignature__DelegateSignature_Statics::NewProp_FocusedWidget_MetaData, ARRAY_COUNT(Z_Construct_UDelegateFunction_TobiiGTOM_WidgetHoverSignature__DelegateSignature_Statics::NewProp_FocusedWidget_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_TobiiGTOM_WidgetHoverSignature__DelegateSignature_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_TobiiGTOM_WidgetHoverSignature__DelegateSignature_Statics::NewProp_FocusedWidget,
 	};
@@ -68,7 +68,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiGazeFocusableWidget() {}
 		{ "ModuleRelativePath", "Public/GTOMAwareUI/TobiiGazeFocusableWidget.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_TobiiGTOM_WidgetHoverSignature__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_TobiiGTOM, "WidgetHoverSignature__DelegateSignature", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00130000, sizeof(_Script_TobiiGTOM_eventWidgetHoverSignature_Parms), Z_Construct_UDelegateFunction_TobiiGTOM_WidgetHoverSignature__DelegateSignature_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UDelegateFunction_TobiiGTOM_WidgetHoverSignature__DelegateSignature_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_TobiiGTOM_WidgetHoverSignature__DelegateSignature_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UDelegateFunction_TobiiGTOM_WidgetHoverSignature__DelegateSignature_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_TobiiGTOM_WidgetHoverSignature__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_TobiiGTOM, nullptr, "WidgetHoverSignature__DelegateSignature", sizeof(_Script_TobiiGTOM_eventWidgetHoverSignature_Parms), Z_Construct_UDelegateFunction_TobiiGTOM_WidgetHoverSignature__DelegateSignature_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UDelegateFunction_TobiiGTOM_WidgetHoverSignature__DelegateSignature_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_TobiiGTOM_WidgetHoverSignature__DelegateSignature_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UDelegateFunction_TobiiGTOM_WidgetHoverSignature__DelegateSignature_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UDelegateFunction_TobiiGTOM_WidgetHoverSignature__DelegateSignature()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -99,7 +99,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiGazeFocusableWidget() {}
 		{ "EditInline", "true" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UDelegateFunction_TobiiGTOM_WidgetGazeFocusSignature__DelegateSignature_Statics::NewProp_FocusedWidget = { UE4CodeGen_Private::EPropertyClass::Object, "FocusedWidget", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000080080, 1, nullptr, STRUCT_OFFSET(_Script_TobiiGTOM_eventWidgetGazeFocusSignature_Parms, FocusedWidget), Z_Construct_UClass_UTobiiGazeFocusableWidget_NoRegister, METADATA_PARAMS(Z_Construct_UDelegateFunction_TobiiGTOM_WidgetGazeFocusSignature__DelegateSignature_Statics::NewProp_FocusedWidget_MetaData, ARRAY_COUNT(Z_Construct_UDelegateFunction_TobiiGTOM_WidgetGazeFocusSignature__DelegateSignature_Statics::NewProp_FocusedWidget_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UDelegateFunction_TobiiGTOM_WidgetGazeFocusSignature__DelegateSignature_Statics::NewProp_FocusedWidget = { "FocusedWidget", nullptr, (EPropertyFlags)0x0010000000080080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(_Script_TobiiGTOM_eventWidgetGazeFocusSignature_Parms, FocusedWidget), Z_Construct_UClass_UTobiiGazeFocusableWidget_NoRegister, METADATA_PARAMS(Z_Construct_UDelegateFunction_TobiiGTOM_WidgetGazeFocusSignature__DelegateSignature_Statics::NewProp_FocusedWidget_MetaData, ARRAY_COUNT(Z_Construct_UDelegateFunction_TobiiGTOM_WidgetGazeFocusSignature__DelegateSignature_Statics::NewProp_FocusedWidget_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_TobiiGTOM_WidgetGazeFocusSignature__DelegateSignature_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_TobiiGTOM_WidgetGazeFocusSignature__DelegateSignature_Statics::NewProp_FocusedWidget,
 	};
@@ -108,7 +108,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiGazeFocusableWidget() {}
 		{ "ModuleRelativePath", "Public/GTOMAwareUI/TobiiGazeFocusableWidget.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_TobiiGTOM_WidgetGazeFocusSignature__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_TobiiGTOM, "WidgetGazeFocusSignature__DelegateSignature", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00130000, sizeof(_Script_TobiiGTOM_eventWidgetGazeFocusSignature_Parms), Z_Construct_UDelegateFunction_TobiiGTOM_WidgetGazeFocusSignature__DelegateSignature_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UDelegateFunction_TobiiGTOM_WidgetGazeFocusSignature__DelegateSignature_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_TobiiGTOM_WidgetGazeFocusSignature__DelegateSignature_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UDelegateFunction_TobiiGTOM_WidgetGazeFocusSignature__DelegateSignature_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_TobiiGTOM_WidgetGazeFocusSignature__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_TobiiGTOM, nullptr, "WidgetGazeFocusSignature__DelegateSignature", sizeof(_Script_TobiiGTOM_eventWidgetGazeFocusSignature_Parms), Z_Construct_UDelegateFunction_TobiiGTOM_WidgetGazeFocusSignature__DelegateSignature_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UDelegateFunction_TobiiGTOM_WidgetGazeFocusSignature__DelegateSignature_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_TobiiGTOM_WidgetGazeFocusSignature__DelegateSignature_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UDelegateFunction_TobiiGTOM_WidgetGazeFocusSignature__DelegateSignature_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UDelegateFunction_TobiiGTOM_WidgetGazeFocusSignature__DelegateSignature()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -169,7 +169,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiGazeFocusableWidget() {}
 		{ "EditInline", "true" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UTobiiGazeFocusableWidget_AddChildWidgetBoundsToIgnore_Statics::NewProp_WidgetToIgnoreBoundsOf = { UE4CodeGen_Private::EPropertyClass::Object, "WidgetToIgnoreBoundsOf", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000080080, 1, nullptr, STRUCT_OFFSET(TobiiGazeFocusableWidget_eventAddChildWidgetBoundsToIgnore_Parms, WidgetToIgnoreBoundsOf), Z_Construct_UClass_UWidget_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_UTobiiGazeFocusableWidget_AddChildWidgetBoundsToIgnore_Statics::NewProp_WidgetToIgnoreBoundsOf_MetaData, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_AddChildWidgetBoundsToIgnore_Statics::NewProp_WidgetToIgnoreBoundsOf_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UTobiiGazeFocusableWidget_AddChildWidgetBoundsToIgnore_Statics::NewProp_WidgetToIgnoreBoundsOf = { "WidgetToIgnoreBoundsOf", nullptr, (EPropertyFlags)0x0010000000080080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(TobiiGazeFocusableWidget_eventAddChildWidgetBoundsToIgnore_Parms, WidgetToIgnoreBoundsOf), Z_Construct_UClass_UWidget_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_UTobiiGazeFocusableWidget_AddChildWidgetBoundsToIgnore_Statics::NewProp_WidgetToIgnoreBoundsOf_MetaData, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_AddChildWidgetBoundsToIgnore_Statics::NewProp_WidgetToIgnoreBoundsOf_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UTobiiGazeFocusableWidget_AddChildWidgetBoundsToIgnore_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UTobiiGazeFocusableWidget_AddChildWidgetBoundsToIgnore_Statics::NewProp_WidgetToIgnoreBoundsOf,
 	};
@@ -180,7 +180,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiGazeFocusableWidget() {}
 		{ "ToolTip", "If you want this widget to have CleanUI, but it shouldn't trigger when one or more of its children is being looked at, you can configure that using these functions. This requires bUseFastHitTesting to be off." },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiGazeFocusableWidget_AddChildWidgetBoundsToIgnore_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiGazeFocusableWidget, "AddChildWidgetBoundsToIgnore", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, sizeof(TobiiGazeFocusableWidget_eventAddChildWidgetBoundsToIgnore_Parms), Z_Construct_UFunction_UTobiiGazeFocusableWidget_AddChildWidgetBoundsToIgnore_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_AddChildWidgetBoundsToIgnore_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiGazeFocusableWidget_AddChildWidgetBoundsToIgnore_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_AddChildWidgetBoundsToIgnore_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiGazeFocusableWidget_AddChildWidgetBoundsToIgnore_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiGazeFocusableWidget, nullptr, "AddChildWidgetBoundsToIgnore", sizeof(TobiiGazeFocusableWidget_eventAddChildWidgetBoundsToIgnore_Parms), Z_Construct_UFunction_UTobiiGazeFocusableWidget_AddChildWidgetBoundsToIgnore_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_AddChildWidgetBoundsToIgnore_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiGazeFocusableWidget_AddChildWidgetBoundsToIgnore_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_AddChildWidgetBoundsToIgnore_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UTobiiGazeFocusableWidget_AddChildWidgetBoundsToIgnore()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -216,18 +216,18 @@ void EmptyLinkFunctionForGeneratedCodeTobiiGazeFocusableWidget() {}
 	{
 		((TobiiGazeFocusableWidget_eventAddGazeFocusableWidgetToPollHitsFrom_Parms*)Obj)->PollMouseHits = 1;
 	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UTobiiGazeFocusableWidget_AddGazeFocusableWidgetToPollHitsFrom_Statics::NewProp_PollMouseHits = { UE4CodeGen_Private::EPropertyClass::Bool, "PollMouseHits", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(TobiiGazeFocusableWidget_eventAddGazeFocusableWidgetToPollHitsFrom_Parms), &Z_Construct_UFunction_UTobiiGazeFocusableWidget_AddGazeFocusableWidgetToPollHitsFrom_Statics::NewProp_PollMouseHits_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UTobiiGazeFocusableWidget_AddGazeFocusableWidgetToPollHitsFrom_Statics::NewProp_PollMouseHits = { "PollMouseHits", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(TobiiGazeFocusableWidget_eventAddGazeFocusableWidgetToPollHitsFrom_Parms), &Z_Construct_UFunction_UTobiiGazeFocusableWidget_AddGazeFocusableWidgetToPollHitsFrom_Statics::NewProp_PollMouseHits_SetBit, METADATA_PARAMS(nullptr, 0) };
 	void Z_Construct_UFunction_UTobiiGazeFocusableWidget_AddGazeFocusableWidgetToPollHitsFrom_Statics::NewProp_PollGazeHits_SetBit(void* Obj)
 	{
 		((TobiiGazeFocusableWidget_eventAddGazeFocusableWidgetToPollHitsFrom_Parms*)Obj)->PollGazeHits = 1;
 	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UTobiiGazeFocusableWidget_AddGazeFocusableWidgetToPollHitsFrom_Statics::NewProp_PollGazeHits = { UE4CodeGen_Private::EPropertyClass::Bool, "PollGazeHits", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(TobiiGazeFocusableWidget_eventAddGazeFocusableWidgetToPollHitsFrom_Parms), &Z_Construct_UFunction_UTobiiGazeFocusableWidget_AddGazeFocusableWidgetToPollHitsFrom_Statics::NewProp_PollGazeHits_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UTobiiGazeFocusableWidget_AddGazeFocusableWidgetToPollHitsFrom_Statics::NewProp_PollGazeHits = { "PollGazeHits", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(TobiiGazeFocusableWidget_eventAddGazeFocusableWidgetToPollHitsFrom_Parms), &Z_Construct_UFunction_UTobiiGazeFocusableWidget_AddGazeFocusableWidgetToPollHitsFrom_Statics::NewProp_PollGazeHits_SetBit, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UTobiiGazeFocusableWidget_AddGazeFocusableWidgetToPollHitsFrom_Statics::NewProp_GazeFocusableWidgetToPoll_MetaData[] = {
 		{ "EditInline", "true" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UTobiiGazeFocusableWidget_AddGazeFocusableWidgetToPollHitsFrom_Statics::NewProp_GazeFocusableWidgetToPoll = { UE4CodeGen_Private::EPropertyClass::Object, "GazeFocusableWidgetToPoll", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000080080, 1, nullptr, STRUCT_OFFSET(TobiiGazeFocusableWidget_eventAddGazeFocusableWidgetToPollHitsFrom_Parms, GazeFocusableWidgetToPoll), Z_Construct_UClass_UTobiiGazeFocusableWidget_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_UTobiiGazeFocusableWidget_AddGazeFocusableWidgetToPollHitsFrom_Statics::NewProp_GazeFocusableWidgetToPoll_MetaData, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_AddGazeFocusableWidgetToPollHitsFrom_Statics::NewProp_GazeFocusableWidgetToPoll_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UTobiiGazeFocusableWidget_AddGazeFocusableWidgetToPollHitsFrom_Statics::NewProp_GazeFocusableWidgetToPoll = { "GazeFocusableWidgetToPoll", nullptr, (EPropertyFlags)0x0010000000080080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(TobiiGazeFocusableWidget_eventAddGazeFocusableWidgetToPollHitsFrom_Parms, GazeFocusableWidgetToPoll), Z_Construct_UClass_UTobiiGazeFocusableWidget_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_UTobiiGazeFocusableWidget_AddGazeFocusableWidgetToPollHitsFrom_Statics::NewProp_GazeFocusableWidgetToPoll_MetaData, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_AddGazeFocusableWidgetToPollHitsFrom_Statics::NewProp_GazeFocusableWidgetToPoll_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UTobiiGazeFocusableWidget_AddGazeFocusableWidgetToPollHitsFrom_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UTobiiGazeFocusableWidget_AddGazeFocusableWidgetToPollHitsFrom_Statics::NewProp_PollMouseHits,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UTobiiGazeFocusableWidget_AddGazeFocusableWidgetToPollHitsFrom_Statics::NewProp_PollGazeHits,
@@ -242,7 +242,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiGazeFocusableWidget() {}
 		{ "ToolTip", "If this widget should fade out when another container is being looked at, use these functions to make that happen. This requires bUseFastHitTesting to be off." },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiGazeFocusableWidget_AddGazeFocusableWidgetToPollHitsFrom_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiGazeFocusableWidget, "AddGazeFocusableWidgetToPollHitsFrom", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, sizeof(TobiiGazeFocusableWidget_eventAddGazeFocusableWidgetToPollHitsFrom_Parms), Z_Construct_UFunction_UTobiiGazeFocusableWidget_AddGazeFocusableWidgetToPollHitsFrom_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_AddGazeFocusableWidgetToPollHitsFrom_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiGazeFocusableWidget_AddGazeFocusableWidgetToPollHitsFrom_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_AddGazeFocusableWidgetToPollHitsFrom_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiGazeFocusableWidget_AddGazeFocusableWidgetToPollHitsFrom_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiGazeFocusableWidget, nullptr, "AddGazeFocusableWidgetToPollHitsFrom", sizeof(TobiiGazeFocusableWidget_eventAddGazeFocusableWidgetToPollHitsFrom_Parms), Z_Construct_UFunction_UTobiiGazeFocusableWidget_AddGazeFocusableWidgetToPollHitsFrom_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_AddGazeFocusableWidgetToPollHitsFrom_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiGazeFocusableWidget_AddGazeFocusableWidgetToPollHitsFrom_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_AddGazeFocusableWidgetToPollHitsFrom_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UTobiiGazeFocusableWidget_AddGazeFocusableWidgetToPollHitsFrom()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -265,7 +265,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiGazeFocusableWidget() {}
 		{ "ModuleRelativePath", "Public/GTOMAwareUI/TobiiGazeFocusableWidget.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiGazeFocusableWidget_OnLostGazeFocus_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiGazeFocusableWidget, "OnLostGazeFocus", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x08020800, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiGazeFocusableWidget_OnLostGazeFocus_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_OnLostGazeFocus_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiGazeFocusableWidget_OnLostGazeFocus_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiGazeFocusableWidget, nullptr, "OnLostGazeFocus", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiGazeFocusableWidget_OnLostGazeFocus_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_OnLostGazeFocus_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UTobiiGazeFocusableWidget_OnLostGazeFocus()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -289,7 +289,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiGazeFocusableWidget() {}
 		{ "ToolTip", "Focus manager events. Use the focus manager here if you want to find out additional information about the focus event." },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiGazeFocusableWidget_OnReceivedGazeFocus_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiGazeFocusableWidget, "OnReceivedGazeFocus", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x08020800, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiGazeFocusableWidget_OnReceivedGazeFocus_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_OnReceivedGazeFocus_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiGazeFocusableWidget_OnReceivedGazeFocus_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiGazeFocusableWidget, nullptr, "OnReceivedGazeFocus", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiGazeFocusableWidget_OnReceivedGazeFocus_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_OnReceivedGazeFocus_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UTobiiGazeFocusableWidget_OnReceivedGazeFocus()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -320,7 +320,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiGazeFocusableWidget() {}
 		{ "EditInline", "true" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UTobiiGazeFocusableWidget_RemoveChildWidgetBoundsToIgnore_Statics::NewProp_WidgetToStopIgnoringBoundsOf = { UE4CodeGen_Private::EPropertyClass::Object, "WidgetToStopIgnoringBoundsOf", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000080080, 1, nullptr, STRUCT_OFFSET(TobiiGazeFocusableWidget_eventRemoveChildWidgetBoundsToIgnore_Parms, WidgetToStopIgnoringBoundsOf), Z_Construct_UClass_UWidget_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_UTobiiGazeFocusableWidget_RemoveChildWidgetBoundsToIgnore_Statics::NewProp_WidgetToStopIgnoringBoundsOf_MetaData, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_RemoveChildWidgetBoundsToIgnore_Statics::NewProp_WidgetToStopIgnoringBoundsOf_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UTobiiGazeFocusableWidget_RemoveChildWidgetBoundsToIgnore_Statics::NewProp_WidgetToStopIgnoringBoundsOf = { "WidgetToStopIgnoringBoundsOf", nullptr, (EPropertyFlags)0x0010000000080080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(TobiiGazeFocusableWidget_eventRemoveChildWidgetBoundsToIgnore_Parms, WidgetToStopIgnoringBoundsOf), Z_Construct_UClass_UWidget_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_UTobiiGazeFocusableWidget_RemoveChildWidgetBoundsToIgnore_Statics::NewProp_WidgetToStopIgnoringBoundsOf_MetaData, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_RemoveChildWidgetBoundsToIgnore_Statics::NewProp_WidgetToStopIgnoringBoundsOf_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UTobiiGazeFocusableWidget_RemoveChildWidgetBoundsToIgnore_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UTobiiGazeFocusableWidget_RemoveChildWidgetBoundsToIgnore_Statics::NewProp_WidgetToStopIgnoringBoundsOf,
 	};
@@ -330,7 +330,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiGazeFocusableWidget() {}
 		{ "ModuleRelativePath", "Public/GTOMAwareUI/TobiiGazeFocusableWidget.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiGazeFocusableWidget_RemoveChildWidgetBoundsToIgnore_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiGazeFocusableWidget, "RemoveChildWidgetBoundsToIgnore", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, sizeof(TobiiGazeFocusableWidget_eventRemoveChildWidgetBoundsToIgnore_Parms), Z_Construct_UFunction_UTobiiGazeFocusableWidget_RemoveChildWidgetBoundsToIgnore_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_RemoveChildWidgetBoundsToIgnore_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiGazeFocusableWidget_RemoveChildWidgetBoundsToIgnore_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_RemoveChildWidgetBoundsToIgnore_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiGazeFocusableWidget_RemoveChildWidgetBoundsToIgnore_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiGazeFocusableWidget, nullptr, "RemoveChildWidgetBoundsToIgnore", sizeof(TobiiGazeFocusableWidget_eventRemoveChildWidgetBoundsToIgnore_Parms), Z_Construct_UFunction_UTobiiGazeFocusableWidget_RemoveChildWidgetBoundsToIgnore_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_RemoveChildWidgetBoundsToIgnore_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiGazeFocusableWidget_RemoveChildWidgetBoundsToIgnore_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_RemoveChildWidgetBoundsToIgnore_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UTobiiGazeFocusableWidget_RemoveChildWidgetBoundsToIgnore()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -361,7 +361,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiGazeFocusableWidget() {}
 		{ "EditInline", "true" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UTobiiGazeFocusableWidget_RemoveGazeFocusableWidgetToPollHitsFrom_Statics::NewProp_GazeFocusableWidgetToStopPolling = { UE4CodeGen_Private::EPropertyClass::Object, "GazeFocusableWidgetToStopPolling", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000080080, 1, nullptr, STRUCT_OFFSET(TobiiGazeFocusableWidget_eventRemoveGazeFocusableWidgetToPollHitsFrom_Parms, GazeFocusableWidgetToStopPolling), Z_Construct_UClass_UTobiiGazeFocusableWidget_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_UTobiiGazeFocusableWidget_RemoveGazeFocusableWidgetToPollHitsFrom_Statics::NewProp_GazeFocusableWidgetToStopPolling_MetaData, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_RemoveGazeFocusableWidgetToPollHitsFrom_Statics::NewProp_GazeFocusableWidgetToStopPolling_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UTobiiGazeFocusableWidget_RemoveGazeFocusableWidgetToPollHitsFrom_Statics::NewProp_GazeFocusableWidgetToStopPolling = { "GazeFocusableWidgetToStopPolling", nullptr, (EPropertyFlags)0x0010000000080080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(TobiiGazeFocusableWidget_eventRemoveGazeFocusableWidgetToPollHitsFrom_Parms, GazeFocusableWidgetToStopPolling), Z_Construct_UClass_UTobiiGazeFocusableWidget_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_UTobiiGazeFocusableWidget_RemoveGazeFocusableWidgetToPollHitsFrom_Statics::NewProp_GazeFocusableWidgetToStopPolling_MetaData, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_RemoveGazeFocusableWidgetToPollHitsFrom_Statics::NewProp_GazeFocusableWidgetToStopPolling_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UTobiiGazeFocusableWidget_RemoveGazeFocusableWidgetToPollHitsFrom_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UTobiiGazeFocusableWidget_RemoveGazeFocusableWidgetToPollHitsFrom_Statics::NewProp_GazeFocusableWidgetToStopPolling,
 	};
@@ -371,7 +371,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiGazeFocusableWidget() {}
 		{ "ModuleRelativePath", "Public/GTOMAwareUI/TobiiGazeFocusableWidget.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiGazeFocusableWidget_RemoveGazeFocusableWidgetToPollHitsFrom_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiGazeFocusableWidget, "RemoveGazeFocusableWidgetToPollHitsFrom", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, sizeof(TobiiGazeFocusableWidget_eventRemoveGazeFocusableWidgetToPollHitsFrom_Parms), Z_Construct_UFunction_UTobiiGazeFocusableWidget_RemoveGazeFocusableWidgetToPollHitsFrom_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_RemoveGazeFocusableWidgetToPollHitsFrom_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiGazeFocusableWidget_RemoveGazeFocusableWidgetToPollHitsFrom_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_RemoveGazeFocusableWidgetToPollHitsFrom_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiGazeFocusableWidget_RemoveGazeFocusableWidgetToPollHitsFrom_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiGazeFocusableWidget, nullptr, "RemoveGazeFocusableWidgetToPollHitsFrom", sizeof(TobiiGazeFocusableWidget_eventRemoveGazeFocusableWidgetToPollHitsFrom_Parms), Z_Construct_UFunction_UTobiiGazeFocusableWidget_RemoveGazeFocusableWidgetToPollHitsFrom_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_RemoveGazeFocusableWidgetToPollHitsFrom_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiGazeFocusableWidget_RemoveGazeFocusableWidgetToPollHitsFrom_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_RemoveGazeFocusableWidgetToPollHitsFrom_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UTobiiGazeFocusableWidget_RemoveGazeFocusableWidgetToPollHitsFrom()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -394,7 +394,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiGazeFocusableWidget() {}
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIFadeInTimeOverride_Statics::NewProp_InCleanUIFadeInTimeSecs = { UE4CodeGen_Private::EPropertyClass::Float, "InCleanUIFadeInTimeSecs", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(TobiiGazeFocusableWidget_eventSetCleanUIFadeInTimeOverride_Parms, InCleanUIFadeInTimeSecs), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIFadeInTimeOverride_Statics::NewProp_InCleanUIFadeInTimeSecs = { "InCleanUIFadeInTimeSecs", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(TobiiGazeFocusableWidget_eventSetCleanUIFadeInTimeOverride_Parms, InCleanUIFadeInTimeSecs), METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIFadeInTimeOverride_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIFadeInTimeOverride_Statics::NewProp_InCleanUIFadeInTimeSecs,
 	};
@@ -405,7 +405,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiGazeFocusableWidget() {}
 		{ "ToolTip", "CVar override functions." },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIFadeInTimeOverride_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiGazeFocusableWidget, "SetCleanUIFadeInTimeOverride", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, sizeof(TobiiGazeFocusableWidget_eventSetCleanUIFadeInTimeOverride_Parms), Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIFadeInTimeOverride_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIFadeInTimeOverride_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIFadeInTimeOverride_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIFadeInTimeOverride_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIFadeInTimeOverride_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiGazeFocusableWidget, nullptr, "SetCleanUIFadeInTimeOverride", sizeof(TobiiGazeFocusableWidget_eventSetCleanUIFadeInTimeOverride_Parms), Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIFadeInTimeOverride_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIFadeInTimeOverride_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIFadeInTimeOverride_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIFadeInTimeOverride_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIFadeInTimeOverride()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -428,7 +428,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiGazeFocusableWidget() {}
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIFadeOutTimeOverride_Statics::NewProp_InCleanUIFadeOutTimeSecs = { UE4CodeGen_Private::EPropertyClass::Float, "InCleanUIFadeOutTimeSecs", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(TobiiGazeFocusableWidget_eventSetCleanUIFadeOutTimeOverride_Parms, InCleanUIFadeOutTimeSecs), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIFadeOutTimeOverride_Statics::NewProp_InCleanUIFadeOutTimeSecs = { "InCleanUIFadeOutTimeSecs", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(TobiiGazeFocusableWidget_eventSetCleanUIFadeOutTimeOverride_Parms, InCleanUIFadeOutTimeSecs), METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIFadeOutTimeOverride_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIFadeOutTimeOverride_Statics::NewProp_InCleanUIFadeOutTimeSecs,
 	};
@@ -438,7 +438,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiGazeFocusableWidget() {}
 		{ "ModuleRelativePath", "Public/GTOMAwareUI/TobiiGazeFocusableWidget.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIFadeOutTimeOverride_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiGazeFocusableWidget, "SetCleanUIFadeOutTimeOverride", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, sizeof(TobiiGazeFocusableWidget_eventSetCleanUIFadeOutTimeOverride_Parms), Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIFadeOutTimeOverride_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIFadeOutTimeOverride_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIFadeOutTimeOverride_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIFadeOutTimeOverride_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIFadeOutTimeOverride_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiGazeFocusableWidget, nullptr, "SetCleanUIFadeOutTimeOverride", sizeof(TobiiGazeFocusableWidget_eventSetCleanUIFadeOutTimeOverride_Parms), Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIFadeOutTimeOverride_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIFadeOutTimeOverride_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIFadeOutTimeOverride_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIFadeOutTimeOverride_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIFadeOutTimeOverride()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -461,7 +461,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiGazeFocusableWidget() {}
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIMaxAlphaOverride_Statics::NewProp_InCleanUIMaxAlpha = { UE4CodeGen_Private::EPropertyClass::Float, "InCleanUIMaxAlpha", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(TobiiGazeFocusableWidget_eventSetCleanUIMaxAlphaOverride_Parms, InCleanUIMaxAlpha), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIMaxAlphaOverride_Statics::NewProp_InCleanUIMaxAlpha = { "InCleanUIMaxAlpha", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(TobiiGazeFocusableWidget_eventSetCleanUIMaxAlphaOverride_Parms, InCleanUIMaxAlpha), METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIMaxAlphaOverride_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIMaxAlphaOverride_Statics::NewProp_InCleanUIMaxAlpha,
 	};
@@ -471,7 +471,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiGazeFocusableWidget() {}
 		{ "ModuleRelativePath", "Public/GTOMAwareUI/TobiiGazeFocusableWidget.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIMaxAlphaOverride_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiGazeFocusableWidget, "SetCleanUIMaxAlphaOverride", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, sizeof(TobiiGazeFocusableWidget_eventSetCleanUIMaxAlphaOverride_Parms), Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIMaxAlphaOverride_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIMaxAlphaOverride_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIMaxAlphaOverride_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIMaxAlphaOverride_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIMaxAlphaOverride_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiGazeFocusableWidget, nullptr, "SetCleanUIMaxAlphaOverride", sizeof(TobiiGazeFocusableWidget_eventSetCleanUIMaxAlphaOverride_Parms), Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIMaxAlphaOverride_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIMaxAlphaOverride_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIMaxAlphaOverride_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIMaxAlphaOverride_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIMaxAlphaOverride()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -494,7 +494,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiGazeFocusableWidget() {}
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIMinAlphaOverride_Statics::NewProp_InCleanUIMinAlpha = { UE4CodeGen_Private::EPropertyClass::Float, "InCleanUIMinAlpha", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(TobiiGazeFocusableWidget_eventSetCleanUIMinAlphaOverride_Parms, InCleanUIMinAlpha), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIMinAlphaOverride_Statics::NewProp_InCleanUIMinAlpha = { "InCleanUIMinAlpha", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(TobiiGazeFocusableWidget_eventSetCleanUIMinAlphaOverride_Parms, InCleanUIMinAlpha), METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIMinAlphaOverride_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIMinAlphaOverride_Statics::NewProp_InCleanUIMinAlpha,
 	};
@@ -504,7 +504,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiGazeFocusableWidget() {}
 		{ "ModuleRelativePath", "Public/GTOMAwareUI/TobiiGazeFocusableWidget.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIMinAlphaOverride_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiGazeFocusableWidget, "SetCleanUIMinAlphaOverride", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, sizeof(TobiiGazeFocusableWidget_eventSetCleanUIMinAlphaOverride_Parms), Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIMinAlphaOverride_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIMinAlphaOverride_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIMinAlphaOverride_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIMinAlphaOverride_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIMinAlphaOverride_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiGazeFocusableWidget, nullptr, "SetCleanUIMinAlphaOverride", sizeof(TobiiGazeFocusableWidget_eventSetCleanUIMinAlphaOverride_Parms), Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIMinAlphaOverride_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIMinAlphaOverride_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIMinAlphaOverride_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIMinAlphaOverride_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIMinAlphaOverride()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -528,8 +528,8 @@ void EmptyLinkFunctionForGeneratedCodeTobiiGazeFocusableWidget() {}
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIMode_Statics::NewProp_InCleanUIMode = { UE4CodeGen_Private::EPropertyClass::Enum, "InCleanUIMode", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(TobiiGazeFocusableWidget_eventSetCleanUIMode_Parms, InCleanUIMode), Z_Construct_UEnum_TobiiGTOM_ETobiiCleanUIMode, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIMode_Statics::NewProp_InCleanUIMode_Underlying = { UE4CodeGen_Private::EPropertyClass::Byte, "UnderlyingType", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0000000000000000, 1, nullptr, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIMode_Statics::NewProp_InCleanUIMode = { "InCleanUIMode", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(TobiiGazeFocusableWidget_eventSetCleanUIMode_Parms, InCleanUIMode), Z_Construct_UEnum_TobiiGTOM_ETobiiCleanUIMode, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIMode_Statics::NewProp_InCleanUIMode_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIMode_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIMode_Statics::NewProp_InCleanUIMode,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIMode_Statics::NewProp_InCleanUIMode_Underlying,
@@ -541,7 +541,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiGazeFocusableWidget() {}
 		{ "ToolTip", "Whether CleanUI should be enabled on this focusable" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIMode_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiGazeFocusableWidget, "SetCleanUIMode", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, sizeof(TobiiGazeFocusableWidget_eventSetCleanUIMode_Parms), Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIMode_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIMode_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIMode_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIMode_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIMode_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiGazeFocusableWidget, nullptr, "SetCleanUIMode", sizeof(TobiiGazeFocusableWidget_eventSetCleanUIMode_Parms), Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIMode_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIMode_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIMode_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIMode_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIMode()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -569,7 +569,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiGazeFocusableWidget() {}
 	{
 		((TobiiGazeFocusableWidget_eventSetFastHitTesting_Parms*)Obj)->bNewFastHitTesting = 1;
 	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetFastHitTesting_Statics::NewProp_bNewFastHitTesting = { UE4CodeGen_Private::EPropertyClass::Bool, "bNewFastHitTesting", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(TobiiGazeFocusableWidget_eventSetFastHitTesting_Parms), &Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetFastHitTesting_Statics::NewProp_bNewFastHitTesting_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetFastHitTesting_Statics::NewProp_bNewFastHitTesting = { "bNewFastHitTesting", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(TobiiGazeFocusableWidget_eventSetFastHitTesting_Parms), &Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetFastHitTesting_Statics::NewProp_bNewFastHitTesting_SetBit, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetFastHitTesting_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetFastHitTesting_Statics::NewProp_bNewFastHitTesting,
 	};
@@ -580,7 +580,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiGazeFocusableWidget() {}
 		{ "ToolTip", "Set this to true if you have widgets that don't use render transforms and you are fine with not being able to use child widget features such as exclusion. In this case, we can use a faster test path." },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetFastHitTesting_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiGazeFocusableWidget, "SetFastHitTesting", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, sizeof(TobiiGazeFocusableWidget_eventSetFastHitTesting_Parms), Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetFastHitTesting_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetFastHitTesting_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetFastHitTesting_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetFastHitTesting_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetFastHitTesting_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiGazeFocusableWidget, nullptr, "SetFastHitTesting", sizeof(TobiiGazeFocusableWidget_eventSetFastHitTesting_Parms), Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetFastHitTesting_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetFastHitTesting_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetFastHitTesting_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetFastHitTesting_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetFastHitTesting()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -608,7 +608,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiGazeFocusableWidget() {}
 	{
 		((TobiiGazeFocusableWidget_eventSetTriggerOnMouseOver_Parms*)Obj)->bNewTriggerOnMouseOver = 1;
 	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetTriggerOnMouseOver_Statics::NewProp_bNewTriggerOnMouseOver = { UE4CodeGen_Private::EPropertyClass::Bool, "bNewTriggerOnMouseOver", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(TobiiGazeFocusableWidget_eventSetTriggerOnMouseOver_Parms), &Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetTriggerOnMouseOver_Statics::NewProp_bNewTriggerOnMouseOver_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetTriggerOnMouseOver_Statics::NewProp_bNewTriggerOnMouseOver = { "bNewTriggerOnMouseOver", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(TobiiGazeFocusableWidget_eventSetTriggerOnMouseOver_Parms), &Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetTriggerOnMouseOver_Statics::NewProp_bNewTriggerOnMouseOver_SetBit, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetTriggerOnMouseOver_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetTriggerOnMouseOver_Statics::NewProp_bNewTriggerOnMouseOver,
 	};
@@ -619,7 +619,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiGazeFocusableWidget() {}
 		{ "ToolTip", "Whether or not we should trigger on mouse over." },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetTriggerOnMouseOver_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiGazeFocusableWidget, "SetTriggerOnMouseOver", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, sizeof(TobiiGazeFocusableWidget_eventSetTriggerOnMouseOver_Parms), Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetTriggerOnMouseOver_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetTriggerOnMouseOver_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetTriggerOnMouseOver_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetTriggerOnMouseOver_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetTriggerOnMouseOver_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiGazeFocusableWidget, nullptr, "SetTriggerOnMouseOver", sizeof(TobiiGazeFocusableWidget_eventSetTriggerOnMouseOver_Parms), Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetTriggerOnMouseOver_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetTriggerOnMouseOver_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetTriggerOnMouseOver_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetTriggerOnMouseOver_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetTriggerOnMouseOver()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -642,7 +642,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiGazeFocusableWidget() {}
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UTobiiGazeFocusableWidget_SuppressCleanUIFor_Statics::NewProp_SecondsForCleanUIToBeSuppressed = { UE4CodeGen_Private::EPropertyClass::Float, "SecondsForCleanUIToBeSuppressed", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(TobiiGazeFocusableWidget_eventSuppressCleanUIFor_Parms, SecondsForCleanUIToBeSuppressed), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UTobiiGazeFocusableWidget_SuppressCleanUIFor_Statics::NewProp_SecondsForCleanUIToBeSuppressed = { "SecondsForCleanUIToBeSuppressed", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(TobiiGazeFocusableWidget_eventSuppressCleanUIFor_Parms, SecondsForCleanUIToBeSuppressed), METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UTobiiGazeFocusableWidget_SuppressCleanUIFor_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UTobiiGazeFocusableWidget_SuppressCleanUIFor_Statics::NewProp_SecondsForCleanUIToBeSuppressed,
 	};
@@ -653,7 +653,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiGazeFocusableWidget() {}
 		{ "ToolTip", "If you don't want CleanUI to be active for some amount of time, you can suppress it here. This is good for scripted events and cut scenes where CleanUI would be more distracting than useful." },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiGazeFocusableWidget_SuppressCleanUIFor_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiGazeFocusableWidget, "SuppressCleanUIFor", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, sizeof(TobiiGazeFocusableWidget_eventSuppressCleanUIFor_Parms), Z_Construct_UFunction_UTobiiGazeFocusableWidget_SuppressCleanUIFor_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_SuppressCleanUIFor_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiGazeFocusableWidget_SuppressCleanUIFor_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_SuppressCleanUIFor_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiGazeFocusableWidget_SuppressCleanUIFor_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiGazeFocusableWidget, nullptr, "SuppressCleanUIFor", sizeof(TobiiGazeFocusableWidget_eventSuppressCleanUIFor_Parms), Z_Construct_UFunction_UTobiiGazeFocusableWidget_SuppressCleanUIFor_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_SuppressCleanUIFor_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiGazeFocusableWidget_SuppressCleanUIFor_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_SuppressCleanUIFor_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UTobiiGazeFocusableWidget_SuppressCleanUIFor()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -684,7 +684,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiGazeFocusableWidget() {}
 		{ "NativeConst", "" },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UTobiiGazeFocusableWidget_SuppressCleanUIUntil_Statics::NewProp_UtcTimeToSuppressUntil = { UE4CodeGen_Private::EPropertyClass::Struct, "UtcTimeToSuppressUntil", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000008000182, 1, nullptr, STRUCT_OFFSET(TobiiGazeFocusableWidget_eventSuppressCleanUIUntil_Parms, UtcTimeToSuppressUntil), Z_Construct_UScriptStruct_FDateTime, METADATA_PARAMS(Z_Construct_UFunction_UTobiiGazeFocusableWidget_SuppressCleanUIUntil_Statics::NewProp_UtcTimeToSuppressUntil_MetaData, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_SuppressCleanUIUntil_Statics::NewProp_UtcTimeToSuppressUntil_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UTobiiGazeFocusableWidget_SuppressCleanUIUntil_Statics::NewProp_UtcTimeToSuppressUntil = { "UtcTimeToSuppressUntil", nullptr, (EPropertyFlags)0x0010000008000182, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(TobiiGazeFocusableWidget_eventSuppressCleanUIUntil_Parms, UtcTimeToSuppressUntil), Z_Construct_UScriptStruct_FDateTime, METADATA_PARAMS(Z_Construct_UFunction_UTobiiGazeFocusableWidget_SuppressCleanUIUntil_Statics::NewProp_UtcTimeToSuppressUntil_MetaData, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_SuppressCleanUIUntil_Statics::NewProp_UtcTimeToSuppressUntil_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UTobiiGazeFocusableWidget_SuppressCleanUIUntil_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UTobiiGazeFocusableWidget_SuppressCleanUIUntil_Statics::NewProp_UtcTimeToSuppressUntil,
 	};
@@ -694,7 +694,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiGazeFocusableWidget() {}
 		{ "ModuleRelativePath", "Public/GTOMAwareUI/TobiiGazeFocusableWidget.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiGazeFocusableWidget_SuppressCleanUIUntil_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiGazeFocusableWidget, "SuppressCleanUIUntil", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04C20401, sizeof(TobiiGazeFocusableWidget_eventSuppressCleanUIUntil_Parms), Z_Construct_UFunction_UTobiiGazeFocusableWidget_SuppressCleanUIUntil_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_SuppressCleanUIUntil_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiGazeFocusableWidget_SuppressCleanUIUntil_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_SuppressCleanUIUntil_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiGazeFocusableWidget_SuppressCleanUIUntil_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiGazeFocusableWidget, nullptr, "SuppressCleanUIUntil", sizeof(TobiiGazeFocusableWidget_eventSuppressCleanUIUntil_Parms), Z_Construct_UFunction_UTobiiGazeFocusableWidget_SuppressCleanUIUntil_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_SuppressCleanUIUntil_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04C20401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiGazeFocusableWidget_SuppressCleanUIUntil_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusableWidget_SuppressCleanUIUntil_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UTobiiGazeFocusableWidget_SuppressCleanUIUntil()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -771,21 +771,21 @@ void EmptyLinkFunctionForGeneratedCodeTobiiGazeFocusableWidget() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_TobiiGTOM,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UTobiiGazeFocusableWidget_AddChildWidgetBoundsToIgnore, "AddChildWidgetBoundsToIgnore" }, // 178135989
-		{ &Z_Construct_UFunction_UTobiiGazeFocusableWidget_AddGazeFocusableWidgetToPollHitsFrom, "AddGazeFocusableWidgetToPollHitsFrom" }, // 2314598615
-		{ &Z_Construct_UFunction_UTobiiGazeFocusableWidget_OnLostGazeFocus, "OnLostGazeFocus" }, // 743060347
-		{ &Z_Construct_UFunction_UTobiiGazeFocusableWidget_OnReceivedGazeFocus, "OnReceivedGazeFocus" }, // 1882833394
-		{ &Z_Construct_UFunction_UTobiiGazeFocusableWidget_RemoveChildWidgetBoundsToIgnore, "RemoveChildWidgetBoundsToIgnore" }, // 662366811
-		{ &Z_Construct_UFunction_UTobiiGazeFocusableWidget_RemoveGazeFocusableWidgetToPollHitsFrom, "RemoveGazeFocusableWidgetToPollHitsFrom" }, // 1176413645
-		{ &Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIFadeInTimeOverride, "SetCleanUIFadeInTimeOverride" }, // 3727362464
-		{ &Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIFadeOutTimeOverride, "SetCleanUIFadeOutTimeOverride" }, // 126977508
-		{ &Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIMaxAlphaOverride, "SetCleanUIMaxAlphaOverride" }, // 3911158634
-		{ &Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIMinAlphaOverride, "SetCleanUIMinAlphaOverride" }, // 1563861663
-		{ &Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIMode, "SetCleanUIMode" }, // 1870479443
-		{ &Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetFastHitTesting, "SetFastHitTesting" }, // 264950547
-		{ &Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetTriggerOnMouseOver, "SetTriggerOnMouseOver" }, // 2036636104
-		{ &Z_Construct_UFunction_UTobiiGazeFocusableWidget_SuppressCleanUIFor, "SuppressCleanUIFor" }, // 4243744996
-		{ &Z_Construct_UFunction_UTobiiGazeFocusableWidget_SuppressCleanUIUntil, "SuppressCleanUIUntil" }, // 3477726031
+		{ &Z_Construct_UFunction_UTobiiGazeFocusableWidget_AddChildWidgetBoundsToIgnore, "AddChildWidgetBoundsToIgnore" }, // 1590856159
+		{ &Z_Construct_UFunction_UTobiiGazeFocusableWidget_AddGazeFocusableWidgetToPollHitsFrom, "AddGazeFocusableWidgetToPollHitsFrom" }, // 1549827210
+		{ &Z_Construct_UFunction_UTobiiGazeFocusableWidget_OnLostGazeFocus, "OnLostGazeFocus" }, // 1516380359
+		{ &Z_Construct_UFunction_UTobiiGazeFocusableWidget_OnReceivedGazeFocus, "OnReceivedGazeFocus" }, // 775310858
+		{ &Z_Construct_UFunction_UTobiiGazeFocusableWidget_RemoveChildWidgetBoundsToIgnore, "RemoveChildWidgetBoundsToIgnore" }, // 3682375723
+		{ &Z_Construct_UFunction_UTobiiGazeFocusableWidget_RemoveGazeFocusableWidgetToPollHitsFrom, "RemoveGazeFocusableWidgetToPollHitsFrom" }, // 718585289
+		{ &Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIFadeInTimeOverride, "SetCleanUIFadeInTimeOverride" }, // 3461506809
+		{ &Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIFadeOutTimeOverride, "SetCleanUIFadeOutTimeOverride" }, // 1940266849
+		{ &Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIMaxAlphaOverride, "SetCleanUIMaxAlphaOverride" }, // 553135914
+		{ &Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIMinAlphaOverride, "SetCleanUIMinAlphaOverride" }, // 2406895725
+		{ &Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetCleanUIMode, "SetCleanUIMode" }, // 2113076815
+		{ &Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetFastHitTesting, "SetFastHitTesting" }, // 1903049407
+		{ &Z_Construct_UFunction_UTobiiGazeFocusableWidget_SetTriggerOnMouseOver, "SetTriggerOnMouseOver" }, // 328918426
+		{ &Z_Construct_UFunction_UTobiiGazeFocusableWidget_SuppressCleanUIFor, "SuppressCleanUIFor" }, // 927335922
+		{ &Z_Construct_UFunction_UTobiiGazeFocusableWidget_SuppressCleanUIUntil, "SuppressCleanUIUntil" }, // 2975887192
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::Class_MetaDataParams[] = {
@@ -809,7 +809,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiGazeFocusableWidget() {}
 	{
 		((UTobiiGazeFocusableWidget*)Obj)->bTriggerOnMouseOver = 1;
 	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_bTriggerOnMouseOver = { UE4CodeGen_Private::EPropertyClass::Bool, "bTriggerOnMouseOver", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(UTobiiGazeFocusableWidget), &Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_bTriggerOnMouseOver_SetBit, METADATA_PARAMS(Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_bTriggerOnMouseOver_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_bTriggerOnMouseOver_MetaData)) };
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_bTriggerOnMouseOver = { "bTriggerOnMouseOver", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(UTobiiGazeFocusableWidget), &Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_bTriggerOnMouseOver_SetBit, METADATA_PARAMS(Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_bTriggerOnMouseOver_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_bTriggerOnMouseOver_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_bUseCleanUIFastHitTesting_MetaData[] = {
 		{ "Category", "CleanUI" },
@@ -821,7 +821,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiGazeFocusableWidget() {}
 	{
 		((UTobiiGazeFocusableWidget*)Obj)->bUseCleanUIFastHitTesting = 1;
 	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_bUseCleanUIFastHitTesting = { UE4CodeGen_Private::EPropertyClass::Bool, "bUseCleanUIFastHitTesting", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(UTobiiGazeFocusableWidget), &Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_bUseCleanUIFastHitTesting_SetBit, METADATA_PARAMS(Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_bUseCleanUIFastHitTesting_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_bUseCleanUIFastHitTesting_MetaData)) };
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_bUseCleanUIFastHitTesting = { "bUseCleanUIFastHitTesting", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(UTobiiGazeFocusableWidget), &Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_bUseCleanUIFastHitTesting_SetBit, METADATA_PARAMS(Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_bUseCleanUIFastHitTesting_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_bUseCleanUIFastHitTesting_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_CleanUIMode_MetaData[] = {
 		{ "Category", "CleanUI" },
@@ -829,29 +829,29 @@ void EmptyLinkFunctionForGeneratedCodeTobiiGazeFocusableWidget() {}
 		{ "ToolTip", "How should we apply CleanUI?" },
 	};
 #endif
-	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_CleanUIMode = { UE4CodeGen_Private::EPropertyClass::Enum, "CleanUIMode", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(UTobiiGazeFocusableWidget, CleanUIMode), Z_Construct_UEnum_TobiiGTOM_ETobiiCleanUIMode, METADATA_PARAMS(Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_CleanUIMode_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_CleanUIMode_MetaData)) };
-	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_CleanUIMode_Underlying = { UE4CodeGen_Private::EPropertyClass::Byte, "UnderlyingType", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0000000000000000, 1, nullptr, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_CleanUIMode = { "CleanUIMode", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UTobiiGazeFocusableWidget, CleanUIMode), Z_Construct_UEnum_TobiiGTOM_ETobiiCleanUIMode, METADATA_PARAMS(Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_CleanUIMode_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_CleanUIMode_MetaData)) };
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_CleanUIMode_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_CleanUIMaxAlphaOverride_MetaData[] = {
 		{ "Category", "CleanUI Overrides" },
 		{ "ModuleRelativePath", "Public/GTOMAwareUI/TobiiGazeFocusableWidget.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_CleanUIMaxAlphaOverride = { UE4CodeGen_Private::EPropertyClass::Float, "CleanUIMaxAlphaOverride", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(UTobiiGazeFocusableWidget, CleanUIMaxAlphaOverride), METADATA_PARAMS(Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_CleanUIMaxAlphaOverride_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_CleanUIMaxAlphaOverride_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_CleanUIMaxAlphaOverride = { "CleanUIMaxAlphaOverride", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UTobiiGazeFocusableWidget, CleanUIMaxAlphaOverride), METADATA_PARAMS(Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_CleanUIMaxAlphaOverride_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_CleanUIMaxAlphaOverride_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_CleanUIMinAlphaOverride_MetaData[] = {
 		{ "Category", "CleanUI Overrides" },
 		{ "ModuleRelativePath", "Public/GTOMAwareUI/TobiiGazeFocusableWidget.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_CleanUIMinAlphaOverride = { UE4CodeGen_Private::EPropertyClass::Float, "CleanUIMinAlphaOverride", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(UTobiiGazeFocusableWidget, CleanUIMinAlphaOverride), METADATA_PARAMS(Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_CleanUIMinAlphaOverride_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_CleanUIMinAlphaOverride_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_CleanUIMinAlphaOverride = { "CleanUIMinAlphaOverride", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UTobiiGazeFocusableWidget, CleanUIMinAlphaOverride), METADATA_PARAMS(Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_CleanUIMinAlphaOverride_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_CleanUIMinAlphaOverride_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_CleanUIFadeOutTimeSecsOverride_MetaData[] = {
 		{ "Category", "CleanUI Overrides" },
 		{ "ModuleRelativePath", "Public/GTOMAwareUI/TobiiGazeFocusableWidget.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_CleanUIFadeOutTimeSecsOverride = { UE4CodeGen_Private::EPropertyClass::Float, "CleanUIFadeOutTimeSecsOverride", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(UTobiiGazeFocusableWidget, CleanUIFadeOutTimeSecsOverride), METADATA_PARAMS(Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_CleanUIFadeOutTimeSecsOverride_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_CleanUIFadeOutTimeSecsOverride_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_CleanUIFadeOutTimeSecsOverride = { "CleanUIFadeOutTimeSecsOverride", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UTobiiGazeFocusableWidget, CleanUIFadeOutTimeSecsOverride), METADATA_PARAMS(Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_CleanUIFadeOutTimeSecsOverride_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_CleanUIFadeOutTimeSecsOverride_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_CleanUIFadeInTimeSecsOverride_MetaData[] = {
 		{ "Category", "CleanUI Overrides" },
@@ -859,35 +859,35 @@ void EmptyLinkFunctionForGeneratedCodeTobiiGazeFocusableWidget() {}
 		{ "ToolTip", "DON'T SET THESE DIRECTLY, USE THE SETTER FUNCTIONS BELOW\nIf you want this cleanUI panel to behave differently from the default governed by CVars you can override properties here.      Any negative value will result in the CVar value being used." },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_CleanUIFadeInTimeSecsOverride = { UE4CodeGen_Private::EPropertyClass::Float, "CleanUIFadeInTimeSecsOverride", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(UTobiiGazeFocusableWidget, CleanUIFadeInTimeSecsOverride), METADATA_PARAMS(Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_CleanUIFadeInTimeSecsOverride_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_CleanUIFadeInTimeSecsOverride_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_CleanUIFadeInTimeSecsOverride = { "CleanUIFadeInTimeSecsOverride", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UTobiiGazeFocusableWidget, CleanUIFadeInTimeSecsOverride), METADATA_PARAMS(Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_CleanUIFadeInTimeSecsOverride_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_CleanUIFadeInTimeSecsOverride_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_OnUnhovered_MetaData[] = {
 		{ "Category", "Events" },
 		{ "ModuleRelativePath", "Public/GTOMAwareUI/TobiiGazeFocusableWidget.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_OnUnhovered = { UE4CodeGen_Private::EPropertyClass::MulticastDelegate, "OnUnhovered", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000010080000, 1, nullptr, STRUCT_OFFSET(UTobiiGazeFocusableWidget, OnUnhovered), Z_Construct_UDelegateFunction_TobiiGTOM_WidgetHoverSignature__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_OnUnhovered_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_OnUnhovered_MetaData)) };
+	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_OnUnhovered = { "OnUnhovered", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::MulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UTobiiGazeFocusableWidget, OnUnhovered), Z_Construct_UDelegateFunction_TobiiGTOM_WidgetHoverSignature__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_OnUnhovered_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_OnUnhovered_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_OnHovered_MetaData[] = {
 		{ "Category", "Events" },
 		{ "ModuleRelativePath", "Public/GTOMAwareUI/TobiiGazeFocusableWidget.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_OnHovered = { UE4CodeGen_Private::EPropertyClass::MulticastDelegate, "OnHovered", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000010080000, 1, nullptr, STRUCT_OFFSET(UTobiiGazeFocusableWidget, OnHovered), Z_Construct_UDelegateFunction_TobiiGTOM_WidgetHoverSignature__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_OnHovered_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_OnHovered_MetaData)) };
+	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_OnHovered = { "OnHovered", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::MulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UTobiiGazeFocusableWidget, OnHovered), Z_Construct_UDelegateFunction_TobiiGTOM_WidgetHoverSignature__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_OnHovered_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_OnHovered_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_LostGazeFocus_MetaData[] = {
 		{ "Category", "Events" },
 		{ "ModuleRelativePath", "Public/GTOMAwareUI/TobiiGazeFocusableWidget.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_LostGazeFocus = { UE4CodeGen_Private::EPropertyClass::MulticastDelegate, "LostGazeFocus", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000010080000, 1, nullptr, STRUCT_OFFSET(UTobiiGazeFocusableWidget, LostGazeFocus), Z_Construct_UDelegateFunction_TobiiGTOM_WidgetGazeFocusSignature__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_LostGazeFocus_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_LostGazeFocus_MetaData)) };
+	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_LostGazeFocus = { "LostGazeFocus", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::MulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UTobiiGazeFocusableWidget, LostGazeFocus), Z_Construct_UDelegateFunction_TobiiGTOM_WidgetGazeFocusSignature__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_LostGazeFocus_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_LostGazeFocus_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_ReceivedGazeFocus_MetaData[] = {
 		{ "Category", "Events" },
 		{ "ModuleRelativePath", "Public/GTOMAwareUI/TobiiGazeFocusableWidget.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_ReceivedGazeFocus = { UE4CodeGen_Private::EPropertyClass::MulticastDelegate, "ReceivedGazeFocus", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000010080000, 1, nullptr, STRUCT_OFFSET(UTobiiGazeFocusableWidget, ReceivedGazeFocus), Z_Construct_UDelegateFunction_TobiiGTOM_WidgetGazeFocusSignature__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_ReceivedGazeFocus_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_ReceivedGazeFocus_MetaData)) };
+	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_ReceivedGazeFocus = { "ReceivedGazeFocus", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::MulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UTobiiGazeFocusableWidget, ReceivedGazeFocus), Z_Construct_UDelegateFunction_TobiiGTOM_WidgetGazeFocusSignature__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_ReceivedGazeFocus_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_ReceivedGazeFocus_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_bTriggerOnMouseOver,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::NewProp_bUseCleanUIFastHitTesting,
@@ -907,13 +907,17 @@ void EmptyLinkFunctionForGeneratedCodeTobiiGazeFocusableWidget() {}
 	};
 	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::ClassParams = {
 		&UTobiiGazeFocusableWidget::StaticClass,
-		DependentSingletons, ARRAY_COUNT(DependentSingletons),
-		0x00B000A0u,
-		FuncInfo, ARRAY_COUNT(FuncInfo),
-		Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::PropPointers),
 		nullptr,
 		&StaticCppClassTypeInfo,
-		nullptr, 0,
+		DependentSingletons,
+		FuncInfo,
+		Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::PropPointers,
+		nullptr,
+		ARRAY_COUNT(DependentSingletons),
+		ARRAY_COUNT(FuncInfo),
+		ARRAY_COUNT(Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::PropPointers),
+		0,
+		0x00B000A0u,
 		METADATA_PARAMS(Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_UTobiiGazeFocusableWidget_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_UTobiiGazeFocusableWidget()
@@ -925,7 +929,11 @@ void EmptyLinkFunctionForGeneratedCodeTobiiGazeFocusableWidget() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UTobiiGazeFocusableWidget, 3791325055);
+	IMPLEMENT_CLASS(UTobiiGazeFocusableWidget, 876994991);
+	template<> TOBIIGTOM_API UClass* StaticClass<UTobiiGazeFocusableWidget>()
+	{
+		return UTobiiGazeFocusableWidget::StaticClass();
+	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UTobiiGazeFocusableWidget(Z_Construct_UClass_UTobiiGazeFocusableWidget, &UTobiiGazeFocusableWidget::StaticClass, TEXT("/Script/TobiiGTOM"), TEXT("UTobiiGazeFocusableWidget"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UTobiiGazeFocusableWidget);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

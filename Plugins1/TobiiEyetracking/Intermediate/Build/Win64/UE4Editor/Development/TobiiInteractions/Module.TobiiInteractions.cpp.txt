@@ -1,0 +1,184 @@
+D:\Unreal Engine Projects\Tobii 4.22\TobiiPlugin\Plugins\TobiiEyetracking\Intermediate\Build\Win64\UE4Editor\Development\TobiiInteractions\Definitions.TobiiInteractions.h
+D:\Unreal Engine Projects\Tobii 4.22\TobiiPlugin\Plugins\TobiiEyetracking\Source\TobiiInteractions\Private\Common\TobiiProjectileComponent.cpp
+D:\Unreal Engine Projects\Tobii 4.22\TobiiPlugin\Plugins\TobiiEyetracking\Source\TobiiInteractions\Public\Common\TobiiProjectileComponent.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime/Engine/Classes/GameFramework/ProjectileMovementComponent.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/MovementComponent.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MovementComponent.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ProjectileMovementComponent.generated.h
+D:\Unreal Engine Projects\Tobii 4.22\TobiiPlugin\Plugins\TobiiEyetracking\Intermediate\Build\Win64\UE4Editor\Inc\TobiiInteractions\TobiiProjectileComponent.generated.h
+D:\Unreal Engine Projects\Tobii 4.22\TobiiPlugin\Plugins\TobiiEyetracking\Source\TobiiInteractions\Public\TobiiInteractionsBlueprintLibrary.h
+d:\unreal engine projects\tobii 4.22\tobiiplugin\plugins\tobiieyetracking\source\tobiiinteractions\public\TobiiInteractionsTypes.h
+D:\Unreal Engine Projects\Tobii 4.22\TobiiPlugin\Plugins\TobiiEyetracking\Intermediate\Build\Win64\UE4Editor\Inc\TobiiInteractions\TobiiInteractionsTypes.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime/UMG/Public/Blueprint/UserWidget.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\UMG\Public\Components/SlateWrapperTypes.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\SlateWrapperTypes.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\UMG\Public\Components/Widget.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\UMG\Public\Components/Visual.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\Visual.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\UMG\Public\Slate/WidgetTransform.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetTransform.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Editor\UnrealEd\Public\Kismet2/CompilerResultsLog.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Editor\UnrealEd\Public\EdGraphToken.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\Widget.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\UMG\Public\Components/NamedSlotInterface.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\NamedSlotInterface.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\Slate\Public\Widgets/Layout/Anchors.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Slate\Anchors.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\Core\Public\Logging/MessageLog.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\UMG\Public\Animation/WidgetAnimation.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\MovieScene\Public\MovieSceneSequence.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\MovieSceneSignedObject.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSignedObject.generated.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\MovieSceneTrack.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\IMovieSceneTrackInstance.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Evaluation/MovieSceneAnimTypeID.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\MovieSceneSection.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\MovieSceneFwd.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\MovieSceneSequenceID.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSequenceID.generated.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\KeyParams.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\MovieScene.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\MovieSceneSpawnable.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSpawnable.generated.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\MovieSceneBinding.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneBinding.generated.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\MovieScenePossessable.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieScenePossessable.generated.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\MovieSceneObjectBindingID.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneObjectBindingID.generated.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\MovieSceneFrameMigration.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneFrameMigration.generated.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\MovieSceneTimeController.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\Core\Public\Misc/QualifiedFrameTime.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieScene.generated.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Evaluation/Blending/MovieSceneBlendType.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneBlendType.generated.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Generators/MovieSceneEasingFunction.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneEasingFunction.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSection.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\Core\Public\Misc/InlineValue.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Compilation/MovieSceneSegmentCompiler.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Evaluation/MovieSceneSegment.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\Core\Public\UObject/SequencerObjectVersion.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSegment.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneTrack.generated.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvaluationTemplate.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Evaluation/MovieSceneTrackIdentifier.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneTrackIdentifier.generated.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvaluationField.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvaluationKey.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneEvaluationKey.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneEvaluationField.generated.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvaluationTrack.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Evaluation/MovieScenePlayback.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Evaluation/MovieSceneSequenceTransform.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSequenceTransform.generated.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvalTemplate.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvalTemplateBase.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneEvalTemplateBase.generated.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Evaluation/MovieSceneExecutionTokens.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\MovieSceneExecutionToken.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvaluationScope.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Evaluation/PersistentEvaluationData.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvaluationOperand.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneEvaluationOperand.generated.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Evaluation/MovieSceneSequenceInstanceData.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSequenceInstanceData.generated.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Evaluation/Blending/MovieSceneBlendingAccumulator.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Evaluation/Blending/BlendableToken.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Evaluation/Blending/MovieSceneBlendingActuatorID.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Evaluation/Blending/MovieSceneBlendingActuator.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\IMovieScenePlayer.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Evaluation/MovieScenePreAnimatedState.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\MovieSceneSpawnRegister.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\IMovieSceneObjectSpawner.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvaluationState.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Evaluation/Blending/BlendableTokenStack.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Evaluation/Blending/MovieSceneInitialValueStore.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Evaluation/Blending/MovieSceneAccumulatedBlendState.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\evaluation\blending\MovieSceneBlendingAccumulator.inl
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Compilation/MovieSceneTemplateInterrogation.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneEvalTemplate.generated.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Evaluation/MovieSceneTrackImplementation.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneTrackImplementation.generated.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvaluationTree.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneEvaluationTrack.generated.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Evaluation/MovieSceneSequenceHierarchy.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Evaluation/MovieSceneSectionParameters.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSectionParameters.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSequenceHierarchy.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneEvaluationTemplate.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSequence.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\UMG\Public\Animation/WidgetAnimationBinding.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetAnimationBinding.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetAnimation.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\UMG\Public\Blueprint/WidgetBlueprintGeneratedClass.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\UMG\Public\Binding/DynamicPropertyPath.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\PropertyPath\Public\PropertyPathHelpers.h
+d:\unreal engine\ue_4.22\engine\source\runtime\propertypath\public\PropertyTypeCompatibility.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PropertyPath\PropertyPathHelpers.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\DynamicPropertyPath.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetBlueprintGeneratedClass.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\UserWidget.generated.h
+D:\Unreal Engine Projects\Tobii 4.22\TobiiPlugin\Plugins\TobiiEyetracking\Intermediate\Build\Win64\UE4Editor\Inc\TobiiInteractions\TobiiInteractionsBlueprintLibrary.generated.h
+D:\Unreal Engine Projects\Tobii 4.22\TobiiPlugin\Plugins\TobiiEyetracking\Source\TobiiInteractions\Private\Common\TobiiThrowAtGazeComponent.cpp
+D:\Unreal Engine Projects\Tobii 4.22\TobiiPlugin\Plugins\TobiiEyetracking\Source\TobiiInteractions\Public\Common\TobiiThrowAtGazeComponent.h
+D:\Unreal Engine Projects\Tobii 4.22\TobiiPlugin\Plugins\TobiiEyetracking\Intermediate\Build\Win64\UE4Editor\Inc\TobiiInteractions\TobiiThrowAtGazeComponent.generated.h
+D:\Unreal Engine Projects\Tobii 4.22\TobiiPlugin\Plugins\TobiiEyetracking\Source\TobiiCore\Public\ITobiiCore.h
+d:\unreal engine projects\tobii 4.22\tobiiplugin\plugins\tobiieyetracking\source\tobiicore\public\ITobiiEyetracker.h
+d:\unreal engine projects\tobii 4.22\tobiiplugin\plugins\tobiieyetracking\source\tobiicore\public\TobiiTypes.h
+D:\Unreal Engine Projects\Tobii 4.22\TobiiPlugin\Plugins\TobiiEyetracking\Intermediate\Build\Win64\UE4Editor\Inc\TobiiCore\TobiiTypes.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime/EyeTracker/Public/IEyeTracker.h
+d:\unreal engine\ue_4.22\engine\source\runtime\eyetracker\public\EyeTrackerTypes.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EyeTracker\EyeTrackerTypes.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime/EyeTracker/Public/IEyeTrackerModule.h
+D:\Unreal Engine Projects\Tobii 4.22\TobiiPlugin\Plugins\TobiiEyetracking\Source\TobiiCore\Public\TobiiBlueprintLibrary.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime/UMG/Public/Components/WidgetComponent.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetComponent.generated.h
+D:\Unreal Engine Projects\Tobii 4.22\TobiiPlugin\Plugins\TobiiEyetracking\Intermediate\Build\Win64\UE4Editor\Inc\TobiiCore\TobiiBlueprintLibrary.generated.h
+d:\unreal engine projects\tobii 4.22\tobiiplugin\plugins\tobiieyetracking\source\tobiiinteractions\private\common\../TobiiInteractionsInternalTypes.h
+D:\Unreal Engine Projects\Tobii 4.22\TobiiPlugin\Plugins\TobiiEyetracking\Source\TobiiGTOM\Public\TobiiGazeFocusManagerComponent.h
+D:\Unreal Engine Projects\Tobii 4.22\TobiiPlugin\Plugins\TobiiEyetracking\ThirdParty\GameIntegration\include\tobii_gtom.h
+d:\unreal engine projects\tobii 4.22\tobiiplugin\plugins\tobiieyetracking\source\tobiigtom\public\TobiiGTOMTypes.h
+D:\Unreal Engine Projects\Tobii 4.22\TobiiPlugin\Plugins\TobiiEyetracking\Intermediate\Build\Win64\UE4Editor\Inc\TobiiGTOM\TobiiGTOMTypes.generated.h
+D:\Unreal Engine Projects\Tobii 4.22\TobiiPlugin\Plugins\TobiiEyetracking\Intermediate\Build\Win64\UE4Editor\Inc\TobiiGTOM\TobiiGazeFocusManagerComponent.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime/Engine/Classes/Camera/CameraComponent.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime/Engine/Public/DrawDebugHelpers.h
+D:\Unreal Engine Projects\Tobii 4.22\TobiiPlugin\Plugins\TobiiEyetracking\Source\TobiiInteractions\Private\Desktop\TobiiAimAtGazeComponent.cpp
+D:\Unreal Engine Projects\Tobii 4.22\TobiiPlugin\Plugins\TobiiEyetracking\Source\TobiiInteractions\Public\Desktop\TobiiAimAtGazeComponent.h
+D:\Unreal Engine Projects\Tobii 4.22\TobiiPlugin\Plugins\TobiiEyetracking\Intermediate\Build\Win64\UE4Editor\Inc\TobiiInteractions\TobiiAimAtGazeComponent.generated.h
+D:\Unreal Engine Projects\Tobii 4.22\TobiiPlugin\Plugins\TobiiEyetracking\Source\TobiiInteractions\Private\Desktop\TobiiFireAtGazeComponent.cpp
+D:\Unreal Engine Projects\Tobii 4.22\TobiiPlugin\Plugins\TobiiEyetracking\Source\TobiiInteractions\Public\Desktop\TobiiFireAtGazeComponent.h
+D:\Unreal Engine Projects\Tobii 4.22\TobiiPlugin\Plugins\TobiiEyetracking\Intermediate\Build\Win64\UE4Editor\Inc\TobiiInteractions\TobiiFireAtGazeComponent.generated.h
+D:\Unreal Engine Projects\Tobii 4.22\TobiiPlugin\Plugins\TobiiEyetracking\Source\TobiiInteractions\Private\Desktop\TobiiInfiniteScreenCameraModifier.cpp
+D:\Unreal Engine Projects\Tobii 4.22\TobiiPlugin\Plugins\TobiiEyetracking\Source\TobiiInteractions\Public\Desktop\TobiiInfiniteScreenCameraModifier.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime/Engine/Classes/Camera/CameraModifier.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraModifier.generated.h
+D:\Unreal Engine Projects\Tobii 4.22\TobiiPlugin\Plugins\TobiiEyetracking\Intermediate\Build\Win64\UE4Editor\Inc\TobiiInteractions\TobiiInfiniteScreenCameraModifier.generated.h
+D:\Unreal Engine Projects\Tobii 4.22\TobiiPlugin\Plugins\TobiiEyetracking\Source\TobiiInteractions\Private\TobiiInteractionsBlueprintLibrary.cpp
+d:\unreal engine projects\tobii 4.22\tobiiplugin\plugins\tobiieyetracking\source\tobiiinteractions\private\TobiiRootFinders.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\math.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime/UMG/Public/Slate/WidgetRenderer.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\SlateCore\Public\Input/HittestGrid.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\Slate\Public\Widgets/SVirtualWindow.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime/Engine/Classes/Engine/TextureRenderTarget2D.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/TextureRenderTarget.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\TextureRenderTarget.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\TextureRenderTarget2D.generated.h
+D:\Unreal Engine Projects\Tobii 4.22\TobiiPlugin\Plugins\TobiiEyetracking\Source\TobiiInteractions\Private\TobiiInteractionsModule.cpp
+d:\unreal engine projects\tobii 4.22\tobiiplugin\plugins\tobiieyetracking\source\tobiiinteractions\private\TobiiInteractionsModule.h
+d:\unreal engine projects\tobii 4.22\tobiiplugin\plugins\tobiieyetracking\source\tobiiinteractions\private\TobiiInteractionsStyle.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime/Engine/Classes/GameFramework/HUD.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/HUDHitBox.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/DebugTextInfo.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DebugTextInfo.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\HUD.generated.h
+D:\Unreal Engine Projects\Tobii 4.22\TobiiPlugin\Plugins\TobiiEyetracking\Source\TobiiInteractions\Private\TobiiInteractionsStyle.cpp
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime/Engine/Public/Slate/SlateGameResources.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\SlateCore\Public\Styling/SlateStyle.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\SlateCore\Public\Brushes/SlateBorderBrush.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\SlateCore\Public\Brushes/SlateBoxBrush.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\SlateCore\Public\Brushes/SlateColorBrush.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\SlateCore\Public\Brushes/SlateImageBrush.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime/SlateCore/Public/Styling/SlateStyleRegistry.h

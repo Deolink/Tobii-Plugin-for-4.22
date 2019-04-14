@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-TobiiCore.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Unreal Engine Projects\Tobii\TobiiPlugin\Intermediate\Build\Win64\TobiiPluginEditor\Development\UnrealEd\SharedPCH.UnrealEd.h.obj"
+"D:\Unreal Engine Projects\Tobii\TobiiPlugin\Plugins\TobiiEyetracking\Intermediate\Build\Win64\UE4Editor\Development\TobiiCore\Module.TobiiCore.cpp.obj"
+"D:\Unreal Engine Projects\Tobii\TobiiPlugin\Plugins\TobiiEyetracking\Intermediate\Build\Win64\UE4Editor\Development\TobiiCore\Module.TobiiCore.gen.cpp.obj"
+"D:\Unreal Engine Projects\Tobii\TobiiPlugin\Plugins\TobiiEyetracking\Intermediate\Build\Win64\UE4Editor\Development\TobiiCore\Default.rc2.res"
+/OUT:"D:\Unreal Engine Projects\Tobii\TobiiPlugin\Plugins\TobiiEyetracking\Intermediate\Build\Win64\UE4Editor\Development\TobiiCore\UE4Editor-TobiiCore.lib"
+/INCLUDE:IMPLEMENT_MODULE_TobiiCore

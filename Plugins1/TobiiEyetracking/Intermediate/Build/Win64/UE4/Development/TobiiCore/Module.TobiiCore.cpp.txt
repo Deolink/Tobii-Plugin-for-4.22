@@ -1,0 +1,378 @@
+D:\Unreal Engine Projects\Tobii 4.22\TobiiPlugin\Plugins\TobiiEyetracking\Intermediate\Build\Win64\UE4\Development\TobiiCore\Definitions.TobiiCore.h
+D:\Unreal Engine Projects\Tobii 4.22\TobiiPlugin\Plugins\TobiiEyetracking\Source\TobiiCore\Private\TobiiBlueprintLibrary.cpp
+D:\Unreal Engine Projects\Tobii 4.22\TobiiPlugin\Plugins\TobiiEyetracking\Source\TobiiCore\Public\TobiiBlueprintLibrary.h
+d:\unreal engine projects\tobii 4.22\tobiiplugin\plugins\tobiieyetracking\source\tobiicore\public\TobiiTypes.h
+D:\Unreal Engine Projects\Tobii 4.22\TobiiPlugin\Plugins\TobiiEyetracking\Intermediate\Build\Win64\UE4\Inc\TobiiCore\TobiiTypes.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime/UMG/Public/Components/WidgetComponent.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\UMG\Public\Blueprint/UserWidget.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\UMG\Public\Components/SlateWrapperTypes.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\UMG\SlateWrapperTypes.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\UMG\Public\Components/Widget.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\UMG\Public\Components/Visual.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\UMG\Visual.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\UMG\Public\Slate/WidgetTransform.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\UMG\WidgetTransform.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\UMG\Widget.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\UMG\Public\Components/NamedSlotInterface.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\UMG\NamedSlotInterface.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\Slate\Public\Widgets/Layout/Anchors.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\Slate\Anchors.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\Core\Public\Logging/MessageLog.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\UMG\Public\Animation/WidgetAnimation.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\MovieScene\Public\MovieSceneSequence.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\MovieSceneSignedObject.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\MovieScene\MovieSceneSignedObject.generated.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\MovieSceneTrack.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\IMovieSceneTrackInstance.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Evaluation/MovieSceneAnimTypeID.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\MovieSceneSection.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\MovieSceneFwd.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\MovieSceneSequenceID.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\MovieScene\MovieSceneSequenceID.generated.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\KeyParams.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\MovieScene.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\MovieSceneSpawnable.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\MovieScene\MovieSceneSpawnable.generated.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\MovieSceneBinding.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\MovieScene\MovieSceneBinding.generated.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\MovieScenePossessable.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\MovieScene\MovieScenePossessable.generated.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\MovieSceneObjectBindingID.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\MovieScene\MovieSceneObjectBindingID.generated.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\MovieSceneFrameMigration.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\MovieScene\MovieSceneFrameMigration.generated.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\MovieSceneTimeController.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\Core\Public\Misc/QualifiedFrameTime.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\MovieScene\MovieScene.generated.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Evaluation/Blending/MovieSceneBlendType.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\MovieScene\MovieSceneBlendType.generated.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Generators/MovieSceneEasingFunction.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\MovieScene\MovieSceneEasingFunction.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\MovieScene\MovieSceneSection.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\Core\Public\Misc/InlineValue.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Compilation/MovieSceneSegmentCompiler.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Evaluation/MovieSceneSegment.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\Core\Public\UObject/SequencerObjectVersion.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\MovieScene\MovieSceneSegment.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\MovieScene\MovieSceneTrack.generated.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvaluationTemplate.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Evaluation/MovieSceneTrackIdentifier.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\MovieScene\MovieSceneTrackIdentifier.generated.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvaluationField.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvaluationKey.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\MovieScene\MovieSceneEvaluationKey.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\MovieScene\MovieSceneEvaluationField.generated.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvaluationTrack.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Evaluation/MovieScenePlayback.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Evaluation/MovieSceneSequenceTransform.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\MovieScene\MovieSceneSequenceTransform.generated.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvalTemplate.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvalTemplateBase.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\MovieScene\MovieSceneEvalTemplateBase.generated.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Evaluation/MovieSceneExecutionTokens.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\MovieSceneExecutionToken.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvaluationScope.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Evaluation/PersistentEvaluationData.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvaluationOperand.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\MovieScene\MovieSceneEvaluationOperand.generated.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Evaluation/MovieSceneSequenceInstanceData.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\MovieScene\MovieSceneSequenceInstanceData.generated.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Evaluation/Blending/MovieSceneBlendingAccumulator.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Evaluation/Blending/BlendableToken.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Evaluation/Blending/MovieSceneBlendingActuatorID.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Evaluation/Blending/MovieSceneBlendingActuator.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\IMovieScenePlayer.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Evaluation/MovieScenePreAnimatedState.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\MovieSceneSpawnRegister.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\IMovieSceneObjectSpawner.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvaluationState.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Evaluation/Blending/BlendableTokenStack.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Evaluation/Blending/MovieSceneInitialValueStore.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Evaluation/Blending/MovieSceneAccumulatedBlendState.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\evaluation\blending\MovieSceneBlendingAccumulator.inl
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Compilation/MovieSceneTemplateInterrogation.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\MovieScene\MovieSceneEvalTemplate.generated.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Evaluation/MovieSceneTrackImplementation.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\MovieScene\MovieSceneTrackImplementation.generated.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvaluationTree.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\MovieScene\MovieSceneEvaluationTrack.generated.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Evaluation/MovieSceneSequenceHierarchy.h
+d:\unreal engine\ue_4.22\engine\source\runtime\moviescene\public\Evaluation/MovieSceneSectionParameters.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\MovieScene\MovieSceneSectionParameters.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\MovieScene\MovieSceneSequenceHierarchy.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\MovieScene\MovieSceneEvaluationTemplate.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\MovieScene\MovieSceneSequence.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\UMG\Public\Animation/WidgetAnimationBinding.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\UMG\WidgetAnimationBinding.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\UMG\WidgetAnimation.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\UMG\Public\Blueprint/WidgetBlueprintGeneratedClass.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\UMG\Public\Binding/DynamicPropertyPath.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\PropertyPath\Public\PropertyPathHelpers.h
+d:\unreal engine\ue_4.22\engine\source\runtime\propertypath\public\PropertyTypeCompatibility.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\PropertyPath\PropertyPathHelpers.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\UMG\DynamicPropertyPath.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\UMG\WidgetBlueprintGeneratedClass.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\UMG\UserWidget.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\UMG\WidgetComponent.generated.h
+D:\Unreal Engine Projects\Tobii 4.22\TobiiPlugin\Plugins\TobiiEyetracking\Intermediate\Build\Win64\UE4\Inc\TobiiCore\TobiiBlueprintLibrary.generated.h
+d:\unreal engine projects\tobii 4.22\tobiiplugin\plugins\tobiieyetracking\source\tobiicore\private\TobiiCoreModule.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\InputDevice\Public\IInputDevice.h
+D:\Unreal Engine Projects\Tobii 4.22\TobiiPlugin\Plugins\TobiiEyetracking\Source\TobiiCore\Public\ITobiiCore.h
+d:\unreal engine projects\tobii 4.22\tobiiplugin\plugins\tobiieyetracking\source\tobiicore\public\ITobiiEyetracker.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime/EyeTracker/Public/IEyeTracker.h
+d:\unreal engine\ue_4.22\engine\source\runtime\eyetracker\public\EyeTrackerTypes.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\EyeTracker\EyeTrackerTypes.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime/EyeTracker/Public/IEyeTrackerModule.h
+d:\unreal engine projects\tobii 4.22\tobiiplugin\plugins\tobiieyetracking\source\tobiicore\private\TobiiEyetracker.h
+d:\unreal engine projects\tobii 4.22\tobiiplugin\plugins\tobiieyetracking\source\tobiicore\private\TobiiPlatformSpecific.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime/ApplicationCore/Public/Windows/WindowsApplication.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\Core\Public\Windows/WindowsHWrapper.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\Core\Public\Windows/PreWindowsApi.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\Core\Public\Windows/MinWindows.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\Windows.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\sdkddkver.h
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE\excpt.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\windef.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\minwindef.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\winnt.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\kernelspecs.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\basetsd.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\guiddef.h
+c:\program files (x86)\windows kits\10\include\10.0.17763.0\shared\pshpack4.h
+c:\program files (x86)\windows kits\10\include\10.0.17763.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\pshpack4.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\poppack.h
+c:\program files (x86)\windows kits\10\include\10.0.17763.0\shared\pshpack4.h
+c:\program files (x86)\windows kits\10\include\10.0.17763.0\shared\pshpack2.h
+c:\program files (x86)\windows kits\10\include\10.0.17763.0\shared\poppack.h
+c:\program files (x86)\windows kits\10\include\10.0.17763.0\shared\pshpack2.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\pshpack2.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\poppack.h
+c:\program files (x86)\windows kits\10\include\10.0.17763.0\shared\poppack.h
+c:\program files (x86)\windows kits\10\include\10.0.17763.0\shared\pshpack8.h
+c:\program files (x86)\windows kits\10\include\10.0.17763.0\shared\poppack.h
+c:\program files (x86)\windows kits\10\include\10.0.17763.0\shared\pshpack1.h
+c:\program files (x86)\windows kits\10\include\10.0.17763.0\shared\poppack.h
+c:\program files (x86)\windows kits\10\include\10.0.17763.0\shared\pshpack1.h
+c:\program files (x86)\windows kits\10\include\10.0.17763.0\shared\poppack.h
+c:\program files (x86)\windows kits\10\include\10.0.17763.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\apiset.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\ktmtypes.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\winbase.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\apisetcconv.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\minwinbase.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\apiquery2.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\processenv.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\fileapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\debugapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\utilapiset.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\handleapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\errhandlingapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\fibersapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\namedpipeapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\profileapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\heapapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\ioapiset.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\synchapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\interlockedapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\processthreadsapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\sysinfoapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\memoryapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\enclaveapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\threadpoollegacyapiset.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\threadpoolapiset.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\jobapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\jobapi2.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\wow64apiset.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\libloaderapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\securitybaseapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\namespaceapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\systemtopologyapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\processtopologyapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\securityappcontainer.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\realtimeapiset.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\winerror.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\timezoneapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\wingdi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\pshpack1.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\pshpack2.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\pshpack4.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\pshpack4.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\winuser.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\pshpack2.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\tvout.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\winnls.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\datetimeapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\stringapiset.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\winnls.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\wincon.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\wincontypes.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\consoleapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\consoleapi2.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\consoleapi3.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\winver.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\verrsrc.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\winreg.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\reason.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\winnetwk.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\wnnc.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\stralign.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\imm.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\ime_cmodes.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\Core\Public\Windows/PostWindowsApi.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\Core\Public\Windows/AllowWindowsPlatformTypes.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\Ole2.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\pshpack8.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\objbase.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\rpc.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\pshpack8.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\rpcdce.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\rpcdcep.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\rpcnsi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\rpcnterr.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\rpcasync.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\pshpack8.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\rpcndr.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\pshpack8.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\rpcnsip.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\rpcsal.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\pshpack8.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\combaseapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\pshpack8.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\wtypesbase.h
+c:\program files (x86)\windows kits\10\include\10.0.17763.0\shared\guiddef.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\unknwnbase.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\objidlbase.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\guiddef.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\cguid.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\coml2api.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\objidl.h
+c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\unknwn.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\wtypes.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\propidlbase.h
+c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\oaidl.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\urlmon.h
+c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\oleidl.h
+c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\servprov.h
+c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\msxml.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\propidl.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\oleauto.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\pshpack8.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\ShObjIdl.h
+c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\docobj.h
+c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\ocidl.h
+c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\shtypes.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\pshpack1.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\pshpack1.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\pshpack8.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\pshpack1.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\poppack.h
+c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\comcat.h
+c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\prsht.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\pshpack8.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\poppack.h
+c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\propsys.h
+c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\StructuredQueryCondition.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\propkeydef.h
+c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\ObjectArray.h
+c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\shobjidl_core.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\sherrors.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\pshpack8.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\pshpack8.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\prsht.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\pshpack8.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\commctrl.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\prsht.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\pshpack1.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\pshpack1.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\pshpack1.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\pshpack1.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\pshpack1.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\dpa_dsa.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\pshpack8.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\pshpack8.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\pshpack8.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\pshpack8.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\pshpack1.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\pshpack8.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\poppack.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\Core\Public\Windows/HideWindowsPlatformTypes.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\ApplicationCore\Public\GenericPlatform/IForceFeedbackSystem.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\ApplicationCore\Public\Windows/WindowsTextInputMethodSystem.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\ApplicationCore\Public\GenericPlatform/ITextInputMethodSystem.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\ApplicationCore\Public\Windows/TextStoreACP.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\Core\Public\Windows/AllowWindowsPlatformTypes.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\TextStor.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\msctf.h
+c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\ctfutb.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\Core\Public\Windows/COMPointer.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\Core\Public\Windows/HideWindowsPlatformTypes.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\Core\Public\Windows/AllowWindowsPlatformTypes.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\Core\Public\Windows/HideWindowsPlatformTypes.h
+d:\unreal engine projects\tobii 4.22\tobiiplugin\plugins\tobiieyetracking\source\tobiicore\private\TobiiInternalTypes.h
+D:\Unreal Engine Projects\Tobii 4.22\TobiiPlugin\Plugins\TobiiEyetracking\ThirdParty\GameIntegration\include\tobii_gameintegration.h
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE\cstdint
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\assert.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime/Engine/Public/Slate/SceneViewport.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime/Engine/Public/DisplayDebugHelpers.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime/HeadMountedDisplay/Public/IXRTrackingSystem.h
+d:\unreal engine\ue_4.22\engine\source\runtime\headmounteddisplay\public\HeadMountedDisplayTypes.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\HeadMountedDisplay\HeadMountedDisplayTypes.generated.h
+d:\unreal engine\ue_4.22\engine\source\runtime\headmounteddisplay\public\IIdentifiableXRDevice.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\HeadMountedDisplay\IIdentifiableXRDevice.generated.h
+d:\unreal engine\ue_4.22\engine\source\runtime\headmounteddisplay\public\IXRInput.h
+D:\Unreal Engine Projects\Tobii 4.22\TobiiPlugin\Plugins\TobiiEyetracking\Source\TobiiCore\Private\TobiiCoreModule.cpp
+d:\unreal engine projects\tobii 4.22\tobiiplugin\plugins\tobiieyetracking\source\tobiicore\private\UserGuide/TobiiEditorExtension.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime/Engine/Classes/GameFramework/HUD.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/HUDHitBox.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/DebugTextInfo.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\DebugTextInfo.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\HUD.generated.h
+D:\Unreal Engine Projects\Tobii 4.22\TobiiPlugin\Plugins\TobiiEyetracking\Source\TobiiCore\Private\TobiiEyetracker.cpp
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime/Engine/Classes/Engine/Canvas.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\Engine\Public\CanvasItem.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/Font.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/FontImportOptions.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\FontImportOptions.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\SlateCore\Public\Fonts/FontProviderInterface.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\SlateCore\FontProviderInterface.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\Font.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime\Engine\Public\CanvasTypes.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\CanvasTypes.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\Canvas.generated.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime/Engine/Public/DrawDebugHelpers.h
+D:\Unreal Engine Projects\Tobii 4.22\TobiiPlugin\Plugins\TobiiEyetracking\Source\TobiiCore\Private\TobiiPlatformSpecific.cpp
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime/Core/Public/Windows/AllowWindowsPlatformTypes.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\dbt.h
+D:\Unreal Engine\UE_4.22\Engine\Source\Runtime/Core/Public/Windows/HideWindowsPlatformTypes.h
+D:\Unreal Engine Projects\Tobii 4.22\TobiiPlugin\Plugins\TobiiEyetracking\Source\TobiiCore\Private\UserGuide\STobiiLicenseWindow.cpp
+D:\Unreal Engine Projects\Tobii 4.22\TobiiPlugin\Plugins\TobiiEyetracking\Source\TobiiCore\Private\UserGuide\STobiiWelcomeWindow.cpp
+D:\Unreal Engine Projects\Tobii 4.22\TobiiPlugin\Plugins\TobiiEyetracking\Source\TobiiCore\Private\UserGuide\TobiiEditorExtension.cpp

@@ -1,4 +1,4 @@
-// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -30,13 +30,17 @@ void EmptyLinkFunctionForGeneratedCodeTobiiGTOMTypes() {}
 		}
 		return Singleton;
 	}
+	template<> TOBIIGTOM_API UEnum* StaticEnum<ETobiiCleanUIMode>()
+	{
+		return ETobiiCleanUIMode_StaticEnum();
+	}
 	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_ETobiiCleanUIMode(ETobiiCleanUIMode_StaticEnum, TEXT("/Script/TobiiGTOM"), TEXT("ETobiiCleanUIMode"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_TobiiGTOM_ETobiiCleanUIMode_CRC() { return 1492956740U; }
+	uint32 Get_Z_Construct_UEnum_TobiiGTOM_ETobiiCleanUIMode_Hash() { return 782253677U; }
 	UEnum* Z_Construct_UEnum_TobiiGTOM_ETobiiCleanUIMode()
 	{
 #if WITH_HOT_RELOAD
 		UPackage* Outer = Z_Construct_UPackage__Script_TobiiGTOM();
-		static UEnum* ReturnEnum = FindExistingEnumIfHotReloadOrDynamic(Outer, TEXT("ETobiiCleanUIMode"), 0, Get_Z_Construct_UEnum_TobiiGTOM_ETobiiCleanUIMode_CRC(), false);
+		static UEnum* ReturnEnum = FindExistingEnumIfHotReloadOrDynamic(Outer, TEXT("ETobiiCleanUIMode"), 0, Get_Z_Construct_UEnum_TobiiGTOM_ETobiiCleanUIMode_Hash(), false);
 #else
 		static UEnum* ReturnEnum = nullptr;
 #endif // WITH_HOT_RELOAD
@@ -57,14 +61,14 @@ void EmptyLinkFunctionForGeneratedCodeTobiiGTOMTypes() {}
 #endif
 			static const UE4CodeGen_Private::FEnumParams EnumParams = {
 				(UObject*(*)())Z_Construct_UPackage__Script_TobiiGTOM,
-				UE4CodeGen_Private::EDynamicType::NotDynamic,
-				"ETobiiCleanUIMode",
-				RF_Public|RF_Transient|RF_MarkAsNative,
 				nullptr,
-				(uint8)UEnum::ECppForm::EnumClass,
+				"ETobiiCleanUIMode",
 				"ETobiiCleanUIMode",
 				Enumerators,
 				ARRAY_COUNT(Enumerators),
+				RF_Public|RF_Transient|RF_MarkAsNative,
+				UE4CodeGen_Private::EDynamicType::NotDynamic,
+				(uint8)UEnum::ECppForm::EnumClass,
 				METADATA_PARAMS(Enum_MetaDataParams, ARRAY_COUNT(Enum_MetaDataParams))
 			};
 			UE4CodeGen_Private::ConstructUEnum(ReturnEnum, EnumParams);
@@ -76,10 +80,14 @@ class UScriptStruct* FTobiiGazeFocusData::StaticStruct()
 	static class UScriptStruct* Singleton = NULL;
 	if (!Singleton)
 	{
-		extern TOBIIGTOM_API uint32 Get_Z_Construct_UScriptStruct_FTobiiGazeFocusData_CRC();
-		Singleton = GetStaticStruct(Z_Construct_UScriptStruct_FTobiiGazeFocusData, Z_Construct_UPackage__Script_TobiiGTOM(), TEXT("TobiiGazeFocusData"), sizeof(FTobiiGazeFocusData), Get_Z_Construct_UScriptStruct_FTobiiGazeFocusData_CRC());
+		extern TOBIIGTOM_API uint32 Get_Z_Construct_UScriptStruct_FTobiiGazeFocusData_Hash();
+		Singleton = GetStaticStruct(Z_Construct_UScriptStruct_FTobiiGazeFocusData, Z_Construct_UPackage__Script_TobiiGTOM(), TEXT("TobiiGazeFocusData"), sizeof(FTobiiGazeFocusData), Get_Z_Construct_UScriptStruct_FTobiiGazeFocusData_Hash());
 	}
 	return Singleton;
+}
+template<> TOBIIGTOM_API UScriptStruct* StaticStruct<FTobiiGazeFocusData>()
+{
+	return FTobiiGazeFocusData::StaticStruct();
 }
 static FCompiledInDeferStruct Z_CompiledInDeferStruct_UScriptStruct_FTobiiGazeFocusData(FTobiiGazeFocusData::StaticStruct, TEXT("/Script/TobiiGTOM"), TEXT("TobiiGazeFocusData"), false, nullptr, nullptr);
 static struct FScriptStruct_TobiiGTOM_StaticRegisterNativesFTobiiGazeFocusData
@@ -136,7 +144,7 @@ static struct FScriptStruct_TobiiGTOM_StaticRegisterNativesFTobiiGazeFocusData
 		{ "ToolTip", "This is how confident the focus system is that this object is in focus. The object with the highest confidence is not necessarily the object with focus however." },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FTobiiGazeFocusData_Statics::NewProp_FocusConfidence = { UE4CodeGen_Private::EPropertyClass::Float, "FocusConfidence", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(FTobiiGazeFocusData, FocusConfidence), METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiGazeFocusData_Statics::NewProp_FocusConfidence_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiGazeFocusData_Statics::NewProp_FocusConfidence_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FTobiiGazeFocusData_Statics::NewProp_FocusConfidence = { "FocusConfidence", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FTobiiGazeFocusData, FocusConfidence), METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiGazeFocusData_Statics::NewProp_FocusConfidence_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiGazeFocusData_Statics::NewProp_FocusConfidence_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTobiiGazeFocusData_Statics::NewProp_LastVisibleWorldLocation_MetaData[] = {
 		{ "Category", "Focus Data" },
@@ -144,7 +152,7 @@ static struct FScriptStruct_TobiiGTOM_StaticRegisterNativesFTobiiGazeFocusData
 		{ "ToolTip", "This is the point on the Focused Primitive Component that was last confirmed visible to the user. This is very useful when aligning objects towards a focused object." },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiGazeFocusData_Statics::NewProp_LastVisibleWorldLocation = { UE4CodeGen_Private::EPropertyClass::Struct, "LastVisibleWorldLocation", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(FTobiiGazeFocusData, LastVisibleWorldLocation), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiGazeFocusData_Statics::NewProp_LastVisibleWorldLocation_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiGazeFocusData_Statics::NewProp_LastVisibleWorldLocation_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiGazeFocusData_Statics::NewProp_LastVisibleWorldLocation = { "LastVisibleWorldLocation", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FTobiiGazeFocusData, LastVisibleWorldLocation), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiGazeFocusData_Statics::NewProp_LastVisibleWorldLocation_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiGazeFocusData_Statics::NewProp_LastVisibleWorldLocation_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTobiiGazeFocusData_Statics::NewProp_FocusedWidget_MetaData[] = {
 		{ "Category", "Focus Data" },
@@ -152,7 +160,7 @@ static struct FScriptStruct_TobiiGTOM_StaticRegisterNativesFTobiiGazeFocusData
 		{ "ToolTip", "This is the primitive component that is most likely to hold the user's focus." },
 	};
 #endif
-	const UE4CodeGen_Private::FWeakObjectPropertyParams Z_Construct_UScriptStruct_FTobiiGazeFocusData_Statics::NewProp_FocusedWidget = { UE4CodeGen_Private::EPropertyClass::WeakObject, "FocusedWidget", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x001400000008000d, 1, nullptr, STRUCT_OFFSET(FTobiiGazeFocusData, FocusedWidget), Z_Construct_UClass_UTobiiGazeFocusableWidget_NoRegister, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiGazeFocusData_Statics::NewProp_FocusedWidget_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiGazeFocusData_Statics::NewProp_FocusedWidget_MetaData)) };
+	const UE4CodeGen_Private::FWeakObjectPropertyParams Z_Construct_UScriptStruct_FTobiiGazeFocusData_Statics::NewProp_FocusedWidget = { "FocusedWidget", nullptr, (EPropertyFlags)0x001400000008000d, UE4CodeGen_Private::EPropertyGenFlags::WeakObject, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FTobiiGazeFocusData, FocusedWidget), Z_Construct_UClass_UTobiiGazeFocusableWidget_NoRegister, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiGazeFocusData_Statics::NewProp_FocusedWidget_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiGazeFocusData_Statics::NewProp_FocusedWidget_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTobiiGazeFocusData_Statics::NewProp_FocusedPrimitiveComponent_MetaData[] = {
 		{ "Category", "Focus Data" },
@@ -160,7 +168,7 @@ static struct FScriptStruct_TobiiGTOM_StaticRegisterNativesFTobiiGazeFocusData
 		{ "ToolTip", "This is the primitive component that is most likely to hold the user's focus." },
 	};
 #endif
-	const UE4CodeGen_Private::FWeakObjectPropertyParams Z_Construct_UScriptStruct_FTobiiGazeFocusData_Statics::NewProp_FocusedPrimitiveComponent = { UE4CodeGen_Private::EPropertyClass::WeakObject, "FocusedPrimitiveComponent", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x001400000008000d, 1, nullptr, STRUCT_OFFSET(FTobiiGazeFocusData, FocusedPrimitiveComponent), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiGazeFocusData_Statics::NewProp_FocusedPrimitiveComponent_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiGazeFocusData_Statics::NewProp_FocusedPrimitiveComponent_MetaData)) };
+	const UE4CodeGen_Private::FWeakObjectPropertyParams Z_Construct_UScriptStruct_FTobiiGazeFocusData_Statics::NewProp_FocusedPrimitiveComponent = { "FocusedPrimitiveComponent", nullptr, (EPropertyFlags)0x001400000008000d, UE4CodeGen_Private::EPropertyGenFlags::WeakObject, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FTobiiGazeFocusData, FocusedPrimitiveComponent), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiGazeFocusData_Statics::NewProp_FocusedPrimitiveComponent_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiGazeFocusData_Statics::NewProp_FocusedPrimitiveComponent_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTobiiGazeFocusData_Statics::NewProp_FocusedActor_MetaData[] = {
 		{ "Category", "Focus Data" },
@@ -168,7 +176,7 @@ static struct FScriptStruct_TobiiGTOM_StaticRegisterNativesFTobiiGazeFocusData
 		{ "ToolTip", "This is the actor that the Focused Primitive Component belongs to." },
 	};
 #endif
-	const UE4CodeGen_Private::FWeakObjectPropertyParams Z_Construct_UScriptStruct_FTobiiGazeFocusData_Statics::NewProp_FocusedActor = { UE4CodeGen_Private::EPropertyClass::WeakObject, "FocusedActor", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0014000000000005, 1, nullptr, STRUCT_OFFSET(FTobiiGazeFocusData, FocusedActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiGazeFocusData_Statics::NewProp_FocusedActor_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiGazeFocusData_Statics::NewProp_FocusedActor_MetaData)) };
+	const UE4CodeGen_Private::FWeakObjectPropertyParams Z_Construct_UScriptStruct_FTobiiGazeFocusData_Statics::NewProp_FocusedActor = { "FocusedActor", nullptr, (EPropertyFlags)0x0014000000000005, UE4CodeGen_Private::EPropertyGenFlags::WeakObject, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FTobiiGazeFocusData, FocusedActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiGazeFocusData_Statics::NewProp_FocusedActor_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiGazeFocusData_Statics::NewProp_FocusedActor_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FTobiiGazeFocusData_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FTobiiGazeFocusData_Statics::NewProp_FocusConfidence,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FTobiiGazeFocusData_Statics::NewProp_LastVisibleWorldLocation,
@@ -181,19 +189,20 @@ static struct FScriptStruct_TobiiGTOM_StaticRegisterNativesFTobiiGazeFocusData
 		nullptr,
 		&NewStructOps,
 		"TobiiGazeFocusData",
-		RF_Public|RF_Transient|RF_MarkAsNative,
-		EStructFlags(0x00000005),
 		sizeof(FTobiiGazeFocusData),
 		alignof(FTobiiGazeFocusData),
-		Z_Construct_UScriptStruct_FTobiiGazeFocusData_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiGazeFocusData_Statics::PropPointers),
+		Z_Construct_UScriptStruct_FTobiiGazeFocusData_Statics::PropPointers,
+		ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiGazeFocusData_Statics::PropPointers),
+		RF_Public|RF_Transient|RF_MarkAsNative,
+		EStructFlags(0x00000005),
 		METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiGazeFocusData_Statics::Struct_MetaDataParams, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiGazeFocusData_Statics::Struct_MetaDataParams))
 	};
 	UScriptStruct* Z_Construct_UScriptStruct_FTobiiGazeFocusData()
 	{
 #if WITH_HOT_RELOAD
-		extern uint32 Get_Z_Construct_UScriptStruct_FTobiiGazeFocusData_CRC();
+		extern uint32 Get_Z_Construct_UScriptStruct_FTobiiGazeFocusData_Hash();
 		UPackage* Outer = Z_Construct_UPackage__Script_TobiiGTOM();
-		static UScriptStruct* ReturnStruct = FindExistingStructIfHotReloadOrDynamic(Outer, TEXT("TobiiGazeFocusData"), sizeof(FTobiiGazeFocusData), Get_Z_Construct_UScriptStruct_FTobiiGazeFocusData_CRC(), false);
+		static UScriptStruct* ReturnStruct = FindExistingStructIfHotReloadOrDynamic(Outer, TEXT("TobiiGazeFocusData"), sizeof(FTobiiGazeFocusData), Get_Z_Construct_UScriptStruct_FTobiiGazeFocusData_Hash(), false);
 #else
 		static UScriptStruct* ReturnStruct = nullptr;
 #endif
@@ -203,7 +212,7 @@ static struct FScriptStruct_TobiiGTOM_StaticRegisterNativesFTobiiGazeFocusData
 		}
 		return ReturnStruct;
 	}
-	uint32 Get_Z_Construct_UScriptStruct_FTobiiGazeFocusData_CRC() { return 764286937U; }
+	uint32 Get_Z_Construct_UScriptStruct_FTobiiGazeFocusData_Hash() { return 1304938181U; }
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 #ifdef _MSC_VER
 #pragma warning (pop)

@@ -1,4 +1,4 @@
-// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -34,13 +34,17 @@ void EmptyLinkFunctionForGeneratedCodeTobiiTypes() {}
 		}
 		return Singleton;
 	}
+	template<> TOBIICORE_API UEnum* StaticEnum<ETobiiGazeTrackerCapability>()
+	{
+		return ETobiiGazeTrackerCapability_StaticEnum();
+	}
 	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_ETobiiGazeTrackerCapability(ETobiiGazeTrackerCapability_StaticEnum, TEXT("/Script/TobiiCore"), TEXT("ETobiiGazeTrackerCapability"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_TobiiCore_ETobiiGazeTrackerCapability_CRC() { return 849600821U; }
+	uint32 Get_Z_Construct_UEnum_TobiiCore_ETobiiGazeTrackerCapability_Hash() { return 635766255U; }
 	UEnum* Z_Construct_UEnum_TobiiCore_ETobiiGazeTrackerCapability()
 	{
 #if WITH_HOT_RELOAD
 		UPackage* Outer = Z_Construct_UPackage__Script_TobiiCore();
-		static UEnum* ReturnEnum = FindExistingEnumIfHotReloadOrDynamic(Outer, TEXT("ETobiiGazeTrackerCapability"), 0, Get_Z_Construct_UEnum_TobiiCore_ETobiiGazeTrackerCapability_CRC(), false);
+		static UEnum* ReturnEnum = FindExistingEnumIfHotReloadOrDynamic(Outer, TEXT("ETobiiGazeTrackerCapability"), 0, Get_Z_Construct_UEnum_TobiiCore_ETobiiGazeTrackerCapability_Hash(), false);
 #else
 		static UEnum* ReturnEnum = nullptr;
 #endif // WITH_HOT_RELOAD
@@ -65,14 +69,14 @@ void EmptyLinkFunctionForGeneratedCodeTobiiTypes() {}
 #endif
 			static const UE4CodeGen_Private::FEnumParams EnumParams = {
 				(UObject*(*)())Z_Construct_UPackage__Script_TobiiCore,
-				UE4CodeGen_Private::EDynamicType::NotDynamic,
-				"ETobiiGazeTrackerCapability",
-				RF_Public|RF_Transient|RF_MarkAsNative,
 				nullptr,
-				(uint8)UEnum::ECppForm::EnumClass,
+				"ETobiiGazeTrackerCapability",
 				"ETobiiGazeTrackerCapability",
 				Enumerators,
 				ARRAY_COUNT(Enumerators),
+				RF_Public|RF_Transient|RF_MarkAsNative,
+				UE4CodeGen_Private::EDynamicType::NotDynamic,
+				(uint8)UEnum::ECppForm::EnumClass,
 				METADATA_PARAMS(Enum_MetaDataParams, ARRAY_COUNT(Enum_MetaDataParams))
 			};
 			UE4CodeGen_Private::ConstructUEnum(ReturnEnum, EnumParams);
@@ -88,13 +92,17 @@ void EmptyLinkFunctionForGeneratedCodeTobiiTypes() {}
 		}
 		return Singleton;
 	}
+	template<> TOBIICORE_API UEnum* StaticEnum<ETobiiGazeTrackerStatus>()
+	{
+		return ETobiiGazeTrackerStatus_StaticEnum();
+	}
 	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_ETobiiGazeTrackerStatus(ETobiiGazeTrackerStatus_StaticEnum, TEXT("/Script/TobiiCore"), TEXT("ETobiiGazeTrackerStatus"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_TobiiCore_ETobiiGazeTrackerStatus_CRC() { return 1533791864U; }
+	uint32 Get_Z_Construct_UEnum_TobiiCore_ETobiiGazeTrackerStatus_Hash() { return 2826272629U; }
 	UEnum* Z_Construct_UEnum_TobiiCore_ETobiiGazeTrackerStatus()
 	{
 #if WITH_HOT_RELOAD
 		UPackage* Outer = Z_Construct_UPackage__Script_TobiiCore();
-		static UEnum* ReturnEnum = FindExistingEnumIfHotReloadOrDynamic(Outer, TEXT("ETobiiGazeTrackerStatus"), 0, Get_Z_Construct_UEnum_TobiiCore_ETobiiGazeTrackerStatus_CRC(), false);
+		static UEnum* ReturnEnum = FindExistingEnumIfHotReloadOrDynamic(Outer, TEXT("ETobiiGazeTrackerStatus"), 0, Get_Z_Construct_UEnum_TobiiCore_ETobiiGazeTrackerStatus_Hash(), false);
 #else
 		static UEnum* ReturnEnum = nullptr;
 #endif // WITH_HOT_RELOAD
@@ -125,14 +133,14 @@ void EmptyLinkFunctionForGeneratedCodeTobiiTypes() {}
 #endif
 			static const UE4CodeGen_Private::FEnumParams EnumParams = {
 				(UObject*(*)())Z_Construct_UPackage__Script_TobiiCore,
-				UE4CodeGen_Private::EDynamicType::NotDynamic,
-				"ETobiiGazeTrackerStatus",
-				RF_Public|RF_Transient|RF_MarkAsNative,
 				nullptr,
-				(uint8)UEnum::ECppForm::EnumClass,
+				"ETobiiGazeTrackerStatus",
 				"ETobiiGazeTrackerStatus",
 				Enumerators,
 				ARRAY_COUNT(Enumerators),
+				RF_Public|RF_Transient|RF_MarkAsNative,
+				UE4CodeGen_Private::EDynamicType::NotDynamic,
+				(uint8)UEnum::ECppForm::EnumClass,
 				METADATA_PARAMS(Enum_MetaDataParams, ARRAY_COUNT(Enum_MetaDataParams))
 			};
 			UE4CodeGen_Private::ConstructUEnum(ReturnEnum, EnumParams);
@@ -144,10 +152,14 @@ class UScriptStruct* FTobiiDesktopTrackBox::StaticStruct()
 	static class UScriptStruct* Singleton = NULL;
 	if (!Singleton)
 	{
-		extern TOBIICORE_API uint32 Get_Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_CRC();
-		Singleton = GetStaticStruct(Z_Construct_UScriptStruct_FTobiiDesktopTrackBox, Z_Construct_UPackage__Script_TobiiCore(), TEXT("TobiiDesktopTrackBox"), sizeof(FTobiiDesktopTrackBox), Get_Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_CRC());
+		extern TOBIICORE_API uint32 Get_Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Hash();
+		Singleton = GetStaticStruct(Z_Construct_UScriptStruct_FTobiiDesktopTrackBox, Z_Construct_UPackage__Script_TobiiCore(), TEXT("TobiiDesktopTrackBox"), sizeof(FTobiiDesktopTrackBox), Get_Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Hash());
 	}
 	return Singleton;
+}
+template<> TOBIICORE_API UScriptStruct* StaticStruct<FTobiiDesktopTrackBox>()
+{
+	return FTobiiDesktopTrackBox::StaticStruct();
 }
 static FCompiledInDeferStruct Z_CompiledInDeferStruct_UScriptStruct_FTobiiDesktopTrackBox(FTobiiDesktopTrackBox::StaticStruct, TEXT("/Script/TobiiCore"), TEXT("TobiiDesktopTrackBox"), false, nullptr, nullptr);
 static struct FScriptStruct_TobiiCore_StaticRegisterNativesFTobiiDesktopTrackBox
@@ -215,49 +227,49 @@ static struct FScriptStruct_TobiiCore_StaticRegisterNativesFTobiiDesktopTrackBox
 		{ "ModuleRelativePath", "Public/TobiiTypes.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Statics::NewProp_BackLowerRightPointCm = { UE4CodeGen_Private::EPropertyClass::Struct, "BackLowerRightPointCm", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000020015, 1, nullptr, STRUCT_OFFSET(FTobiiDesktopTrackBox, BackLowerRightPointCm), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Statics::NewProp_BackLowerRightPointCm_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Statics::NewProp_BackLowerRightPointCm_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Statics::NewProp_BackLowerRightPointCm = { "BackLowerRightPointCm", nullptr, (EPropertyFlags)0x0010000000020015, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FTobiiDesktopTrackBox, BackLowerRightPointCm), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Statics::NewProp_BackLowerRightPointCm_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Statics::NewProp_BackLowerRightPointCm_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Statics::NewProp_BackLowerLeftPointCm_MetaData[] = {
 		{ "Category", "Track Box" },
 		{ "ModuleRelativePath", "Public/TobiiTypes.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Statics::NewProp_BackLowerLeftPointCm = { UE4CodeGen_Private::EPropertyClass::Struct, "BackLowerLeftPointCm", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000020015, 1, nullptr, STRUCT_OFFSET(FTobiiDesktopTrackBox, BackLowerLeftPointCm), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Statics::NewProp_BackLowerLeftPointCm_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Statics::NewProp_BackLowerLeftPointCm_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Statics::NewProp_BackLowerLeftPointCm = { "BackLowerLeftPointCm", nullptr, (EPropertyFlags)0x0010000000020015, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FTobiiDesktopTrackBox, BackLowerLeftPointCm), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Statics::NewProp_BackLowerLeftPointCm_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Statics::NewProp_BackLowerLeftPointCm_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Statics::NewProp_BackUpperLeftPointCm_MetaData[] = {
 		{ "Category", "Track Box" },
 		{ "ModuleRelativePath", "Public/TobiiTypes.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Statics::NewProp_BackUpperLeftPointCm = { UE4CodeGen_Private::EPropertyClass::Struct, "BackUpperLeftPointCm", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000020015, 1, nullptr, STRUCT_OFFSET(FTobiiDesktopTrackBox, BackUpperLeftPointCm), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Statics::NewProp_BackUpperLeftPointCm_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Statics::NewProp_BackUpperLeftPointCm_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Statics::NewProp_BackUpperLeftPointCm = { "BackUpperLeftPointCm", nullptr, (EPropertyFlags)0x0010000000020015, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FTobiiDesktopTrackBox, BackUpperLeftPointCm), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Statics::NewProp_BackUpperLeftPointCm_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Statics::NewProp_BackUpperLeftPointCm_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Statics::NewProp_BackUpperRightPointCm_MetaData[] = {
 		{ "Category", "Track Box" },
 		{ "ModuleRelativePath", "Public/TobiiTypes.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Statics::NewProp_BackUpperRightPointCm = { UE4CodeGen_Private::EPropertyClass::Struct, "BackUpperRightPointCm", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000020015, 1, nullptr, STRUCT_OFFSET(FTobiiDesktopTrackBox, BackUpperRightPointCm), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Statics::NewProp_BackUpperRightPointCm_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Statics::NewProp_BackUpperRightPointCm_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Statics::NewProp_BackUpperRightPointCm = { "BackUpperRightPointCm", nullptr, (EPropertyFlags)0x0010000000020015, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FTobiiDesktopTrackBox, BackUpperRightPointCm), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Statics::NewProp_BackUpperRightPointCm_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Statics::NewProp_BackUpperRightPointCm_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Statics::NewProp_FrontLowerRightPointCm_MetaData[] = {
 		{ "Category", "Track Box" },
 		{ "ModuleRelativePath", "Public/TobiiTypes.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Statics::NewProp_FrontLowerRightPointCm = { UE4CodeGen_Private::EPropertyClass::Struct, "FrontLowerRightPointCm", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000020015, 1, nullptr, STRUCT_OFFSET(FTobiiDesktopTrackBox, FrontLowerRightPointCm), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Statics::NewProp_FrontLowerRightPointCm_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Statics::NewProp_FrontLowerRightPointCm_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Statics::NewProp_FrontLowerRightPointCm = { "FrontLowerRightPointCm", nullptr, (EPropertyFlags)0x0010000000020015, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FTobiiDesktopTrackBox, FrontLowerRightPointCm), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Statics::NewProp_FrontLowerRightPointCm_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Statics::NewProp_FrontLowerRightPointCm_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Statics::NewProp_FrontLowerLeftPointCm_MetaData[] = {
 		{ "Category", "Track Box" },
 		{ "ModuleRelativePath", "Public/TobiiTypes.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Statics::NewProp_FrontLowerLeftPointCm = { UE4CodeGen_Private::EPropertyClass::Struct, "FrontLowerLeftPointCm", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000020015, 1, nullptr, STRUCT_OFFSET(FTobiiDesktopTrackBox, FrontLowerLeftPointCm), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Statics::NewProp_FrontLowerLeftPointCm_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Statics::NewProp_FrontLowerLeftPointCm_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Statics::NewProp_FrontLowerLeftPointCm = { "FrontLowerLeftPointCm", nullptr, (EPropertyFlags)0x0010000000020015, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FTobiiDesktopTrackBox, FrontLowerLeftPointCm), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Statics::NewProp_FrontLowerLeftPointCm_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Statics::NewProp_FrontLowerLeftPointCm_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Statics::NewProp_FrontUpperLeftPointCm_MetaData[] = {
 		{ "Category", "Track Box" },
 		{ "ModuleRelativePath", "Public/TobiiTypes.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Statics::NewProp_FrontUpperLeftPointCm = { UE4CodeGen_Private::EPropertyClass::Struct, "FrontUpperLeftPointCm", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000020015, 1, nullptr, STRUCT_OFFSET(FTobiiDesktopTrackBox, FrontUpperLeftPointCm), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Statics::NewProp_FrontUpperLeftPointCm_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Statics::NewProp_FrontUpperLeftPointCm_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Statics::NewProp_FrontUpperLeftPointCm = { "FrontUpperLeftPointCm", nullptr, (EPropertyFlags)0x0010000000020015, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FTobiiDesktopTrackBox, FrontUpperLeftPointCm), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Statics::NewProp_FrontUpperLeftPointCm_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Statics::NewProp_FrontUpperLeftPointCm_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Statics::NewProp_FrontUpperRightPointCm_MetaData[] = {
 		{ "Category", "Track Box" },
@@ -265,7 +277,7 @@ static struct FScriptStruct_TobiiCore_StaticRegisterNativesFTobiiDesktopTrackBox
 		{ "ToolTip", "These are the extreme points of the eye tracker tracking frustum where we get optimal tracking quality in centimeters. These are in the Tobii User Coordinate System." },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Statics::NewProp_FrontUpperRightPointCm = { UE4CodeGen_Private::EPropertyClass::Struct, "FrontUpperRightPointCm", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000020015, 1, nullptr, STRUCT_OFFSET(FTobiiDesktopTrackBox, FrontUpperRightPointCm), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Statics::NewProp_FrontUpperRightPointCm_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Statics::NewProp_FrontUpperRightPointCm_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Statics::NewProp_FrontUpperRightPointCm = { "FrontUpperRightPointCm", nullptr, (EPropertyFlags)0x0010000000020015, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FTobiiDesktopTrackBox, FrontUpperRightPointCm), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Statics::NewProp_FrontUpperRightPointCm_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Statics::NewProp_FrontUpperRightPointCm_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Statics::NewProp_BackLowerRightPointCm,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Statics::NewProp_BackLowerLeftPointCm,
@@ -281,19 +293,20 @@ static struct FScriptStruct_TobiiCore_StaticRegisterNativesFTobiiDesktopTrackBox
 		nullptr,
 		&NewStructOps,
 		"TobiiDesktopTrackBox",
-		RF_Public|RF_Transient|RF_MarkAsNative,
-		EStructFlags(0x00000001),
 		sizeof(FTobiiDesktopTrackBox),
 		alignof(FTobiiDesktopTrackBox),
-		Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Statics::PropPointers),
+		Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Statics::PropPointers,
+		ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Statics::PropPointers),
+		RF_Public|RF_Transient|RF_MarkAsNative,
+		EStructFlags(0x00000001),
 		METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Statics::Struct_MetaDataParams, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Statics::Struct_MetaDataParams))
 	};
 	UScriptStruct* Z_Construct_UScriptStruct_FTobiiDesktopTrackBox()
 	{
 #if WITH_HOT_RELOAD
-		extern uint32 Get_Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_CRC();
+		extern uint32 Get_Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Hash();
 		UPackage* Outer = Z_Construct_UPackage__Script_TobiiCore();
-		static UScriptStruct* ReturnStruct = FindExistingStructIfHotReloadOrDynamic(Outer, TEXT("TobiiDesktopTrackBox"), sizeof(FTobiiDesktopTrackBox), Get_Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_CRC(), false);
+		static UScriptStruct* ReturnStruct = FindExistingStructIfHotReloadOrDynamic(Outer, TEXT("TobiiDesktopTrackBox"), sizeof(FTobiiDesktopTrackBox), Get_Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Hash(), false);
 #else
 		static UScriptStruct* ReturnStruct = nullptr;
 #endif
@@ -303,16 +316,20 @@ static struct FScriptStruct_TobiiCore_StaticRegisterNativesFTobiiDesktopTrackBox
 		}
 		return ReturnStruct;
 	}
-	uint32 Get_Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_CRC() { return 1501147771U; }
+	uint32 Get_Z_Construct_UScriptStruct_FTobiiDesktopTrackBox_Hash() { return 24833300U; }
 class UScriptStruct* FTobiiDisplayInfo::StaticStruct()
 {
 	static class UScriptStruct* Singleton = NULL;
 	if (!Singleton)
 	{
-		extern TOBIICORE_API uint32 Get_Z_Construct_UScriptStruct_FTobiiDisplayInfo_CRC();
-		Singleton = GetStaticStruct(Z_Construct_UScriptStruct_FTobiiDisplayInfo, Z_Construct_UPackage__Script_TobiiCore(), TEXT("TobiiDisplayInfo"), sizeof(FTobiiDisplayInfo), Get_Z_Construct_UScriptStruct_FTobiiDisplayInfo_CRC());
+		extern TOBIICORE_API uint32 Get_Z_Construct_UScriptStruct_FTobiiDisplayInfo_Hash();
+		Singleton = GetStaticStruct(Z_Construct_UScriptStruct_FTobiiDisplayInfo, Z_Construct_UPackage__Script_TobiiCore(), TEXT("TobiiDisplayInfo"), sizeof(FTobiiDisplayInfo), Get_Z_Construct_UScriptStruct_FTobiiDisplayInfo_Hash());
 	}
 	return Singleton;
+}
+template<> TOBIICORE_API UScriptStruct* StaticStruct<FTobiiDisplayInfo>()
+{
+	return FTobiiDisplayInfo::StaticStruct();
 }
 static FCompiledInDeferStruct Z_CompiledInDeferStruct_UScriptStruct_FTobiiDisplayInfo(FTobiiDisplayInfo::StaticStruct, TEXT("/Script/TobiiCore"), TEXT("TobiiDisplayInfo"), false, nullptr, nullptr);
 static struct FScriptStruct_TobiiCore_StaticRegisterNativesFTobiiDisplayInfo
@@ -385,7 +402,7 @@ static struct FScriptStruct_TobiiCore_StaticRegisterNativesFTobiiDisplayInfo
 		{ "ToolTip", "This is the dpi scale of the monitor the game is running on" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::NewProp_DpiScale = { UE4CodeGen_Private::EPropertyClass::Float, "DpiScale", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000020015, 1, nullptr, STRUCT_OFFSET(FTobiiDisplayInfo, DpiScale), METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::NewProp_DpiScale_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::NewProp_DpiScale_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::NewProp_DpiScale = { "DpiScale", nullptr, (EPropertyFlags)0x0010000000020015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FTobiiDisplayInfo, DpiScale), METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::NewProp_DpiScale_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::NewProp_DpiScale_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::NewProp_MainViewportHeightCm_MetaData[] = {
 		{ "Category", "Display Info" },
@@ -393,7 +410,7 @@ static struct FScriptStruct_TobiiCore_StaticRegisterNativesFTobiiDisplayInfo
 		{ "ToolTip", "This is the height of the main game viewport in centimeters as calculated using data from the game and the eyetracker. Centimeters is also the measurement used for unreal units." },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::NewProp_MainViewportHeightCm = { UE4CodeGen_Private::EPropertyClass::Float, "MainViewportHeightCm", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000020015, 1, nullptr, STRUCT_OFFSET(FTobiiDisplayInfo, MainViewportHeightCm), METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::NewProp_MainViewportHeightCm_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::NewProp_MainViewportHeightCm_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::NewProp_MainViewportHeightCm = { "MainViewportHeightCm", nullptr, (EPropertyFlags)0x0010000000020015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FTobiiDisplayInfo, MainViewportHeightCm), METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::NewProp_MainViewportHeightCm_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::NewProp_MainViewportHeightCm_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::NewProp_MainViewportWidthCm_MetaData[] = {
 		{ "Category", "Display Info" },
@@ -401,7 +418,7 @@ static struct FScriptStruct_TobiiCore_StaticRegisterNativesFTobiiDisplayInfo
 		{ "ToolTip", "This is the width of the main game viewport in centimeters as calculated using data from the game and the eyetracker. Centimeters is also the measurement used for unreal units." },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::NewProp_MainViewportWidthCm = { UE4CodeGen_Private::EPropertyClass::Float, "MainViewportWidthCm", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000020015, 1, nullptr, STRUCT_OFFSET(FTobiiDisplayInfo, MainViewportWidthCm), METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::NewProp_MainViewportWidthCm_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::NewProp_MainViewportWidthCm_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::NewProp_MainViewportWidthCm = { "MainViewportWidthCm", nullptr, (EPropertyFlags)0x0010000000020015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FTobiiDisplayInfo, MainViewportWidthCm), METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::NewProp_MainViewportWidthCm_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::NewProp_MainViewportWidthCm_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::NewProp_MainViewportHeightPx_MetaData[] = {
 		{ "Category", "Display Info" },
@@ -409,7 +426,7 @@ static struct FScriptStruct_TobiiCore_StaticRegisterNativesFTobiiDisplayInfo
 		{ "ToolTip", "This is the height in pixels of the main game viewport as reported by the game." },
 	};
 #endif
-	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::NewProp_MainViewportHeightPx = { UE4CodeGen_Private::EPropertyClass::Int, "MainViewportHeightPx", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000020015, 1, nullptr, STRUCT_OFFSET(FTobiiDisplayInfo, MainViewportHeightPx), METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::NewProp_MainViewportHeightPx_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::NewProp_MainViewportHeightPx_MetaData)) };
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::NewProp_MainViewportHeightPx = { "MainViewportHeightPx", nullptr, (EPropertyFlags)0x0010000000020015, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FTobiiDisplayInfo, MainViewportHeightPx), METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::NewProp_MainViewportHeightPx_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::NewProp_MainViewportHeightPx_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::NewProp_MainViewportWidthPx_MetaData[] = {
 		{ "Category", "Display Info" },
@@ -417,7 +434,7 @@ static struct FScriptStruct_TobiiCore_StaticRegisterNativesFTobiiDisplayInfo
 		{ "ToolTip", "This is the width in pixels of the main game viewport as reported by the game." },
 	};
 #endif
-	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::NewProp_MainViewportWidthPx = { UE4CodeGen_Private::EPropertyClass::Int, "MainViewportWidthPx", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000020015, 1, nullptr, STRUCT_OFFSET(FTobiiDisplayInfo, MainViewportWidthPx), METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::NewProp_MainViewportWidthPx_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::NewProp_MainViewportWidthPx_MetaData)) };
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::NewProp_MainViewportWidthPx = { "MainViewportWidthPx", nullptr, (EPropertyFlags)0x0010000000020015, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FTobiiDisplayInfo, MainViewportWidthPx), METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::NewProp_MainViewportWidthPx_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::NewProp_MainViewportWidthPx_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::NewProp_MonitorHeightCm_MetaData[] = {
 		{ "Category", "Display Info" },
@@ -425,7 +442,7 @@ static struct FScriptStruct_TobiiCore_StaticRegisterNativesFTobiiDisplayInfo
 		{ "ToolTip", "This is the height in centimeters of the monitor the active eyetracker is attached to as reported by the eyetracker. Centimeters is also the measurement used for unreal units." },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::NewProp_MonitorHeightCm = { UE4CodeGen_Private::EPropertyClass::Float, "MonitorHeightCm", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000020015, 1, nullptr, STRUCT_OFFSET(FTobiiDisplayInfo, MonitorHeightCm), METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::NewProp_MonitorHeightCm_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::NewProp_MonitorHeightCm_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::NewProp_MonitorHeightCm = { "MonitorHeightCm", nullptr, (EPropertyFlags)0x0010000000020015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FTobiiDisplayInfo, MonitorHeightCm), METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::NewProp_MonitorHeightCm_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::NewProp_MonitorHeightCm_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::NewProp_MonitorWidthCm_MetaData[] = {
 		{ "Category", "Display Info" },
@@ -433,7 +450,7 @@ static struct FScriptStruct_TobiiCore_StaticRegisterNativesFTobiiDisplayInfo
 		{ "ToolTip", "This is the width in centimeters of the monitor the active eyetracker is attached to as reported by the eyetracker. Centimeters is also the measurement used for unreal units." },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::NewProp_MonitorWidthCm = { UE4CodeGen_Private::EPropertyClass::Float, "MonitorWidthCm", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000020015, 1, nullptr, STRUCT_OFFSET(FTobiiDisplayInfo, MonitorWidthCm), METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::NewProp_MonitorWidthCm_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::NewProp_MonitorWidthCm_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::NewProp_MonitorWidthCm = { "MonitorWidthCm", nullptr, (EPropertyFlags)0x0010000000020015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FTobiiDisplayInfo, MonitorWidthCm), METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::NewProp_MonitorWidthCm_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::NewProp_MonitorWidthCm_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::NewProp_MonitorHeightPx_MetaData[] = {
 		{ "Category", "Display Info" },
@@ -441,7 +458,7 @@ static struct FScriptStruct_TobiiCore_StaticRegisterNativesFTobiiDisplayInfo
 		{ "ToolTip", "This is the height in pixels of the monitor the game is running on as reported by windows." },
 	};
 #endif
-	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::NewProp_MonitorHeightPx = { UE4CodeGen_Private::EPropertyClass::Int, "MonitorHeightPx", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000020015, 1, nullptr, STRUCT_OFFSET(FTobiiDisplayInfo, MonitorHeightPx), METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::NewProp_MonitorHeightPx_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::NewProp_MonitorHeightPx_MetaData)) };
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::NewProp_MonitorHeightPx = { "MonitorHeightPx", nullptr, (EPropertyFlags)0x0010000000020015, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FTobiiDisplayInfo, MonitorHeightPx), METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::NewProp_MonitorHeightPx_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::NewProp_MonitorHeightPx_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::NewProp_MonitorWidthPx_MetaData[] = {
 		{ "Category", "Display Info" },
@@ -449,7 +466,7 @@ static struct FScriptStruct_TobiiCore_StaticRegisterNativesFTobiiDisplayInfo
 		{ "ToolTip", "This is the width in pixels of the monitor the game is running on as reported by windows." },
 	};
 #endif
-	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::NewProp_MonitorWidthPx = { UE4CodeGen_Private::EPropertyClass::Int, "MonitorWidthPx", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000020015, 1, nullptr, STRUCT_OFFSET(FTobiiDisplayInfo, MonitorWidthPx), METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::NewProp_MonitorWidthPx_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::NewProp_MonitorWidthPx_MetaData)) };
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::NewProp_MonitorWidthPx = { "MonitorWidthPx", nullptr, (EPropertyFlags)0x0010000000020015, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FTobiiDisplayInfo, MonitorWidthPx), METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::NewProp_MonitorWidthPx_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::NewProp_MonitorWidthPx_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::NewProp_DpiScale,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::NewProp_MainViewportHeightCm,
@@ -466,19 +483,20 @@ static struct FScriptStruct_TobiiCore_StaticRegisterNativesFTobiiDisplayInfo
 		nullptr,
 		&NewStructOps,
 		"TobiiDisplayInfo",
-		RF_Public|RF_Transient|RF_MarkAsNative,
-		EStructFlags(0x00000001),
 		sizeof(FTobiiDisplayInfo),
 		alignof(FTobiiDisplayInfo),
-		Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::PropPointers),
+		Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::PropPointers,
+		ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::PropPointers),
+		RF_Public|RF_Transient|RF_MarkAsNative,
+		EStructFlags(0x00000001),
 		METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::Struct_MetaDataParams, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiDisplayInfo_Statics::Struct_MetaDataParams))
 	};
 	UScriptStruct* Z_Construct_UScriptStruct_FTobiiDisplayInfo()
 	{
 #if WITH_HOT_RELOAD
-		extern uint32 Get_Z_Construct_UScriptStruct_FTobiiDisplayInfo_CRC();
+		extern uint32 Get_Z_Construct_UScriptStruct_FTobiiDisplayInfo_Hash();
 		UPackage* Outer = Z_Construct_UPackage__Script_TobiiCore();
-		static UScriptStruct* ReturnStruct = FindExistingStructIfHotReloadOrDynamic(Outer, TEXT("TobiiDisplayInfo"), sizeof(FTobiiDisplayInfo), Get_Z_Construct_UScriptStruct_FTobiiDisplayInfo_CRC(), false);
+		static UScriptStruct* ReturnStruct = FindExistingStructIfHotReloadOrDynamic(Outer, TEXT("TobiiDisplayInfo"), sizeof(FTobiiDisplayInfo), Get_Z_Construct_UScriptStruct_FTobiiDisplayInfo_Hash(), false);
 #else
 		static UScriptStruct* ReturnStruct = nullptr;
 #endif
@@ -488,16 +506,20 @@ static struct FScriptStruct_TobiiCore_StaticRegisterNativesFTobiiDisplayInfo
 		}
 		return ReturnStruct;
 	}
-	uint32 Get_Z_Construct_UScriptStruct_FTobiiDisplayInfo_CRC() { return 3112588284U; }
+	uint32 Get_Z_Construct_UScriptStruct_FTobiiDisplayInfo_Hash() { return 1858002583U; }
 class UScriptStruct* FTobiiHeadPoseData::StaticStruct()
 {
 	static class UScriptStruct* Singleton = NULL;
 	if (!Singleton)
 	{
-		extern TOBIICORE_API uint32 Get_Z_Construct_UScriptStruct_FTobiiHeadPoseData_CRC();
-		Singleton = GetStaticStruct(Z_Construct_UScriptStruct_FTobiiHeadPoseData, Z_Construct_UPackage__Script_TobiiCore(), TEXT("TobiiHeadPoseData"), sizeof(FTobiiHeadPoseData), Get_Z_Construct_UScriptStruct_FTobiiHeadPoseData_CRC());
+		extern TOBIICORE_API uint32 Get_Z_Construct_UScriptStruct_FTobiiHeadPoseData_Hash();
+		Singleton = GetStaticStruct(Z_Construct_UScriptStruct_FTobiiHeadPoseData, Z_Construct_UPackage__Script_TobiiCore(), TEXT("TobiiHeadPoseData"), sizeof(FTobiiHeadPoseData), Get_Z_Construct_UScriptStruct_FTobiiHeadPoseData_Hash());
 	}
 	return Singleton;
+}
+template<> TOBIICORE_API UScriptStruct* StaticStruct<FTobiiHeadPoseData>()
+{
+	return FTobiiHeadPoseData::StaticStruct();
 }
 static FCompiledInDeferStruct Z_CompiledInDeferStruct_UScriptStruct_FTobiiHeadPoseData(FTobiiHeadPoseData::StaticStruct, TEXT("/Script/TobiiCore"), TEXT("TobiiHeadPoseData"), false, nullptr, nullptr);
 static struct FScriptStruct_TobiiCore_StaticRegisterNativesFTobiiHeadPoseData
@@ -542,7 +564,7 @@ static struct FScriptStruct_TobiiCore_StaticRegisterNativesFTobiiHeadPoseData
 		{ "ToolTip", "This is the local space orientation of the head." },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiHeadPoseData_Statics::NewProp_HeadOrientation = { UE4CodeGen_Private::EPropertyClass::Struct, "HeadOrientation", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(FTobiiHeadPoseData, HeadOrientation), Z_Construct_UScriptStruct_FRotator, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiHeadPoseData_Statics::NewProp_HeadOrientation_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiHeadPoseData_Statics::NewProp_HeadOrientation_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiHeadPoseData_Statics::NewProp_HeadOrientation = { "HeadOrientation", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FTobiiHeadPoseData, HeadOrientation), Z_Construct_UScriptStruct_FRotator, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiHeadPoseData_Statics::NewProp_HeadOrientation_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiHeadPoseData_Statics::NewProp_HeadOrientation_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTobiiHeadPoseData_Statics::NewProp_HeadLocation_MetaData[] = {
 		{ "Category", "Head Pose Data" },
@@ -550,7 +572,7 @@ static struct FScriptStruct_TobiiCore_StaticRegisterNativesFTobiiHeadPoseData
 		{ "ToolTip", "This is the local space location of the head relative to the device specified origin in centimeters." },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiHeadPoseData_Statics::NewProp_HeadLocation = { UE4CodeGen_Private::EPropertyClass::Struct, "HeadLocation", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(FTobiiHeadPoseData, HeadLocation), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiHeadPoseData_Statics::NewProp_HeadLocation_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiHeadPoseData_Statics::NewProp_HeadLocation_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiHeadPoseData_Statics::NewProp_HeadLocation = { "HeadLocation", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FTobiiHeadPoseData, HeadLocation), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiHeadPoseData_Statics::NewProp_HeadLocation_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiHeadPoseData_Statics::NewProp_HeadLocation_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FTobiiHeadPoseData_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FTobiiHeadPoseData_Statics::NewProp_HeadOrientation,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FTobiiHeadPoseData_Statics::NewProp_HeadLocation,
@@ -560,19 +582,20 @@ static struct FScriptStruct_TobiiCore_StaticRegisterNativesFTobiiHeadPoseData
 		nullptr,
 		&NewStructOps,
 		"TobiiHeadPoseData",
-		RF_Public|RF_Transient|RF_MarkAsNative,
-		EStructFlags(0x00000001),
 		sizeof(FTobiiHeadPoseData),
 		alignof(FTobiiHeadPoseData),
-		Z_Construct_UScriptStruct_FTobiiHeadPoseData_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiHeadPoseData_Statics::PropPointers),
+		Z_Construct_UScriptStruct_FTobiiHeadPoseData_Statics::PropPointers,
+		ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiHeadPoseData_Statics::PropPointers),
+		RF_Public|RF_Transient|RF_MarkAsNative,
+		EStructFlags(0x00000001),
 		METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiHeadPoseData_Statics::Struct_MetaDataParams, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiHeadPoseData_Statics::Struct_MetaDataParams))
 	};
 	UScriptStruct* Z_Construct_UScriptStruct_FTobiiHeadPoseData()
 	{
 #if WITH_HOT_RELOAD
-		extern uint32 Get_Z_Construct_UScriptStruct_FTobiiHeadPoseData_CRC();
+		extern uint32 Get_Z_Construct_UScriptStruct_FTobiiHeadPoseData_Hash();
 		UPackage* Outer = Z_Construct_UPackage__Script_TobiiCore();
-		static UScriptStruct* ReturnStruct = FindExistingStructIfHotReloadOrDynamic(Outer, TEXT("TobiiHeadPoseData"), sizeof(FTobiiHeadPoseData), Get_Z_Construct_UScriptStruct_FTobiiHeadPoseData_CRC(), false);
+		static UScriptStruct* ReturnStruct = FindExistingStructIfHotReloadOrDynamic(Outer, TEXT("TobiiHeadPoseData"), sizeof(FTobiiHeadPoseData), Get_Z_Construct_UScriptStruct_FTobiiHeadPoseData_Hash(), false);
 #else
 		static UScriptStruct* ReturnStruct = nullptr;
 #endif
@@ -582,16 +605,20 @@ static struct FScriptStruct_TobiiCore_StaticRegisterNativesFTobiiHeadPoseData
 		}
 		return ReturnStruct;
 	}
-	uint32 Get_Z_Construct_UScriptStruct_FTobiiHeadPoseData_CRC() { return 3250656607U; }
+	uint32 Get_Z_Construct_UScriptStruct_FTobiiHeadPoseData_Hash() { return 1055028530U; }
 class UScriptStruct* FTobiiGazeData::StaticStruct()
 {
 	static class UScriptStruct* Singleton = NULL;
 	if (!Singleton)
 	{
-		extern TOBIICORE_API uint32 Get_Z_Construct_UScriptStruct_FTobiiGazeData_CRC();
-		Singleton = GetStaticStruct(Z_Construct_UScriptStruct_FTobiiGazeData, Z_Construct_UPackage__Script_TobiiCore(), TEXT("TobiiGazeData"), sizeof(FTobiiGazeData), Get_Z_Construct_UScriptStruct_FTobiiGazeData_CRC());
+		extern TOBIICORE_API uint32 Get_Z_Construct_UScriptStruct_FTobiiGazeData_Hash();
+		Singleton = GetStaticStruct(Z_Construct_UScriptStruct_FTobiiGazeData, Z_Construct_UPackage__Script_TobiiCore(), TEXT("TobiiGazeData"), sizeof(FTobiiGazeData), Get_Z_Construct_UScriptStruct_FTobiiGazeData_Hash());
 	}
 	return Singleton;
+}
+template<> TOBIICORE_API UScriptStruct* StaticStruct<FTobiiGazeData>()
+{
+	return FTobiiGazeData::StaticStruct();
 }
 static FCompiledInDeferStruct Z_CompiledInDeferStruct_UScriptStruct_FTobiiGazeData(FTobiiGazeData::StaticStruct, TEXT("/Script/TobiiCore"), TEXT("TobiiGazeData"), false, nullptr, nullptr);
 static struct FScriptStruct_TobiiCore_StaticRegisterNativesFTobiiGazeData
@@ -670,7 +697,7 @@ static struct FScriptStruct_TobiiCore_StaticRegisterNativesFTobiiGazeData
 	{
 		((FTobiiGazeData*)Obj)->bIsGazeDataValid = 1;
 	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_bIsGazeDataValid = { UE4CodeGen_Private::EPropertyClass::Bool, "bIsGazeDataValid", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(FTobiiGazeData), &Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_bIsGazeDataValid_SetBit, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_bIsGazeDataValid_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_bIsGazeDataValid_MetaData)) };
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_bIsGazeDataValid = { "bIsGazeDataValid", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(FTobiiGazeData), &Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_bIsGazeDataValid_SetBit, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_bIsGazeDataValid_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_bIsGazeDataValid_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_bIsStable_MetaData[] = {
 		{ "Category", "General Data" },
@@ -682,7 +709,7 @@ static struct FScriptStruct_TobiiCore_StaticRegisterNativesFTobiiGazeData
 	{
 		((FTobiiGazeData*)Obj)->bIsStable = 1;
 	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_bIsStable = { UE4CodeGen_Private::EPropertyClass::Bool, "bIsStable", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(FTobiiGazeData), &Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_bIsStable_SetBit, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_bIsStable_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_bIsStable_MetaData)) };
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_bIsStable = { "bIsStable", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(FTobiiGazeData), &Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_bIsStable_SetBit, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_bIsStable_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_bIsStable_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_EyeOpenness_MetaData[] = {
 		{ "Category", "General Data" },
@@ -690,7 +717,7 @@ static struct FScriptStruct_TobiiCore_StaticRegisterNativesFTobiiGazeData
 		{ "ToolTip", "This is how open the eye is. 0 means closed, 1 means open." },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_EyeOpenness = { UE4CodeGen_Private::EPropertyClass::Float, "EyeOpenness", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(FTobiiGazeData, EyeOpenness), METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_EyeOpenness_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_EyeOpenness_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_EyeOpenness = { "EyeOpenness", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FTobiiGazeData, EyeOpenness), METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_EyeOpenness_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_EyeOpenness_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_TimeStamp_MetaData[] = {
 		{ "Category", "General Data" },
@@ -698,7 +725,7 @@ static struct FScriptStruct_TobiiCore_StaticRegisterNativesFTobiiGazeData
 		{ "ToolTip", "Time when the gaze point was created." },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_TimeStamp = { UE4CodeGen_Private::EPropertyClass::Struct, "TimeStamp", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(FTobiiGazeData, TimeStamp), Z_Construct_UScriptStruct_FDateTime, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_TimeStamp_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_TimeStamp_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_TimeStamp = { "TimeStamp", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FTobiiGazeData, TimeStamp), Z_Construct_UScriptStruct_FDateTime, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_TimeStamp_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_TimeStamp_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_ScreenGazeCircleRadiiPx_MetaData[] = {
 		{ "Category", "Screen Space Data" },
@@ -706,7 +733,7 @@ static struct FScriptStruct_TobiiCore_StaticRegisterNativesFTobiiGazeData
 		{ "ToolTip", "Due to how the eye works and imperfections in eye tracking technology, it makes more sense to express the screen space gaze field as an ellipse rather than a point. This is the extent of that ellipse expressed in pixels for the eye." },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_ScreenGazeCircleRadiiPx = { UE4CodeGen_Private::EPropertyClass::Struct, "ScreenGazeCircleRadiiPx", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(FTobiiGazeData, ScreenGazeCircleRadiiPx), Z_Construct_UScriptStruct_FVector2D, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_ScreenGazeCircleRadiiPx_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_ScreenGazeCircleRadiiPx_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_ScreenGazeCircleRadiiPx = { "ScreenGazeCircleRadiiPx", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FTobiiGazeData, ScreenGazeCircleRadiiPx), Z_Construct_UScriptStruct_FVector2D, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_ScreenGazeCircleRadiiPx_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_ScreenGazeCircleRadiiPx_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_ScreenGazePointPx_MetaData[] = {
 		{ "Category", "Screen Space Gaze Data" },
@@ -714,7 +741,7 @@ static struct FScriptStruct_TobiiCore_StaticRegisterNativesFTobiiGazeData
 		{ "ToolTip", "The gaze point in screen space in pixels this frame." },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_ScreenGazePointPx = { UE4CodeGen_Private::EPropertyClass::Struct, "ScreenGazePointPx", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(FTobiiGazeData, ScreenGazePointPx), Z_Construct_UScriptStruct_FVector2D, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_ScreenGazePointPx_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_ScreenGazePointPx_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_ScreenGazePointPx = { "ScreenGazePointPx", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FTobiiGazeData, ScreenGazePointPx), Z_Construct_UScriptStruct_FVector2D, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_ScreenGazePointPx_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_ScreenGazePointPx_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_WorldGazeConeAngleDegrees_MetaData[] = {
 		{ "Category", "World Space Data" },
@@ -722,7 +749,7 @@ static struct FScriptStruct_TobiiCore_StaticRegisterNativesFTobiiGazeData
 		{ "ToolTip", "Due to how the eye works and imperfections in eye tracking technology, it makes more sense to express the world gaze field as a cone rather than a ray. This angle is the angle between the Gaze Direction and the side of the cone expressed in degrees." },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_WorldGazeConeAngleDegrees = { UE4CodeGen_Private::EPropertyClass::Float, "WorldGazeConeAngleDegrees", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(FTobiiGazeData, WorldGazeConeAngleDegrees), METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_WorldGazeConeAngleDegrees_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_WorldGazeConeAngleDegrees_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_WorldGazeConeAngleDegrees = { "WorldGazeConeAngleDegrees", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FTobiiGazeData, WorldGazeConeAngleDegrees), METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_WorldGazeConeAngleDegrees_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_WorldGazeConeAngleDegrees_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_WorldGazeDirection_MetaData[] = {
 		{ "Category", "World Space Gaze Data" },
@@ -730,7 +757,7 @@ static struct FScriptStruct_TobiiCore_StaticRegisterNativesFTobiiGazeData
 		{ "ToolTip", "Forward direction of the eye's gaze ray this frame in Unreal world space." },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_WorldGazeDirection = { UE4CodeGen_Private::EPropertyClass::Struct, "WorldGazeDirection", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(FTobiiGazeData, WorldGazeDirection), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_WorldGazeDirection_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_WorldGazeDirection_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_WorldGazeDirection = { "WorldGazeDirection", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FTobiiGazeData, WorldGazeDirection), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_WorldGazeDirection_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_WorldGazeDirection_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_WorldGazeOrigin_MetaData[] = {
 		{ "Category", "World Space Gaze Data" },
@@ -738,7 +765,7 @@ static struct FScriptStruct_TobiiCore_StaticRegisterNativesFTobiiGazeData
 		{ "ToolTip", "Origin of the eye's gaze ray in Unreal world space." },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_WorldGazeOrigin = { UE4CodeGen_Private::EPropertyClass::Struct, "WorldGazeOrigin", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(FTobiiGazeData, WorldGazeOrigin), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_WorldGazeOrigin_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_WorldGazeOrigin_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_WorldGazeOrigin = { "WorldGazeOrigin", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FTobiiGazeData, WorldGazeOrigin), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_WorldGazeOrigin_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_WorldGazeOrigin_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FTobiiGazeData_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_bIsGazeDataValid,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FTobiiGazeData_Statics::NewProp_bIsStable,
@@ -755,19 +782,20 @@ static struct FScriptStruct_TobiiCore_StaticRegisterNativesFTobiiGazeData
 		nullptr,
 		&NewStructOps,
 		"TobiiGazeData",
-		RF_Public|RF_Transient|RF_MarkAsNative,
-		EStructFlags(0x00000001),
 		sizeof(FTobiiGazeData),
 		alignof(FTobiiGazeData),
-		Z_Construct_UScriptStruct_FTobiiGazeData_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiGazeData_Statics::PropPointers),
+		Z_Construct_UScriptStruct_FTobiiGazeData_Statics::PropPointers,
+		ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiGazeData_Statics::PropPointers),
+		RF_Public|RF_Transient|RF_MarkAsNative,
+		EStructFlags(0x00000001),
 		METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiGazeData_Statics::Struct_MetaDataParams, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiGazeData_Statics::Struct_MetaDataParams))
 	};
 	UScriptStruct* Z_Construct_UScriptStruct_FTobiiGazeData()
 	{
 #if WITH_HOT_RELOAD
-		extern uint32 Get_Z_Construct_UScriptStruct_FTobiiGazeData_CRC();
+		extern uint32 Get_Z_Construct_UScriptStruct_FTobiiGazeData_Hash();
 		UPackage* Outer = Z_Construct_UPackage__Script_TobiiCore();
-		static UScriptStruct* ReturnStruct = FindExistingStructIfHotReloadOrDynamic(Outer, TEXT("TobiiGazeData"), sizeof(FTobiiGazeData), Get_Z_Construct_UScriptStruct_FTobiiGazeData_CRC(), false);
+		static UScriptStruct* ReturnStruct = FindExistingStructIfHotReloadOrDynamic(Outer, TEXT("TobiiGazeData"), sizeof(FTobiiGazeData), Get_Z_Construct_UScriptStruct_FTobiiGazeData_Hash(), false);
 #else
 		static UScriptStruct* ReturnStruct = nullptr;
 #endif
@@ -777,7 +805,7 @@ static struct FScriptStruct_TobiiCore_StaticRegisterNativesFTobiiGazeData
 		}
 		return ReturnStruct;
 	}
-	uint32 Get_Z_Construct_UScriptStruct_FTobiiGazeData_CRC() { return 3386511819U; }
+	uint32 Get_Z_Construct_UScriptStruct_FTobiiGazeData_Hash() { return 2782793100U; }
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 #ifdef _MSC_VER
 #pragma warning (pop)

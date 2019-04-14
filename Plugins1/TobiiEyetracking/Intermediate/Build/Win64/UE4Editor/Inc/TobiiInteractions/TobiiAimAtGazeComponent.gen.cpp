@@ -1,4 +1,4 @@
-// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -46,7 +46,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiAimAtGazeComponent() {}
 		{ "ToolTip", "Trigger an aim@gaze" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiAimAtGazeComponent_AimAtGaze_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiAimAtGazeComponent, "AimAtGaze", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiAimAtGazeComponent_AimAtGaze_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiAimAtGazeComponent_AimAtGaze_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiAimAtGazeComponent_AimAtGaze_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiAimAtGazeComponent, nullptr, "AimAtGaze", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiAimAtGazeComponent_AimAtGaze_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiAimAtGazeComponent_AimAtGaze_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UTobiiAimAtGazeComponent_AimAtGaze()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -74,7 +74,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiAimAtGazeComponent() {}
 	{
 		((TobiiAimAtGazeComponent_eventAimAtGazeAvailable_Parms*)Obj)->ReturnValue = 1;
 	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UTobiiAimAtGazeComponent_AimAtGazeAvailable_Statics::NewProp_ReturnValue = { UE4CodeGen_Private::EPropertyClass::Bool, "ReturnValue", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000580, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(TobiiAimAtGazeComponent_eventAimAtGazeAvailable_Parms), &Z_Construct_UFunction_UTobiiAimAtGazeComponent_AimAtGazeAvailable_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UTobiiAimAtGazeComponent_AimAtGazeAvailable_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(TobiiAimAtGazeComponent_eventAimAtGazeAvailable_Parms), &Z_Construct_UFunction_UTobiiAimAtGazeComponent_AimAtGazeAvailable_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UTobiiAimAtGazeComponent_AimAtGazeAvailable_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UTobiiAimAtGazeComponent_AimAtGazeAvailable_Statics::NewProp_ReturnValue,
 	};
@@ -85,7 +85,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiAimAtGazeComponent() {}
 		{ "ToolTip", "Use this to test if the user has turned aim@gaze on and it is available." },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiAimAtGazeComponent_AimAtGazeAvailable_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiAimAtGazeComponent, "AimAtGazeAvailable", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, sizeof(TobiiAimAtGazeComponent_eventAimAtGazeAvailable_Parms), Z_Construct_UFunction_UTobiiAimAtGazeComponent_AimAtGazeAvailable_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiAimAtGazeComponent_AimAtGazeAvailable_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiAimAtGazeComponent_AimAtGazeAvailable_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiAimAtGazeComponent_AimAtGazeAvailable_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiAimAtGazeComponent_AimAtGazeAvailable_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiAimAtGazeComponent, nullptr, "AimAtGazeAvailable", sizeof(TobiiAimAtGazeComponent_eventAimAtGazeAvailable_Parms), Z_Construct_UFunction_UTobiiAimAtGazeComponent_AimAtGazeAvailable_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiAimAtGazeComponent_AimAtGazeAvailable_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiAimAtGazeComponent_AimAtGazeAvailable_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiAimAtGazeComponent_AimAtGazeAvailable_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UTobiiAimAtGazeComponent_AimAtGazeAvailable()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -109,7 +109,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiAimAtGazeComponent() {}
 		{ "ToolTip", "Call this every frame you want to continually track the aim@gaze target" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiAimAtGazeComponent_ContinuousAimAtGaze_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiAimAtGazeComponent, "ContinuousAimAtGaze", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiAimAtGazeComponent_ContinuousAimAtGaze_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiAimAtGazeComponent_ContinuousAimAtGaze_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiAimAtGazeComponent_ContinuousAimAtGaze_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiAimAtGazeComponent, nullptr, "ContinuousAimAtGaze", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiAimAtGazeComponent_ContinuousAimAtGaze_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiAimAtGazeComponent_ContinuousAimAtGaze_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UTobiiAimAtGazeComponent_ContinuousAimAtGaze()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -152,9 +152,9 @@ void EmptyLinkFunctionForGeneratedCodeTobiiAimAtGazeComponent() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_TobiiInteractions,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UTobiiAimAtGazeComponent_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UTobiiAimAtGazeComponent_AimAtGaze, "AimAtGaze" }, // 4255932208
-		{ &Z_Construct_UFunction_UTobiiAimAtGazeComponent_AimAtGazeAvailable, "AimAtGazeAvailable" }, // 3056122647
-		{ &Z_Construct_UFunction_UTobiiAimAtGazeComponent_ContinuousAimAtGaze, "ContinuousAimAtGaze" }, // 1160949140
+		{ &Z_Construct_UFunction_UTobiiAimAtGazeComponent_AimAtGaze, "AimAtGaze" }, // 3081553546
+		{ &Z_Construct_UFunction_UTobiiAimAtGazeComponent_AimAtGazeAvailable, "AimAtGazeAvailable" }, // 3449764795
+		{ &Z_Construct_UFunction_UTobiiAimAtGazeComponent_ContinuousAimAtGaze, "ContinuousAimAtGaze" }, // 962825828
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UTobiiAimAtGazeComponent_Statics::Class_MetaDataParams[] = {
@@ -171,7 +171,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiAimAtGazeComponent() {}
 		{ "ModuleRelativePath", "Public/Desktop/TobiiAimAtGazeComponent.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UTobiiAimAtGazeComponent_Statics::NewProp_AimSpeed = { UE4CodeGen_Private::EPropertyClass::Float, "AimSpeed", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(UTobiiAimAtGazeComponent, AimSpeed), METADATA_PARAMS(Z_Construct_UClass_UTobiiAimAtGazeComponent_Statics::NewProp_AimSpeed_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTobiiAimAtGazeComponent_Statics::NewProp_AimSpeed_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UTobiiAimAtGazeComponent_Statics::NewProp_AimSpeed = { "AimSpeed", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UTobiiAimAtGazeComponent, AimSpeed), METADATA_PARAMS(Z_Construct_UClass_UTobiiAimAtGazeComponent_Statics::NewProp_AimSpeed_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTobiiAimAtGazeComponent_Statics::NewProp_AimSpeed_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UTobiiAimAtGazeComponent_Statics::NewProp_bAllowRetarget_MetaData[] = {
 		{ "Category", "Aim@gaze" },
@@ -182,7 +182,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiAimAtGazeComponent() {}
 	{
 		((UTobiiAimAtGazeComponent*)Obj)->bAllowRetarget = 1;
 	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UTobiiAimAtGazeComponent_Statics::NewProp_bAllowRetarget = { UE4CodeGen_Private::EPropertyClass::Bool, "bAllowRetarget", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(UTobiiAimAtGazeComponent), &Z_Construct_UClass_UTobiiAimAtGazeComponent_Statics::NewProp_bAllowRetarget_SetBit, METADATA_PARAMS(Z_Construct_UClass_UTobiiAimAtGazeComponent_Statics::NewProp_bAllowRetarget_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTobiiAimAtGazeComponent_Statics::NewProp_bAllowRetarget_MetaData)) };
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UTobiiAimAtGazeComponent_Statics::NewProp_bAllowRetarget = { "bAllowRetarget", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(UTobiiAimAtGazeComponent), &Z_Construct_UClass_UTobiiAimAtGazeComponent_Statics::NewProp_bAllowRetarget_SetBit, METADATA_PARAMS(Z_Construct_UClass_UTobiiAimAtGazeComponent_Statics::NewProp_bAllowRetarget_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTobiiAimAtGazeComponent_Statics::NewProp_bAllowRetarget_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UTobiiAimAtGazeComponent_Statics::NewProp_FocusManager_MetaData[] = {
 		{ "Category", "Aim@gaze" },
@@ -190,7 +190,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiAimAtGazeComponent() {}
 		{ "ModuleRelativePath", "Public/Desktop/TobiiAimAtGazeComponent.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UTobiiAimAtGazeComponent_Statics::NewProp_FocusManager = { UE4CodeGen_Private::EPropertyClass::Object, "FocusManager", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x001000000008000d, 1, nullptr, STRUCT_OFFSET(UTobiiAimAtGazeComponent, FocusManager), Z_Construct_UClass_UTobiiGazeFocusManagerComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UTobiiAimAtGazeComponent_Statics::NewProp_FocusManager_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTobiiAimAtGazeComponent_Statics::NewProp_FocusManager_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UTobiiAimAtGazeComponent_Statics::NewProp_FocusManager = { "FocusManager", nullptr, (EPropertyFlags)0x001000000008000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UTobiiAimAtGazeComponent, FocusManager), Z_Construct_UClass_UTobiiGazeFocusManagerComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UTobiiAimAtGazeComponent_Statics::NewProp_FocusManager_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTobiiAimAtGazeComponent_Statics::NewProp_FocusManager_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UTobiiAimAtGazeComponent_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UTobiiAimAtGazeComponent_Statics::NewProp_AimSpeed,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UTobiiAimAtGazeComponent_Statics::NewProp_bAllowRetarget,
@@ -201,13 +201,17 @@ void EmptyLinkFunctionForGeneratedCodeTobiiAimAtGazeComponent() {}
 	};
 	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_UTobiiAimAtGazeComponent_Statics::ClassParams = {
 		&UTobiiAimAtGazeComponent::StaticClass,
-		DependentSingletons, ARRAY_COUNT(DependentSingletons),
-		0x00B000A4u,
-		FuncInfo, ARRAY_COUNT(FuncInfo),
-		Z_Construct_UClass_UTobiiAimAtGazeComponent_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UClass_UTobiiAimAtGazeComponent_Statics::PropPointers),
 		"Engine",
 		&StaticCppClassTypeInfo,
-		nullptr, 0,
+		DependentSingletons,
+		FuncInfo,
+		Z_Construct_UClass_UTobiiAimAtGazeComponent_Statics::PropPointers,
+		nullptr,
+		ARRAY_COUNT(DependentSingletons),
+		ARRAY_COUNT(FuncInfo),
+		ARRAY_COUNT(Z_Construct_UClass_UTobiiAimAtGazeComponent_Statics::PropPointers),
+		0,
+		0x00B000A4u,
 		METADATA_PARAMS(Z_Construct_UClass_UTobiiAimAtGazeComponent_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_UTobiiAimAtGazeComponent_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_UTobiiAimAtGazeComponent()
@@ -219,7 +223,11 @@ void EmptyLinkFunctionForGeneratedCodeTobiiAimAtGazeComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UTobiiAimAtGazeComponent, 3096030888);
+	IMPLEMENT_CLASS(UTobiiAimAtGazeComponent, 827930237);
+	template<> TOBIIINTERACTIONS_API UClass* StaticClass<UTobiiAimAtGazeComponent>()
+	{
+		return UTobiiAimAtGazeComponent::StaticClass();
+	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UTobiiAimAtGazeComponent(Z_Construct_UClass_UTobiiAimAtGazeComponent, &UTobiiAimAtGazeComponent::StaticClass, TEXT("/Script/TobiiInteractions"), TEXT("UTobiiAimAtGazeComponent"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UTobiiAimAtGazeComponent);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-TobiiInteractions.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Unreal Engine Projects\Tobii 4.22\TobiiPlugin\Intermediate\Build\Win64\TobiiPluginEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"D:\Unreal Engine Projects\Tobii 4.22\TobiiPlugin\Plugins\TobiiEyetracking\Intermediate\Build\Win64\UE4Editor\Development\TobiiInteractions\Module.TobiiInteractions.cpp.obj"
+"D:\Unreal Engine Projects\Tobii 4.22\TobiiPlugin\Plugins\TobiiEyetracking\Intermediate\Build\Win64\UE4Editor\Development\TobiiInteractions\Module.TobiiInteractions.gen.cpp.obj"
+"D:\Unreal Engine Projects\Tobii 4.22\TobiiPlugin\Plugins\TobiiEyetracking\Intermediate\Build\Win64\UE4Editor\Development\TobiiInteractions\Default.rc2.res"
+/OUT:"D:\Unreal Engine Projects\Tobii 4.22\TobiiPlugin\Plugins\TobiiEyetracking\Intermediate\Build\Win64\UE4Editor\Development\TobiiInteractions\UE4Editor-TobiiInteractions.lib"
+/INCLUDE:IMPLEMENT_MODULE_TobiiInteractions

@@ -1,4 +1,4 @@
-// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -22,7 +22,7 @@ struct FTobiiGazeData;
 #endif
 #define TOBIICORE_TobiiBlueprintLibrary_generated_h
 
-#define D__jenkins_UE4_Stage_4_21_Package_HostProject_Plugins_TobiiEyetracking_Source_TobiiCore_Public_TobiiBlueprintLibrary_h_23_RPC_WRAPPERS \
+#define TobiiPlugin_Plugins_TobiiEyetracking_Source_TobiiCore_Public_TobiiBlueprintLibrary_h_23_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execIsXRPlayerController) \
 	{ \
@@ -237,7 +237,7 @@ struct FTobiiGazeData;
 	}
 
 
-#define D__jenkins_UE4_Stage_4_21_Package_HostProject_Plugins_TobiiEyetracking_Source_TobiiCore_Public_TobiiBlueprintLibrary_h_23_RPC_WRAPPERS_NO_PURE_DECLS \
+#define TobiiPlugin_Plugins_TobiiEyetracking_Source_TobiiCore_Public_TobiiBlueprintLibrary_h_23_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execIsXRPlayerController) \
 	{ \
@@ -452,7 +452,7 @@ struct FTobiiGazeData;
 	}
 
 
-#define D__jenkins_UE4_Stage_4_21_Package_HostProject_Plugins_TobiiEyetracking_Source_TobiiCore_Public_TobiiBlueprintLibrary_h_23_INCLASS_NO_PURE_DECLS \
+#define TobiiPlugin_Plugins_TobiiEyetracking_Source_TobiiCore_Public_TobiiBlueprintLibrary_h_23_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUTobiiBlueprintLibrary(); \
 	friend struct Z_Construct_UClass_UTobiiBlueprintLibrary_Statics; \
@@ -461,7 +461,7 @@ public: \
 	DECLARE_SERIALIZER(UTobiiBlueprintLibrary)
 
 
-#define D__jenkins_UE4_Stage_4_21_Package_HostProject_Plugins_TobiiEyetracking_Source_TobiiCore_Public_TobiiBlueprintLibrary_h_23_INCLASS \
+#define TobiiPlugin_Plugins_TobiiEyetracking_Source_TobiiCore_Public_TobiiBlueprintLibrary_h_23_INCLASS \
 private: \
 	static void StaticRegisterNativesUTobiiBlueprintLibrary(); \
 	friend struct Z_Construct_UClass_UTobiiBlueprintLibrary_Statics; \
@@ -470,7 +470,7 @@ public: \
 	DECLARE_SERIALIZER(UTobiiBlueprintLibrary)
 
 
-#define D__jenkins_UE4_Stage_4_21_Package_HostProject_Plugins_TobiiEyetracking_Source_TobiiCore_Public_TobiiBlueprintLibrary_h_23_STANDARD_CONSTRUCTORS \
+#define TobiiPlugin_Plugins_TobiiEyetracking_Source_TobiiCore_Public_TobiiBlueprintLibrary_h_23_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UTobiiBlueprintLibrary(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UTobiiBlueprintLibrary) \
@@ -483,7 +483,7 @@ private: \
 public:
 
 
-#define D__jenkins_UE4_Stage_4_21_Package_HostProject_Plugins_TobiiEyetracking_Source_TobiiCore_Public_TobiiBlueprintLibrary_h_23_ENHANCED_CONSTRUCTORS \
+#define TobiiPlugin_Plugins_TobiiEyetracking_Source_TobiiCore_Public_TobiiBlueprintLibrary_h_23_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UTobiiBlueprintLibrary(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -496,32 +496,34 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UTobiiBlueprintLibrary); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UTobiiBlueprintLibrary)
 
 
-#define D__jenkins_UE4_Stage_4_21_Package_HostProject_Plugins_TobiiEyetracking_Source_TobiiCore_Public_TobiiBlueprintLibrary_h_23_PRIVATE_PROPERTY_OFFSET
-#define D__jenkins_UE4_Stage_4_21_Package_HostProject_Plugins_TobiiEyetracking_Source_TobiiCore_Public_TobiiBlueprintLibrary_h_20_PROLOG
-#define D__jenkins_UE4_Stage_4_21_Package_HostProject_Plugins_TobiiEyetracking_Source_TobiiCore_Public_TobiiBlueprintLibrary_h_23_GENERATED_BODY_LEGACY \
+#define TobiiPlugin_Plugins_TobiiEyetracking_Source_TobiiCore_Public_TobiiBlueprintLibrary_h_23_PRIVATE_PROPERTY_OFFSET
+#define TobiiPlugin_Plugins_TobiiEyetracking_Source_TobiiCore_Public_TobiiBlueprintLibrary_h_20_PROLOG
+#define TobiiPlugin_Plugins_TobiiEyetracking_Source_TobiiCore_Public_TobiiBlueprintLibrary_h_23_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	D__jenkins_UE4_Stage_4_21_Package_HostProject_Plugins_TobiiEyetracking_Source_TobiiCore_Public_TobiiBlueprintLibrary_h_23_PRIVATE_PROPERTY_OFFSET \
-	D__jenkins_UE4_Stage_4_21_Package_HostProject_Plugins_TobiiEyetracking_Source_TobiiCore_Public_TobiiBlueprintLibrary_h_23_RPC_WRAPPERS \
-	D__jenkins_UE4_Stage_4_21_Package_HostProject_Plugins_TobiiEyetracking_Source_TobiiCore_Public_TobiiBlueprintLibrary_h_23_INCLASS \
-	D__jenkins_UE4_Stage_4_21_Package_HostProject_Plugins_TobiiEyetracking_Source_TobiiCore_Public_TobiiBlueprintLibrary_h_23_STANDARD_CONSTRUCTORS \
+	TobiiPlugin_Plugins_TobiiEyetracking_Source_TobiiCore_Public_TobiiBlueprintLibrary_h_23_PRIVATE_PROPERTY_OFFSET \
+	TobiiPlugin_Plugins_TobiiEyetracking_Source_TobiiCore_Public_TobiiBlueprintLibrary_h_23_RPC_WRAPPERS \
+	TobiiPlugin_Plugins_TobiiEyetracking_Source_TobiiCore_Public_TobiiBlueprintLibrary_h_23_INCLASS \
+	TobiiPlugin_Plugins_TobiiEyetracking_Source_TobiiCore_Public_TobiiBlueprintLibrary_h_23_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define D__jenkins_UE4_Stage_4_21_Package_HostProject_Plugins_TobiiEyetracking_Source_TobiiCore_Public_TobiiBlueprintLibrary_h_23_GENERATED_BODY \
+#define TobiiPlugin_Plugins_TobiiEyetracking_Source_TobiiCore_Public_TobiiBlueprintLibrary_h_23_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	D__jenkins_UE4_Stage_4_21_Package_HostProject_Plugins_TobiiEyetracking_Source_TobiiCore_Public_TobiiBlueprintLibrary_h_23_PRIVATE_PROPERTY_OFFSET \
-	D__jenkins_UE4_Stage_4_21_Package_HostProject_Plugins_TobiiEyetracking_Source_TobiiCore_Public_TobiiBlueprintLibrary_h_23_RPC_WRAPPERS_NO_PURE_DECLS \
-	D__jenkins_UE4_Stage_4_21_Package_HostProject_Plugins_TobiiEyetracking_Source_TobiiCore_Public_TobiiBlueprintLibrary_h_23_INCLASS_NO_PURE_DECLS \
-	D__jenkins_UE4_Stage_4_21_Package_HostProject_Plugins_TobiiEyetracking_Source_TobiiCore_Public_TobiiBlueprintLibrary_h_23_ENHANCED_CONSTRUCTORS \
+	TobiiPlugin_Plugins_TobiiEyetracking_Source_TobiiCore_Public_TobiiBlueprintLibrary_h_23_PRIVATE_PROPERTY_OFFSET \
+	TobiiPlugin_Plugins_TobiiEyetracking_Source_TobiiCore_Public_TobiiBlueprintLibrary_h_23_RPC_WRAPPERS_NO_PURE_DECLS \
+	TobiiPlugin_Plugins_TobiiEyetracking_Source_TobiiCore_Public_TobiiBlueprintLibrary_h_23_INCLASS_NO_PURE_DECLS \
+	TobiiPlugin_Plugins_TobiiEyetracking_Source_TobiiCore_Public_TobiiBlueprintLibrary_h_23_ENHANCED_CONSTRUCTORS \
 static_assert(false, "Unknown access specifier for GENERATED_BODY() macro in class TobiiBlueprintLibrary."); \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
+template<> TOBIICORE_API UClass* StaticClass<class UTobiiBlueprintLibrary>();
+
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID D__jenkins_UE4_Stage_4_21_Package_HostProject_Plugins_TobiiEyetracking_Source_TobiiCore_Public_TobiiBlueprintLibrary_h
+#define CURRENT_FILE_ID TobiiPlugin_Plugins_TobiiEyetracking_Source_TobiiCore_Public_TobiiBlueprintLibrary_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

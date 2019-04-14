@@ -1,4 +1,4 @@
-// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -14,7 +14,7 @@ class USceneComponent;
 #endif
 #define TOBIIINTERACTIONS_TobiiProjectileComponent_generated_h
 
-#define D__jenkins_UE4_Stage_4_21_Package_HostProject_Plugins_TobiiEyetracking_Source_TobiiInteractions_Public_Common_TobiiProjectileComponent_h_33_RPC_WRAPPERS \
+#define TobiiPlugin_Plugins_TobiiEyetracking_Source_TobiiInteractions_Public_Common_TobiiProjectileComponent_h_33_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execStopHoming) \
 	{ \
@@ -34,7 +34,7 @@ class USceneComponent;
 	}
 
 
-#define D__jenkins_UE4_Stage_4_21_Package_HostProject_Plugins_TobiiEyetracking_Source_TobiiInteractions_Public_Common_TobiiProjectileComponent_h_33_RPC_WRAPPERS_NO_PURE_DECLS \
+#define TobiiPlugin_Plugins_TobiiEyetracking_Source_TobiiInteractions_Public_Common_TobiiProjectileComponent_h_33_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execStopHoming) \
 	{ \
@@ -54,7 +54,7 @@ class USceneComponent;
 	}
 
 
-#define D__jenkins_UE4_Stage_4_21_Package_HostProject_Plugins_TobiiEyetracking_Source_TobiiInteractions_Public_Common_TobiiProjectileComponent_h_33_INCLASS_NO_PURE_DECLS \
+#define TobiiPlugin_Plugins_TobiiEyetracking_Source_TobiiInteractions_Public_Common_TobiiProjectileComponent_h_33_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUTobiiProjectileComponent(); \
 	friend struct Z_Construct_UClass_UTobiiProjectileComponent_Statics; \
@@ -63,7 +63,7 @@ public: \
 	DECLARE_SERIALIZER(UTobiiProjectileComponent)
 
 
-#define D__jenkins_UE4_Stage_4_21_Package_HostProject_Plugins_TobiiEyetracking_Source_TobiiInteractions_Public_Common_TobiiProjectileComponent_h_33_INCLASS \
+#define TobiiPlugin_Plugins_TobiiEyetracking_Source_TobiiInteractions_Public_Common_TobiiProjectileComponent_h_33_INCLASS \
 private: \
 	static void StaticRegisterNativesUTobiiProjectileComponent(); \
 	friend struct Z_Construct_UClass_UTobiiProjectileComponent_Statics; \
@@ -72,7 +72,7 @@ public: \
 	DECLARE_SERIALIZER(UTobiiProjectileComponent)
 
 
-#define D__jenkins_UE4_Stage_4_21_Package_HostProject_Plugins_TobiiEyetracking_Source_TobiiInteractions_Public_Common_TobiiProjectileComponent_h_33_STANDARD_CONSTRUCTORS \
+#define TobiiPlugin_Plugins_TobiiEyetracking_Source_TobiiInteractions_Public_Common_TobiiProjectileComponent_h_33_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UTobiiProjectileComponent(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UTobiiProjectileComponent) \
@@ -85,7 +85,7 @@ private: \
 public:
 
 
-#define D__jenkins_UE4_Stage_4_21_Package_HostProject_Plugins_TobiiEyetracking_Source_TobiiInteractions_Public_Common_TobiiProjectileComponent_h_33_ENHANCED_CONSTRUCTORS \
+#define TobiiPlugin_Plugins_TobiiEyetracking_Source_TobiiInteractions_Public_Common_TobiiProjectileComponent_h_33_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UTobiiProjectileComponent(UTobiiProjectileComponent&&); \
@@ -96,39 +96,49 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UTobiiProjectileComponent); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UTobiiProjectileComponent)
 
 
-#define D__jenkins_UE4_Stage_4_21_Package_HostProject_Plugins_TobiiEyetracking_Source_TobiiInteractions_Public_Common_TobiiProjectileComponent_h_33_PRIVATE_PROPERTY_OFFSET
-#define D__jenkins_UE4_Stage_4_21_Package_HostProject_Plugins_TobiiEyetracking_Source_TobiiInteractions_Public_Common_TobiiProjectileComponent_h_30_PROLOG
-#define D__jenkins_UE4_Stage_4_21_Package_HostProject_Plugins_TobiiEyetracking_Source_TobiiInteractions_Public_Common_TobiiProjectileComponent_h_33_GENERATED_BODY_LEGACY \
+#define TobiiPlugin_Plugins_TobiiEyetracking_Source_TobiiInteractions_Public_Common_TobiiProjectileComponent_h_33_PRIVATE_PROPERTY_OFFSET
+#define TobiiPlugin_Plugins_TobiiEyetracking_Source_TobiiInteractions_Public_Common_TobiiProjectileComponent_h_30_PROLOG
+#define TobiiPlugin_Plugins_TobiiEyetracking_Source_TobiiInteractions_Public_Common_TobiiProjectileComponent_h_33_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	D__jenkins_UE4_Stage_4_21_Package_HostProject_Plugins_TobiiEyetracking_Source_TobiiInteractions_Public_Common_TobiiProjectileComponent_h_33_PRIVATE_PROPERTY_OFFSET \
-	D__jenkins_UE4_Stage_4_21_Package_HostProject_Plugins_TobiiEyetracking_Source_TobiiInteractions_Public_Common_TobiiProjectileComponent_h_33_RPC_WRAPPERS \
-	D__jenkins_UE4_Stage_4_21_Package_HostProject_Plugins_TobiiEyetracking_Source_TobiiInteractions_Public_Common_TobiiProjectileComponent_h_33_INCLASS \
-	D__jenkins_UE4_Stage_4_21_Package_HostProject_Plugins_TobiiEyetracking_Source_TobiiInteractions_Public_Common_TobiiProjectileComponent_h_33_STANDARD_CONSTRUCTORS \
+	TobiiPlugin_Plugins_TobiiEyetracking_Source_TobiiInteractions_Public_Common_TobiiProjectileComponent_h_33_PRIVATE_PROPERTY_OFFSET \
+	TobiiPlugin_Plugins_TobiiEyetracking_Source_TobiiInteractions_Public_Common_TobiiProjectileComponent_h_33_RPC_WRAPPERS \
+	TobiiPlugin_Plugins_TobiiEyetracking_Source_TobiiInteractions_Public_Common_TobiiProjectileComponent_h_33_INCLASS \
+	TobiiPlugin_Plugins_TobiiEyetracking_Source_TobiiInteractions_Public_Common_TobiiProjectileComponent_h_33_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define D__jenkins_UE4_Stage_4_21_Package_HostProject_Plugins_TobiiEyetracking_Source_TobiiInteractions_Public_Common_TobiiProjectileComponent_h_33_GENERATED_BODY \
+#define TobiiPlugin_Plugins_TobiiEyetracking_Source_TobiiInteractions_Public_Common_TobiiProjectileComponent_h_33_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	D__jenkins_UE4_Stage_4_21_Package_HostProject_Plugins_TobiiEyetracking_Source_TobiiInteractions_Public_Common_TobiiProjectileComponent_h_33_PRIVATE_PROPERTY_OFFSET \
-	D__jenkins_UE4_Stage_4_21_Package_HostProject_Plugins_TobiiEyetracking_Source_TobiiInteractions_Public_Common_TobiiProjectileComponent_h_33_RPC_WRAPPERS_NO_PURE_DECLS \
-	D__jenkins_UE4_Stage_4_21_Package_HostProject_Plugins_TobiiEyetracking_Source_TobiiInteractions_Public_Common_TobiiProjectileComponent_h_33_INCLASS_NO_PURE_DECLS \
-	D__jenkins_UE4_Stage_4_21_Package_HostProject_Plugins_TobiiEyetracking_Source_TobiiInteractions_Public_Common_TobiiProjectileComponent_h_33_ENHANCED_CONSTRUCTORS \
+	TobiiPlugin_Plugins_TobiiEyetracking_Source_TobiiInteractions_Public_Common_TobiiProjectileComponent_h_33_PRIVATE_PROPERTY_OFFSET \
+	TobiiPlugin_Plugins_TobiiEyetracking_Source_TobiiInteractions_Public_Common_TobiiProjectileComponent_h_33_RPC_WRAPPERS_NO_PURE_DECLS \
+	TobiiPlugin_Plugins_TobiiEyetracking_Source_TobiiInteractions_Public_Common_TobiiProjectileComponent_h_33_INCLASS_NO_PURE_DECLS \
+	TobiiPlugin_Plugins_TobiiEyetracking_Source_TobiiInteractions_Public_Common_TobiiProjectileComponent_h_33_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
+template<> TOBIIINTERACTIONS_API UClass* StaticClass<class UTobiiProjectileComponent>();
+
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID D__jenkins_UE4_Stage_4_21_Package_HostProject_Plugins_TobiiEyetracking_Source_TobiiInteractions_Public_Common_TobiiProjectileComponent_h
+#define CURRENT_FILE_ID TobiiPlugin_Plugins_TobiiEyetracking_Source_TobiiInteractions_Public_Common_TobiiProjectileComponent_h
 
 
 #define FOREACH_ENUM_ETOBIIPROJECTILEGUIDANCESYSTEM(op) \
 	op(ETobiiProjectileGuidanceSystem::Simple) \
 	op(ETobiiProjectileGuidanceSystem::Prediction) \
 	op(ETobiiProjectileGuidanceSystem::ComplexPrediction) 
+
+enum class ETobiiProjectileGuidanceSystem;
+template<> TOBIIINTERACTIONS_API UEnum* StaticEnum<ETobiiProjectileGuidanceSystem>();
+
 #define FOREACH_ENUM_ETOBIIPROJECTILEHOMINGBEHAVIOR(op) \
 	op(ETobiiProjectileHomingBehavior::Acceleration) \
 	op(ETobiiProjectileHomingBehavior::Steering) 
+
+enum class ETobiiProjectileHomingBehavior;
+template<> TOBIIINTERACTIONS_API UEnum* StaticEnum<ETobiiProjectileHomingBehavior>();
+
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

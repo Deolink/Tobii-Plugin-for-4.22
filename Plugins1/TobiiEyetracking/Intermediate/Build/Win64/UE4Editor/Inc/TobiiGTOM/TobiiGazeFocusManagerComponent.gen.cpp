@@ -1,4 +1,4 @@
-// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -45,7 +45,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiGazeFocusManagerComponent() {}
 		{ "EditInline", "true" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UDelegateFunction_TobiiGTOM_FocusableLostGazeFocusSignature__DelegateSignature_Statics::NewProp_GazeComponent = { UE4CodeGen_Private::EPropertyClass::Object, "GazeComponent", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000080080, 1, nullptr, STRUCT_OFFSET(_Script_TobiiGTOM_eventFocusableLostGazeFocusSignature_Parms, GazeComponent), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(Z_Construct_UDelegateFunction_TobiiGTOM_FocusableLostGazeFocusSignature__DelegateSignature_Statics::NewProp_GazeComponent_MetaData, ARRAY_COUNT(Z_Construct_UDelegateFunction_TobiiGTOM_FocusableLostGazeFocusSignature__DelegateSignature_Statics::NewProp_GazeComponent_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UDelegateFunction_TobiiGTOM_FocusableLostGazeFocusSignature__DelegateSignature_Statics::NewProp_GazeComponent = { "GazeComponent", nullptr, (EPropertyFlags)0x0010000000080080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(_Script_TobiiGTOM_eventFocusableLostGazeFocusSignature_Parms, GazeComponent), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(Z_Construct_UDelegateFunction_TobiiGTOM_FocusableLostGazeFocusSignature__DelegateSignature_Statics::NewProp_GazeComponent_MetaData, ARRAY_COUNT(Z_Construct_UDelegateFunction_TobiiGTOM_FocusableLostGazeFocusSignature__DelegateSignature_Statics::NewProp_GazeComponent_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_TobiiGTOM_FocusableLostGazeFocusSignature__DelegateSignature_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_TobiiGTOM_FocusableLostGazeFocusSignature__DelegateSignature_Statics::NewProp_GazeComponent,
 	};
@@ -54,7 +54,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiGazeFocusManagerComponent() {}
 		{ "ModuleRelativePath", "Public/TobiiGazeFocusManagerComponent.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_TobiiGTOM_FocusableLostGazeFocusSignature__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_TobiiGTOM, "FocusableLostGazeFocusSignature__DelegateSignature", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00130000, sizeof(_Script_TobiiGTOM_eventFocusableLostGazeFocusSignature_Parms), Z_Construct_UDelegateFunction_TobiiGTOM_FocusableLostGazeFocusSignature__DelegateSignature_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UDelegateFunction_TobiiGTOM_FocusableLostGazeFocusSignature__DelegateSignature_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_TobiiGTOM_FocusableLostGazeFocusSignature__DelegateSignature_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UDelegateFunction_TobiiGTOM_FocusableLostGazeFocusSignature__DelegateSignature_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_TobiiGTOM_FocusableLostGazeFocusSignature__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_TobiiGTOM, nullptr, "FocusableLostGazeFocusSignature__DelegateSignature", sizeof(_Script_TobiiGTOM_eventFocusableLostGazeFocusSignature_Parms), Z_Construct_UDelegateFunction_TobiiGTOM_FocusableLostGazeFocusSignature__DelegateSignature_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UDelegateFunction_TobiiGTOM_FocusableLostGazeFocusSignature__DelegateSignature_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_TobiiGTOM_FocusableLostGazeFocusSignature__DelegateSignature_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UDelegateFunction_TobiiGTOM_FocusableLostGazeFocusSignature__DelegateSignature_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UDelegateFunction_TobiiGTOM_FocusableLostGazeFocusSignature__DelegateSignature()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -85,7 +85,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiGazeFocusManagerComponent() {}
 		{ "EditInline", "true" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UDelegateFunction_TobiiGTOM_FocusableGainedGazeFocusSignature__DelegateSignature_Statics::NewProp_GazeComponent = { UE4CodeGen_Private::EPropertyClass::Object, "GazeComponent", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000080080, 1, nullptr, STRUCT_OFFSET(_Script_TobiiGTOM_eventFocusableGainedGazeFocusSignature_Parms, GazeComponent), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(Z_Construct_UDelegateFunction_TobiiGTOM_FocusableGainedGazeFocusSignature__DelegateSignature_Statics::NewProp_GazeComponent_MetaData, ARRAY_COUNT(Z_Construct_UDelegateFunction_TobiiGTOM_FocusableGainedGazeFocusSignature__DelegateSignature_Statics::NewProp_GazeComponent_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UDelegateFunction_TobiiGTOM_FocusableGainedGazeFocusSignature__DelegateSignature_Statics::NewProp_GazeComponent = { "GazeComponent", nullptr, (EPropertyFlags)0x0010000000080080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(_Script_TobiiGTOM_eventFocusableGainedGazeFocusSignature_Parms, GazeComponent), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(Z_Construct_UDelegateFunction_TobiiGTOM_FocusableGainedGazeFocusSignature__DelegateSignature_Statics::NewProp_GazeComponent_MetaData, ARRAY_COUNT(Z_Construct_UDelegateFunction_TobiiGTOM_FocusableGainedGazeFocusSignature__DelegateSignature_Statics::NewProp_GazeComponent_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_TobiiGTOM_FocusableGainedGazeFocusSignature__DelegateSignature_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_TobiiGTOM_FocusableGainedGazeFocusSignature__DelegateSignature_Statics::NewProp_GazeComponent,
 	};
@@ -94,7 +94,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiGazeFocusManagerComponent() {}
 		{ "ModuleRelativePath", "Public/TobiiGazeFocusManagerComponent.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_TobiiGTOM_FocusableGainedGazeFocusSignature__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_TobiiGTOM, "FocusableGainedGazeFocusSignature__DelegateSignature", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00130000, sizeof(_Script_TobiiGTOM_eventFocusableGainedGazeFocusSignature_Parms), Z_Construct_UDelegateFunction_TobiiGTOM_FocusableGainedGazeFocusSignature__DelegateSignature_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UDelegateFunction_TobiiGTOM_FocusableGainedGazeFocusSignature__DelegateSignature_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_TobiiGTOM_FocusableGainedGazeFocusSignature__DelegateSignature_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UDelegateFunction_TobiiGTOM_FocusableGainedGazeFocusSignature__DelegateSignature_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_TobiiGTOM_FocusableGainedGazeFocusSignature__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_TobiiGTOM, nullptr, "FocusableGainedGazeFocusSignature__DelegateSignature", sizeof(_Script_TobiiGTOM_eventFocusableGainedGazeFocusSignature_Parms), Z_Construct_UDelegateFunction_TobiiGTOM_FocusableGainedGazeFocusSignature__DelegateSignature_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UDelegateFunction_TobiiGTOM_FocusableGainedGazeFocusSignature__DelegateSignature_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_TobiiGTOM_FocusableGainedGazeFocusSignature__DelegateSignature_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UDelegateFunction_TobiiGTOM_FocusableGainedGazeFocusSignature__DelegateSignature_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UDelegateFunction_TobiiGTOM_FocusableGainedGazeFocusSignature__DelegateSignature()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -127,8 +127,8 @@ void EmptyLinkFunctionForGeneratedCodeTobiiGazeFocusManagerComponent() {}
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UTobiiGazeFocusManagerComponent_GetAllFocusData_Statics::NewProp_OutFocusData = { UE4CodeGen_Private::EPropertyClass::Array, "OutFocusData", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010008000000180, 1, nullptr, STRUCT_OFFSET(TobiiGazeFocusManagerComponent_eventGetAllFocusData_Parms, OutFocusData), METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UTobiiGazeFocusManagerComponent_GetAllFocusData_Statics::NewProp_OutFocusData_Inner = { UE4CodeGen_Private::EPropertyClass::Struct, "OutFocusData", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0000008000000000, 1, nullptr, 0, Z_Construct_UScriptStruct_FTobiiGazeFocusData, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UTobiiGazeFocusManagerComponent_GetAllFocusData_Statics::NewProp_OutFocusData = { "OutFocusData", nullptr, (EPropertyFlags)0x0010008000000180, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(TobiiGazeFocusManagerComponent_eventGetAllFocusData_Parms, OutFocusData), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UTobiiGazeFocusManagerComponent_GetAllFocusData_Statics::NewProp_OutFocusData_Inner = { "OutFocusData", nullptr, (EPropertyFlags)0x0000008000000000, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UScriptStruct_FTobiiGazeFocusData, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UTobiiGazeFocusManagerComponent_GetAllFocusData_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UTobiiGazeFocusManagerComponent_GetAllFocusData_Statics::NewProp_OutFocusData,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UTobiiGazeFocusManagerComponent_GetAllFocusData_Statics::NewProp_OutFocusData_Inner,
@@ -140,7 +140,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiGazeFocusManagerComponent() {}
 		{ "ToolTip", "Get a sorted list of components that the focus system believes the user is looking at." },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiGazeFocusManagerComponent_GetAllFocusData_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiGazeFocusManagerComponent, "GetAllFocusData", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x54420401, sizeof(TobiiGazeFocusManagerComponent_eventGetAllFocusData_Parms), Z_Construct_UFunction_UTobiiGazeFocusManagerComponent_GetAllFocusData_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusManagerComponent_GetAllFocusData_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiGazeFocusManagerComponent_GetAllFocusData_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusManagerComponent_GetAllFocusData_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiGazeFocusManagerComponent_GetAllFocusData_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiGazeFocusManagerComponent, nullptr, "GetAllFocusData", sizeof(TobiiGazeFocusManagerComponent_eventGetAllFocusData_Parms), Z_Construct_UFunction_UTobiiGazeFocusManagerComponent_GetAllFocusData_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusManagerComponent_GetAllFocusData_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54420401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiGazeFocusManagerComponent_GetAllFocusData_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusManagerComponent_GetAllFocusData_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UTobiiGazeFocusManagerComponent_GetAllFocusData()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -163,7 +163,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiGazeFocusManagerComponent() {}
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UTobiiGazeFocusManagerComponent_GetFocusData_Statics::NewProp_OutFocusData = { UE4CodeGen_Private::EPropertyClass::Struct, "OutFocusData", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010008000000180, 1, nullptr, STRUCT_OFFSET(TobiiGazeFocusManagerComponent_eventGetFocusData_Parms, OutFocusData), Z_Construct_UScriptStruct_FTobiiGazeFocusData, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UTobiiGazeFocusManagerComponent_GetFocusData_Statics::NewProp_OutFocusData = { "OutFocusData", nullptr, (EPropertyFlags)0x0010008000000180, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(TobiiGazeFocusManagerComponent_eventGetFocusData_Parms, OutFocusData), Z_Construct_UScriptStruct_FTobiiGazeFocusData, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UTobiiGazeFocusManagerComponent_GetFocusData_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UTobiiGazeFocusManagerComponent_GetFocusData_Statics::NewProp_OutFocusData,
 	};
@@ -174,7 +174,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiGazeFocusManagerComponent() {}
 		{ "ToolTip", "Get the component the focus system believes the user is looking at." },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiGazeFocusManagerComponent_GetFocusData_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiGazeFocusManagerComponent, "GetFocusData", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x54420401, sizeof(TobiiGazeFocusManagerComponent_eventGetFocusData_Parms), Z_Construct_UFunction_UTobiiGazeFocusManagerComponent_GetFocusData_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusManagerComponent_GetFocusData_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiGazeFocusManagerComponent_GetFocusData_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusManagerComponent_GetFocusData_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiGazeFocusManagerComponent_GetFocusData_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiGazeFocusManagerComponent, nullptr, "GetFocusData", sizeof(TobiiGazeFocusManagerComponent_eventGetFocusData_Parms), Z_Construct_UFunction_UTobiiGazeFocusManagerComponent_GetFocusData_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusManagerComponent_GetFocusData_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54420401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiGazeFocusManagerComponent_GetFocusData_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiGazeFocusManagerComponent_GetFocusData_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UTobiiGazeFocusManagerComponent_GetFocusData()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -222,8 +222,8 @@ void EmptyLinkFunctionForGeneratedCodeTobiiGazeFocusManagerComponent() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_TobiiGTOM,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UTobiiGazeFocusManagerComponent_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UTobiiGazeFocusManagerComponent_GetAllFocusData, "GetAllFocusData" }, // 413293355
-		{ &Z_Construct_UFunction_UTobiiGazeFocusManagerComponent_GetFocusData, "GetFocusData" }, // 3421521704
+		{ &Z_Construct_UFunction_UTobiiGazeFocusManagerComponent_GetAllFocusData, "GetAllFocusData" }, // 3292311129
+		{ &Z_Construct_UFunction_UTobiiGazeFocusManagerComponent_GetFocusData, "GetFocusData" }, // 60323640
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UTobiiGazeFocusManagerComponent_Statics::Class_MetaDataParams[] = {
@@ -241,7 +241,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiGazeFocusManagerComponent() {}
 		{ "ToolTip", "This will trigger when a new component leaves focus" },
 	};
 #endif
-	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UTobiiGazeFocusManagerComponent_Statics::NewProp_OnFocusableLostFocus = { UE4CodeGen_Private::EPropertyClass::MulticastDelegate, "OnFocusableLostFocus", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000010080000, 1, nullptr, STRUCT_OFFSET(UTobiiGazeFocusManagerComponent, OnFocusableLostFocus), Z_Construct_UDelegateFunction_TobiiGTOM_FocusableLostGazeFocusSignature__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UTobiiGazeFocusManagerComponent_Statics::NewProp_OnFocusableLostFocus_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTobiiGazeFocusManagerComponent_Statics::NewProp_OnFocusableLostFocus_MetaData)) };
+	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UTobiiGazeFocusManagerComponent_Statics::NewProp_OnFocusableLostFocus = { "OnFocusableLostFocus", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::MulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UTobiiGazeFocusManagerComponent, OnFocusableLostFocus), Z_Construct_UDelegateFunction_TobiiGTOM_FocusableLostGazeFocusSignature__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UTobiiGazeFocusManagerComponent_Statics::NewProp_OnFocusableLostFocus_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTobiiGazeFocusManagerComponent_Statics::NewProp_OnFocusableLostFocus_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UTobiiGazeFocusManagerComponent_Statics::NewProp_OnFocusableGainedFocus_MetaData[] = {
 		{ "Category", "Focus Management" },
@@ -249,7 +249,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiGazeFocusManagerComponent() {}
 		{ "ToolTip", "This will trigger when a new component enters focus" },
 	};
 #endif
-	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UTobiiGazeFocusManagerComponent_Statics::NewProp_OnFocusableGainedFocus = { UE4CodeGen_Private::EPropertyClass::MulticastDelegate, "OnFocusableGainedFocus", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000010080000, 1, nullptr, STRUCT_OFFSET(UTobiiGazeFocusManagerComponent, OnFocusableGainedFocus), Z_Construct_UDelegateFunction_TobiiGTOM_FocusableGainedGazeFocusSignature__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UTobiiGazeFocusManagerComponent_Statics::NewProp_OnFocusableGainedFocus_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTobiiGazeFocusManagerComponent_Statics::NewProp_OnFocusableGainedFocus_MetaData)) };
+	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UTobiiGazeFocusManagerComponent_Statics::NewProp_OnFocusableGainedFocus = { "OnFocusableGainedFocus", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::MulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UTobiiGazeFocusManagerComponent, OnFocusableGainedFocus), Z_Construct_UDelegateFunction_TobiiGTOM_FocusableGainedGazeFocusSignature__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UTobiiGazeFocusManagerComponent_Statics::NewProp_OnFocusableGainedFocus_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTobiiGazeFocusManagerComponent_Statics::NewProp_OnFocusableGainedFocus_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UTobiiGazeFocusManagerComponent_Statics::NewProp_FocusLayers_MetaData[] = {
 		{ "Category", "Focus Management" },
@@ -257,8 +257,8 @@ void EmptyLinkFunctionForGeneratedCodeTobiiGazeFocusManagerComponent() {}
 		{ "ToolTip", "These are the filters defined on this manager. The behavior of the filters are controlled by bAreFiltersExclusive." },
 	};
 #endif
-	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UTobiiGazeFocusManagerComponent_Statics::NewProp_FocusLayers = { UE4CodeGen_Private::EPropertyClass::Array, "FocusLayers", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(UTobiiGazeFocusManagerComponent, FocusLayers), METADATA_PARAMS(Z_Construct_UClass_UTobiiGazeFocusManagerComponent_Statics::NewProp_FocusLayers_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTobiiGazeFocusManagerComponent_Statics::NewProp_FocusLayers_MetaData)) };
-	const UE4CodeGen_Private::FNamePropertyParams Z_Construct_UClass_UTobiiGazeFocusManagerComponent_Statics::NewProp_FocusLayers_Inner = { UE4CodeGen_Private::EPropertyClass::Name, "FocusLayers", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0000000000000000, 1, nullptr, 0, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UTobiiGazeFocusManagerComponent_Statics::NewProp_FocusLayers = { "FocusLayers", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UTobiiGazeFocusManagerComponent, FocusLayers), METADATA_PARAMS(Z_Construct_UClass_UTobiiGazeFocusManagerComponent_Statics::NewProp_FocusLayers_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTobiiGazeFocusManagerComponent_Statics::NewProp_FocusLayers_MetaData)) };
+	const UE4CodeGen_Private::FNamePropertyParams Z_Construct_UClass_UTobiiGazeFocusManagerComponent_Statics::NewProp_FocusLayers_Inner = { "FocusLayers", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UTobiiGazeFocusManagerComponent_Statics::NewProp_bIsWhiteList_MetaData[] = {
 		{ "Category", "Focus Management" },
@@ -270,7 +270,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiGazeFocusManagerComponent() {}
 	{
 		((UTobiiGazeFocusManagerComponent*)Obj)->bIsWhiteList = 1;
 	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UTobiiGazeFocusManagerComponent_Statics::NewProp_bIsWhiteList = { UE4CodeGen_Private::EPropertyClass::Bool, "bIsWhiteList", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(UTobiiGazeFocusManagerComponent), &Z_Construct_UClass_UTobiiGazeFocusManagerComponent_Statics::NewProp_bIsWhiteList_SetBit, METADATA_PARAMS(Z_Construct_UClass_UTobiiGazeFocusManagerComponent_Statics::NewProp_bIsWhiteList_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTobiiGazeFocusManagerComponent_Statics::NewProp_bIsWhiteList_MetaData)) };
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UTobiiGazeFocusManagerComponent_Statics::NewProp_bIsWhiteList = { "bIsWhiteList", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(UTobiiGazeFocusManagerComponent), &Z_Construct_UClass_UTobiiGazeFocusManagerComponent_Statics::NewProp_bIsWhiteList_SetBit, METADATA_PARAMS(Z_Construct_UClass_UTobiiGazeFocusManagerComponent_Statics::NewProp_bIsWhiteList_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTobiiGazeFocusManagerComponent_Statics::NewProp_bIsWhiteList_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UTobiiGazeFocusManagerComponent_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UTobiiGazeFocusManagerComponent_Statics::NewProp_OnFocusableLostFocus,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UTobiiGazeFocusManagerComponent_Statics::NewProp_OnFocusableGainedFocus,
@@ -283,13 +283,17 @@ void EmptyLinkFunctionForGeneratedCodeTobiiGazeFocusManagerComponent() {}
 	};
 	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_UTobiiGazeFocusManagerComponent_Statics::ClassParams = {
 		&UTobiiGazeFocusManagerComponent::StaticClass,
-		DependentSingletons, ARRAY_COUNT(DependentSingletons),
-		0x00B000A4u,
-		FuncInfo, ARRAY_COUNT(FuncInfo),
-		Z_Construct_UClass_UTobiiGazeFocusManagerComponent_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UClass_UTobiiGazeFocusManagerComponent_Statics::PropPointers),
 		"Engine",
 		&StaticCppClassTypeInfo,
-		nullptr, 0,
+		DependentSingletons,
+		FuncInfo,
+		Z_Construct_UClass_UTobiiGazeFocusManagerComponent_Statics::PropPointers,
+		nullptr,
+		ARRAY_COUNT(DependentSingletons),
+		ARRAY_COUNT(FuncInfo),
+		ARRAY_COUNT(Z_Construct_UClass_UTobiiGazeFocusManagerComponent_Statics::PropPointers),
+		0,
+		0x00B000A4u,
 		METADATA_PARAMS(Z_Construct_UClass_UTobiiGazeFocusManagerComponent_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_UTobiiGazeFocusManagerComponent_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_UTobiiGazeFocusManagerComponent()
@@ -301,7 +305,11 @@ void EmptyLinkFunctionForGeneratedCodeTobiiGazeFocusManagerComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UTobiiGazeFocusManagerComponent, 2632363258);
+	IMPLEMENT_CLASS(UTobiiGazeFocusManagerComponent, 2881477021);
+	template<> TOBIIGTOM_API UClass* StaticClass<UTobiiGazeFocusManagerComponent>()
+	{
+		return UTobiiGazeFocusManagerComponent::StaticClass();
+	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UTobiiGazeFocusManagerComponent(Z_Construct_UClass_UTobiiGazeFocusManagerComponent, &UTobiiGazeFocusManagerComponent::StaticClass, TEXT("/Script/TobiiGTOM"), TEXT("UTobiiGazeFocusManagerComponent"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UTobiiGazeFocusManagerComponent);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

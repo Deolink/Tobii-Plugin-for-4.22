@@ -1,4 +1,4 @@
-// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -34,13 +34,17 @@ void EmptyLinkFunctionForGeneratedCodeTobiiInteractionsTypes() {}
 		}
 		return Singleton;
 	}
+	template<> TOBIIINTERACTIONS_API UEnum* StaticEnum<ETobiiThrowAtGazeResult>()
+	{
+		return ETobiiThrowAtGazeResult_StaticEnum();
+	}
 	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_ETobiiThrowAtGazeResult(ETobiiThrowAtGazeResult_StaticEnum, TEXT("/Script/TobiiInteractions"), TEXT("ETobiiThrowAtGazeResult"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_TobiiInteractions_ETobiiThrowAtGazeResult_CRC() { return 2125076613U; }
+	uint32 Get_Z_Construct_UEnum_TobiiInteractions_ETobiiThrowAtGazeResult_Hash() { return 3317187402U; }
 	UEnum* Z_Construct_UEnum_TobiiInteractions_ETobiiThrowAtGazeResult()
 	{
 #if WITH_HOT_RELOAD
 		UPackage* Outer = Z_Construct_UPackage__Script_TobiiInteractions();
-		static UEnum* ReturnEnum = FindExistingEnumIfHotReloadOrDynamic(Outer, TEXT("ETobiiThrowAtGazeResult"), 0, Get_Z_Construct_UEnum_TobiiInteractions_ETobiiThrowAtGazeResult_CRC(), false);
+		static UEnum* ReturnEnum = FindExistingEnumIfHotReloadOrDynamic(Outer, TEXT("ETobiiThrowAtGazeResult"), 0, Get_Z_Construct_UEnum_TobiiInteractions_ETobiiThrowAtGazeResult_Hash(), false);
 #else
 		static UEnum* ReturnEnum = nullptr;
 #endif // WITH_HOT_RELOAD
@@ -69,14 +73,14 @@ void EmptyLinkFunctionForGeneratedCodeTobiiInteractionsTypes() {}
 #endif
 			static const UE4CodeGen_Private::FEnumParams EnumParams = {
 				(UObject*(*)())Z_Construct_UPackage__Script_TobiiInteractions,
-				UE4CodeGen_Private::EDynamicType::NotDynamic,
-				"ETobiiThrowAtGazeResult",
-				RF_Public|RF_Transient|RF_MarkAsNative,
 				nullptr,
-				(uint8)UEnum::ECppForm::EnumClass,
+				"ETobiiThrowAtGazeResult",
 				"ETobiiThrowAtGazeResult",
 				Enumerators,
 				ARRAY_COUNT(Enumerators),
+				RF_Public|RF_Transient|RF_MarkAsNative,
+				UE4CodeGen_Private::EDynamicType::NotDynamic,
+				(uint8)UEnum::ECppForm::EnumClass,
 				METADATA_PARAMS(Enum_MetaDataParams, ARRAY_COUNT(Enum_MetaDataParams))
 			};
 			UE4CodeGen_Private::ConstructUEnum(ReturnEnum, EnumParams);
@@ -92,13 +96,17 @@ void EmptyLinkFunctionForGeneratedCodeTobiiInteractionsTypes() {}
 		}
 		return Singleton;
 	}
+	template<> TOBIIINTERACTIONS_API UEnum* StaticEnum<ETobiiInterceptType>()
+	{
+		return ETobiiInterceptType_StaticEnum();
+	}
 	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_ETobiiInterceptType(ETobiiInterceptType_StaticEnum, TEXT("/Script/TobiiInteractions"), TEXT("ETobiiInterceptType"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_TobiiInteractions_ETobiiInterceptType_CRC() { return 1293455395U; }
+	uint32 Get_Z_Construct_UEnum_TobiiInteractions_ETobiiInterceptType_Hash() { return 1632200964U; }
 	UEnum* Z_Construct_UEnum_TobiiInteractions_ETobiiInterceptType()
 	{
 #if WITH_HOT_RELOAD
 		UPackage* Outer = Z_Construct_UPackage__Script_TobiiInteractions();
-		static UEnum* ReturnEnum = FindExistingEnumIfHotReloadOrDynamic(Outer, TEXT("ETobiiInterceptType"), 0, Get_Z_Construct_UEnum_TobiiInteractions_ETobiiInterceptType_CRC(), false);
+		static UEnum* ReturnEnum = FindExistingEnumIfHotReloadOrDynamic(Outer, TEXT("ETobiiInterceptType"), 0, Get_Z_Construct_UEnum_TobiiInteractions_ETobiiInterceptType_Hash(), false);
 #else
 		static UEnum* ReturnEnum = nullptr;
 #endif // WITH_HOT_RELOAD
@@ -116,14 +124,14 @@ void EmptyLinkFunctionForGeneratedCodeTobiiInteractionsTypes() {}
 #endif
 			static const UE4CodeGen_Private::FEnumParams EnumParams = {
 				(UObject*(*)())Z_Construct_UPackage__Script_TobiiInteractions,
-				UE4CodeGen_Private::EDynamicType::NotDynamic,
-				"ETobiiInterceptType",
-				RF_Public|RF_Transient|RF_MarkAsNative,
 				nullptr,
-				(uint8)UEnum::ECppForm::EnumClass,
+				"ETobiiInterceptType",
 				"ETobiiInterceptType",
 				Enumerators,
 				ARRAY_COUNT(Enumerators),
+				RF_Public|RF_Transient|RF_MarkAsNative,
+				UE4CodeGen_Private::EDynamicType::NotDynamic,
+				(uint8)UEnum::ECppForm::EnumClass,
 				METADATA_PARAMS(Enum_MetaDataParams, ARRAY_COUNT(Enum_MetaDataParams))
 			};
 			UE4CodeGen_Private::ConstructUEnum(ReturnEnum, EnumParams);
@@ -135,10 +143,14 @@ class UScriptStruct* FTobiiProjectileTraceData::StaticStruct()
 	static class UScriptStruct* Singleton = NULL;
 	if (!Singleton)
 	{
-		extern TOBIIINTERACTIONS_API uint32 Get_Z_Construct_UScriptStruct_FTobiiProjectileTraceData_CRC();
-		Singleton = GetStaticStruct(Z_Construct_UScriptStruct_FTobiiProjectileTraceData, Z_Construct_UPackage__Script_TobiiInteractions(), TEXT("TobiiProjectileTraceData"), sizeof(FTobiiProjectileTraceData), Get_Z_Construct_UScriptStruct_FTobiiProjectileTraceData_CRC());
+		extern TOBIIINTERACTIONS_API uint32 Get_Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Hash();
+		Singleton = GetStaticStruct(Z_Construct_UScriptStruct_FTobiiProjectileTraceData, Z_Construct_UPackage__Script_TobiiInteractions(), TEXT("TobiiProjectileTraceData"), sizeof(FTobiiProjectileTraceData), Get_Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Hash());
 	}
 	return Singleton;
+}
+template<> TOBIIINTERACTIONS_API UScriptStruct* StaticStruct<FTobiiProjectileTraceData>()
+{
+	return FTobiiProjectileTraceData::StaticStruct();
 }
 static FCompiledInDeferStruct Z_CompiledInDeferStruct_UScriptStruct_FTobiiProjectileTraceData(FTobiiProjectileTraceData::StaticStruct, TEXT("/Script/TobiiInteractions"), TEXT("TobiiProjectileTraceData"), false, nullptr, nullptr);
 static struct FScriptStruct_TobiiInteractions_StaticRegisterNativesFTobiiProjectileTraceData
@@ -206,57 +218,57 @@ static struct FScriptStruct_TobiiInteractions_StaticRegisterNativesFTobiiProject
 		{ "ModuleRelativePath", "Public/TobiiInteractionsTypes.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::NewProp_ProjectileAcceleration = { UE4CodeGen_Private::EPropertyClass::Struct, "ProjectileAcceleration", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(FTobiiProjectileTraceData, ProjectileAcceleration), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::NewProp_ProjectileAcceleration_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::NewProp_ProjectileAcceleration_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::NewProp_ProjectileAcceleration = { "ProjectileAcceleration", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FTobiiProjectileTraceData, ProjectileAcceleration), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::NewProp_ProjectileAcceleration_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::NewProp_ProjectileAcceleration_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::NewProp_ProjectileVelocity_MetaData[] = {
 		{ "Category", "Source Data" },
 		{ "ModuleRelativePath", "Public/TobiiInteractionsTypes.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::NewProp_ProjectileVelocity = { UE4CodeGen_Private::EPropertyClass::Struct, "ProjectileVelocity", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(FTobiiProjectileTraceData, ProjectileVelocity), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::NewProp_ProjectileVelocity_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::NewProp_ProjectileVelocity_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::NewProp_ProjectileVelocity = { "ProjectileVelocity", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FTobiiProjectileTraceData, ProjectileVelocity), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::NewProp_ProjectileVelocity_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::NewProp_ProjectileVelocity_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::NewProp_ProjectileInitialPosition_MetaData[] = {
 		{ "Category", "Source Data" },
 		{ "ModuleRelativePath", "Public/TobiiInteractionsTypes.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::NewProp_ProjectileInitialPosition = { UE4CodeGen_Private::EPropertyClass::Struct, "ProjectileInitialPosition", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(FTobiiProjectileTraceData, ProjectileInitialPosition), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::NewProp_ProjectileInitialPosition_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::NewProp_ProjectileInitialPosition_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::NewProp_ProjectileInitialPosition = { "ProjectileInitialPosition", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FTobiiProjectileTraceData, ProjectileInitialPosition), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::NewProp_ProjectileInitialPosition_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::NewProp_ProjectileInitialPosition_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::NewProp_TraceRadiusCm_MetaData[] = {
 		{ "Category", "General Data" },
 		{ "ModuleRelativePath", "Public/TobiiInteractionsTypes.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::NewProp_TraceRadiusCm = { UE4CodeGen_Private::EPropertyClass::Float, "TraceRadiusCm", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(FTobiiProjectileTraceData, TraceRadiusCm), METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::NewProp_TraceRadiusCm_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::NewProp_TraceRadiusCm_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::NewProp_TraceRadiusCm = { "TraceRadiusCm", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FTobiiProjectileTraceData, TraceRadiusCm), METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::NewProp_TraceRadiusCm_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::NewProp_TraceRadiusCm_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::NewProp_StepSizeSecs_MetaData[] = {
 		{ "Category", "General Data" },
 		{ "ModuleRelativePath", "Public/TobiiInteractionsTypes.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::NewProp_StepSizeSecs = { UE4CodeGen_Private::EPropertyClass::Float, "StepSizeSecs", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(FTobiiProjectileTraceData, StepSizeSecs), METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::NewProp_StepSizeSecs_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::NewProp_StepSizeSecs_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::NewProp_StepSizeSecs = { "StepSizeSecs", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FTobiiProjectileTraceData, StepSizeSecs), METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::NewProp_StepSizeSecs_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::NewProp_StepSizeSecs_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::NewProp_MaxNrSteps_MetaData[] = {
 		{ "Category", "General Data" },
 		{ "ModuleRelativePath", "Public/TobiiInteractionsTypes.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::NewProp_MaxNrSteps = { UE4CodeGen_Private::EPropertyClass::Int, "MaxNrSteps", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(FTobiiProjectileTraceData, MaxNrSteps), METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::NewProp_MaxNrSteps_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::NewProp_MaxNrSteps_MetaData)) };
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::NewProp_MaxNrSteps = { "MaxNrSteps", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FTobiiProjectileTraceData, MaxNrSteps), METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::NewProp_MaxNrSteps_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::NewProp_MaxNrSteps_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::NewProp_IgnoredActors_MetaData[] = {
 		{ "Category", "General Data" },
 		{ "ModuleRelativePath", "Public/TobiiInteractionsTypes.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::NewProp_IgnoredActors = { UE4CodeGen_Private::EPropertyClass::Array, "IgnoredActors", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(FTobiiProjectileTraceData, IgnoredActors), METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::NewProp_IgnoredActors_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::NewProp_IgnoredActors_MetaData)) };
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::NewProp_IgnoredActors_Inner = { UE4CodeGen_Private::EPropertyClass::Object, "IgnoredActors", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0000000000000000, 1, nullptr, 0, Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::NewProp_IgnoredActors = { "IgnoredActors", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FTobiiProjectileTraceData, IgnoredActors), METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::NewProp_IgnoredActors_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::NewProp_IgnoredActors_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::NewProp_IgnoredActors_Inner = { "IgnoredActors", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::NewProp_TraceChannel_MetaData[] = {
 		{ "Category", "General Data" },
 		{ "ModuleRelativePath", "Public/TobiiInteractionsTypes.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::NewProp_TraceChannel = { UE4CodeGen_Private::EPropertyClass::Byte, "TraceChannel", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(FTobiiProjectileTraceData, TraceChannel), Z_Construct_UEnum_Engine_ECollisionChannel, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::NewProp_TraceChannel_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::NewProp_TraceChannel_MetaData)) };
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::NewProp_TraceChannel = { "TraceChannel", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FTobiiProjectileTraceData, TraceChannel), Z_Construct_UEnum_Engine_ECollisionChannel, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::NewProp_TraceChannel_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::NewProp_TraceChannel_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::NewProp_ProjectileAcceleration,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::NewProp_ProjectileVelocity,
@@ -273,19 +285,20 @@ static struct FScriptStruct_TobiiInteractions_StaticRegisterNativesFTobiiProject
 		nullptr,
 		&NewStructOps,
 		"TobiiProjectileTraceData",
-		RF_Public|RF_Transient|RF_MarkAsNative,
-		EStructFlags(0x00000001),
 		sizeof(FTobiiProjectileTraceData),
 		alignof(FTobiiProjectileTraceData),
-		Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::PropPointers),
+		Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::PropPointers,
+		ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::PropPointers),
+		RF_Public|RF_Transient|RF_MarkAsNative,
+		EStructFlags(0x00000001),
 		METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::Struct_MetaDataParams, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Statics::Struct_MetaDataParams))
 	};
 	UScriptStruct* Z_Construct_UScriptStruct_FTobiiProjectileTraceData()
 	{
 #if WITH_HOT_RELOAD
-		extern uint32 Get_Z_Construct_UScriptStruct_FTobiiProjectileTraceData_CRC();
+		extern uint32 Get_Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Hash();
 		UPackage* Outer = Z_Construct_UPackage__Script_TobiiInteractions();
-		static UScriptStruct* ReturnStruct = FindExistingStructIfHotReloadOrDynamic(Outer, TEXT("TobiiProjectileTraceData"), sizeof(FTobiiProjectileTraceData), Get_Z_Construct_UScriptStruct_FTobiiProjectileTraceData_CRC(), false);
+		static UScriptStruct* ReturnStruct = FindExistingStructIfHotReloadOrDynamic(Outer, TEXT("TobiiProjectileTraceData"), sizeof(FTobiiProjectileTraceData), Get_Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Hash(), false);
 #else
 		static UScriptStruct* ReturnStruct = nullptr;
 #endif
@@ -295,16 +308,20 @@ static struct FScriptStruct_TobiiInteractions_StaticRegisterNativesFTobiiProject
 		}
 		return ReturnStruct;
 	}
-	uint32 Get_Z_Construct_UScriptStruct_FTobiiProjectileTraceData_CRC() { return 3772855880U; }
+	uint32 Get_Z_Construct_UScriptStruct_FTobiiProjectileTraceData_Hash() { return 799673935U; }
 class UScriptStruct* FTobiiBallisticResult::StaticStruct()
 {
 	static class UScriptStruct* Singleton = NULL;
 	if (!Singleton)
 	{
-		extern TOBIIINTERACTIONS_API uint32 Get_Z_Construct_UScriptStruct_FTobiiBallisticResult_CRC();
-		Singleton = GetStaticStruct(Z_Construct_UScriptStruct_FTobiiBallisticResult, Z_Construct_UPackage__Script_TobiiInteractions(), TEXT("TobiiBallisticResult"), sizeof(FTobiiBallisticResult), Get_Z_Construct_UScriptStruct_FTobiiBallisticResult_CRC());
+		extern TOBIIINTERACTIONS_API uint32 Get_Z_Construct_UScriptStruct_FTobiiBallisticResult_Hash();
+		Singleton = GetStaticStruct(Z_Construct_UScriptStruct_FTobiiBallisticResult, Z_Construct_UPackage__Script_TobiiInteractions(), TEXT("TobiiBallisticResult"), sizeof(FTobiiBallisticResult), Get_Z_Construct_UScriptStruct_FTobiiBallisticResult_Hash());
 	}
 	return Singleton;
+}
+template<> TOBIIINTERACTIONS_API UScriptStruct* StaticStruct<FTobiiBallisticResult>()
+{
+	return FTobiiBallisticResult::StaticStruct();
 }
 static FCompiledInDeferStruct Z_CompiledInDeferStruct_UScriptStruct_FTobiiBallisticResult(FTobiiBallisticResult::StaticStruct, TEXT("/Script/TobiiInteractions"), TEXT("TobiiBallisticResult"), false, nullptr, nullptr);
 static struct FScriptStruct_TobiiInteractions_StaticRegisterNativesFTobiiBallisticResult
@@ -351,21 +368,21 @@ static struct FScriptStruct_TobiiInteractions_StaticRegisterNativesFTobiiBallist
 		{ "ModuleRelativePath", "Public/TobiiInteractionsTypes.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FTobiiBallisticResult_Statics::NewProp_ExpectedInterceptTimeSecs = { UE4CodeGen_Private::EPropertyClass::Float, "ExpectedInterceptTimeSecs", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(FTobiiBallisticResult, ExpectedInterceptTimeSecs), METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiBallisticResult_Statics::NewProp_ExpectedInterceptTimeSecs_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiBallisticResult_Statics::NewProp_ExpectedInterceptTimeSecs_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FTobiiBallisticResult_Statics::NewProp_ExpectedInterceptTimeSecs = { "ExpectedInterceptTimeSecs", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FTobiiBallisticResult, ExpectedInterceptTimeSecs), METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiBallisticResult_Statics::NewProp_ExpectedInterceptTimeSecs_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiBallisticResult_Statics::NewProp_ExpectedInterceptTimeSecs_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTobiiBallisticResult_Statics::NewProp_ExpectedInterceptLocation_MetaData[] = {
 		{ "Category", "Intercept Data" },
 		{ "ModuleRelativePath", "Public/TobiiInteractionsTypes.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiBallisticResult_Statics::NewProp_ExpectedInterceptLocation = { UE4CodeGen_Private::EPropertyClass::Struct, "ExpectedInterceptLocation", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(FTobiiBallisticResult, ExpectedInterceptLocation), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiBallisticResult_Statics::NewProp_ExpectedInterceptLocation_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiBallisticResult_Statics::NewProp_ExpectedInterceptLocation_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiBallisticResult_Statics::NewProp_ExpectedInterceptLocation = { "ExpectedInterceptLocation", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FTobiiBallisticResult, ExpectedInterceptLocation), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiBallisticResult_Statics::NewProp_ExpectedInterceptLocation_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiBallisticResult_Statics::NewProp_ExpectedInterceptLocation_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTobiiBallisticResult_Statics::NewProp_SuggestedInitialVelocity_MetaData[] = {
 		{ "Category", "Intercept Data" },
 		{ "ModuleRelativePath", "Public/TobiiInteractionsTypes.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiBallisticResult_Statics::NewProp_SuggestedInitialVelocity = { UE4CodeGen_Private::EPropertyClass::Struct, "SuggestedInitialVelocity", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(FTobiiBallisticResult, SuggestedInitialVelocity), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiBallisticResult_Statics::NewProp_SuggestedInitialVelocity_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiBallisticResult_Statics::NewProp_SuggestedInitialVelocity_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiBallisticResult_Statics::NewProp_SuggestedInitialVelocity = { "SuggestedInitialVelocity", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FTobiiBallisticResult, SuggestedInitialVelocity), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiBallisticResult_Statics::NewProp_SuggestedInitialVelocity_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiBallisticResult_Statics::NewProp_SuggestedInitialVelocity_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FTobiiBallisticResult_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FTobiiBallisticResult_Statics::NewProp_ExpectedInterceptTimeSecs,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FTobiiBallisticResult_Statics::NewProp_ExpectedInterceptLocation,
@@ -376,19 +393,20 @@ static struct FScriptStruct_TobiiInteractions_StaticRegisterNativesFTobiiBallist
 		nullptr,
 		&NewStructOps,
 		"TobiiBallisticResult",
-		RF_Public|RF_Transient|RF_MarkAsNative,
-		EStructFlags(0x00000001),
 		sizeof(FTobiiBallisticResult),
 		alignof(FTobiiBallisticResult),
-		Z_Construct_UScriptStruct_FTobiiBallisticResult_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiBallisticResult_Statics::PropPointers),
+		Z_Construct_UScriptStruct_FTobiiBallisticResult_Statics::PropPointers,
+		ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiBallisticResult_Statics::PropPointers),
+		RF_Public|RF_Transient|RF_MarkAsNative,
+		EStructFlags(0x00000001),
 		METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiBallisticResult_Statics::Struct_MetaDataParams, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiBallisticResult_Statics::Struct_MetaDataParams))
 	};
 	UScriptStruct* Z_Construct_UScriptStruct_FTobiiBallisticResult()
 	{
 #if WITH_HOT_RELOAD
-		extern uint32 Get_Z_Construct_UScriptStruct_FTobiiBallisticResult_CRC();
+		extern uint32 Get_Z_Construct_UScriptStruct_FTobiiBallisticResult_Hash();
 		UPackage* Outer = Z_Construct_UPackage__Script_TobiiInteractions();
-		static UScriptStruct* ReturnStruct = FindExistingStructIfHotReloadOrDynamic(Outer, TEXT("TobiiBallisticResult"), sizeof(FTobiiBallisticResult), Get_Z_Construct_UScriptStruct_FTobiiBallisticResult_CRC(), false);
+		static UScriptStruct* ReturnStruct = FindExistingStructIfHotReloadOrDynamic(Outer, TEXT("TobiiBallisticResult"), sizeof(FTobiiBallisticResult), Get_Z_Construct_UScriptStruct_FTobiiBallisticResult_Hash(), false);
 #else
 		static UScriptStruct* ReturnStruct = nullptr;
 #endif
@@ -398,16 +416,20 @@ static struct FScriptStruct_TobiiInteractions_StaticRegisterNativesFTobiiBallist
 		}
 		return ReturnStruct;
 	}
-	uint32 Get_Z_Construct_UScriptStruct_FTobiiBallisticResult_CRC() { return 3445346019U; }
+	uint32 Get_Z_Construct_UScriptStruct_FTobiiBallisticResult_Hash() { return 2095918960U; }
 class UScriptStruct* FTobiiAccelerationBasedHomingResult::StaticStruct()
 {
 	static class UScriptStruct* Singleton = NULL;
 	if (!Singleton)
 	{
-		extern TOBIIINTERACTIONS_API uint32 Get_Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingResult_CRC();
-		Singleton = GetStaticStruct(Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingResult, Z_Construct_UPackage__Script_TobiiInteractions(), TEXT("TobiiAccelerationBasedHomingResult"), sizeof(FTobiiAccelerationBasedHomingResult), Get_Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingResult_CRC());
+		extern TOBIIINTERACTIONS_API uint32 Get_Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingResult_Hash();
+		Singleton = GetStaticStruct(Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingResult, Z_Construct_UPackage__Script_TobiiInteractions(), TEXT("TobiiAccelerationBasedHomingResult"), sizeof(FTobiiAccelerationBasedHomingResult), Get_Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingResult_Hash());
 	}
 	return Singleton;
+}
+template<> TOBIIINTERACTIONS_API UScriptStruct* StaticStruct<FTobiiAccelerationBasedHomingResult>()
+{
+	return FTobiiAccelerationBasedHomingResult::StaticStruct();
 }
 static FCompiledInDeferStruct Z_CompiledInDeferStruct_UScriptStruct_FTobiiAccelerationBasedHomingResult(FTobiiAccelerationBasedHomingResult::StaticStruct, TEXT("/Script/TobiiInteractions"), TEXT("TobiiAccelerationBasedHomingResult"), false, nullptr, nullptr);
 static struct FScriptStruct_TobiiInteractions_StaticRegisterNativesFTobiiAccelerationBasedHomingResult
@@ -459,29 +481,29 @@ static struct FScriptStruct_TobiiInteractions_StaticRegisterNativesFTobiiAcceler
 		{ "ModuleRelativePath", "Public/TobiiInteractionsTypes.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingResult_Statics::NewProp_ExpectedInterceptTimeSecs = { UE4CodeGen_Private::EPropertyClass::Float, "ExpectedInterceptTimeSecs", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(FTobiiAccelerationBasedHomingResult, ExpectedInterceptTimeSecs), METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingResult_Statics::NewProp_ExpectedInterceptTimeSecs_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingResult_Statics::NewProp_ExpectedInterceptTimeSecs_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingResult_Statics::NewProp_ExpectedInterceptTimeSecs = { "ExpectedInterceptTimeSecs", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FTobiiAccelerationBasedHomingResult, ExpectedInterceptTimeSecs), METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingResult_Statics::NewProp_ExpectedInterceptTimeSecs_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingResult_Statics::NewProp_ExpectedInterceptTimeSecs_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingResult_Statics::NewProp_ExpectedInterceptLocation_MetaData[] = {
 		{ "Category", "Intercept Data" },
 		{ "ModuleRelativePath", "Public/TobiiInteractionsTypes.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingResult_Statics::NewProp_ExpectedInterceptLocation = { UE4CodeGen_Private::EPropertyClass::Struct, "ExpectedInterceptLocation", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(FTobiiAccelerationBasedHomingResult, ExpectedInterceptLocation), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingResult_Statics::NewProp_ExpectedInterceptLocation_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingResult_Statics::NewProp_ExpectedInterceptLocation_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingResult_Statics::NewProp_ExpectedInterceptLocation = { "ExpectedInterceptLocation", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FTobiiAccelerationBasedHomingResult, ExpectedInterceptLocation), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingResult_Statics::NewProp_ExpectedInterceptLocation_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingResult_Statics::NewProp_ExpectedInterceptLocation_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingResult_Statics::NewProp_SuggestedAcceleration_MetaData[] = {
 		{ "Category", "Intercept Data" },
 		{ "ModuleRelativePath", "Public/TobiiInteractionsTypes.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingResult_Statics::NewProp_SuggestedAcceleration = { UE4CodeGen_Private::EPropertyClass::Struct, "SuggestedAcceleration", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(FTobiiAccelerationBasedHomingResult, SuggestedAcceleration), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingResult_Statics::NewProp_SuggestedAcceleration_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingResult_Statics::NewProp_SuggestedAcceleration_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingResult_Statics::NewProp_SuggestedAcceleration = { "SuggestedAcceleration", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FTobiiAccelerationBasedHomingResult, SuggestedAcceleration), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingResult_Statics::NewProp_SuggestedAcceleration_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingResult_Statics::NewProp_SuggestedAcceleration_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingResult_Statics::NewProp_Type_MetaData[] = {
 		{ "Category", "Intercept Data" },
 		{ "ModuleRelativePath", "Public/TobiiInteractionsTypes.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingResult_Statics::NewProp_Type = { UE4CodeGen_Private::EPropertyClass::Enum, "Type", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(FTobiiAccelerationBasedHomingResult, Type), Z_Construct_UEnum_TobiiInteractions_ETobiiInterceptType, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingResult_Statics::NewProp_Type_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingResult_Statics::NewProp_Type_MetaData)) };
-	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingResult_Statics::NewProp_Type_Underlying = { UE4CodeGen_Private::EPropertyClass::Byte, "UnderlyingType", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0000000000000000, 1, nullptr, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingResult_Statics::NewProp_Type = { "Type", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FTobiiAccelerationBasedHomingResult, Type), Z_Construct_UEnum_TobiiInteractions_ETobiiInterceptType, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingResult_Statics::NewProp_Type_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingResult_Statics::NewProp_Type_MetaData)) };
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingResult_Statics::NewProp_Type_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingResult_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingResult_Statics::NewProp_ExpectedInterceptTimeSecs,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingResult_Statics::NewProp_ExpectedInterceptLocation,
@@ -494,19 +516,20 @@ static struct FScriptStruct_TobiiInteractions_StaticRegisterNativesFTobiiAcceler
 		nullptr,
 		&NewStructOps,
 		"TobiiAccelerationBasedHomingResult",
-		RF_Public|RF_Transient|RF_MarkAsNative,
-		EStructFlags(0x00000001),
 		sizeof(FTobiiAccelerationBasedHomingResult),
 		alignof(FTobiiAccelerationBasedHomingResult),
-		Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingResult_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingResult_Statics::PropPointers),
+		Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingResult_Statics::PropPointers,
+		ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingResult_Statics::PropPointers),
+		RF_Public|RF_Transient|RF_MarkAsNative,
+		EStructFlags(0x00000001),
 		METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingResult_Statics::Struct_MetaDataParams, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingResult_Statics::Struct_MetaDataParams))
 	};
 	UScriptStruct* Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingResult()
 	{
 #if WITH_HOT_RELOAD
-		extern uint32 Get_Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingResult_CRC();
+		extern uint32 Get_Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingResult_Hash();
 		UPackage* Outer = Z_Construct_UPackage__Script_TobiiInteractions();
-		static UScriptStruct* ReturnStruct = FindExistingStructIfHotReloadOrDynamic(Outer, TEXT("TobiiAccelerationBasedHomingResult"), sizeof(FTobiiAccelerationBasedHomingResult), Get_Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingResult_CRC(), false);
+		static UScriptStruct* ReturnStruct = FindExistingStructIfHotReloadOrDynamic(Outer, TEXT("TobiiAccelerationBasedHomingResult"), sizeof(FTobiiAccelerationBasedHomingResult), Get_Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingResult_Hash(), false);
 #else
 		static UScriptStruct* ReturnStruct = nullptr;
 #endif
@@ -516,16 +539,20 @@ static struct FScriptStruct_TobiiInteractions_StaticRegisterNativesFTobiiAcceler
 		}
 		return ReturnStruct;
 	}
-	uint32 Get_Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingResult_CRC() { return 1005629916U; }
+	uint32 Get_Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingResult_Hash() { return 2134211504U; }
 class UScriptStruct* FTobiiBallisticData::StaticStruct()
 {
 	static class UScriptStruct* Singleton = NULL;
 	if (!Singleton)
 	{
-		extern TOBIIINTERACTIONS_API uint32 Get_Z_Construct_UScriptStruct_FTobiiBallisticData_CRC();
-		Singleton = GetStaticStruct(Z_Construct_UScriptStruct_FTobiiBallisticData, Z_Construct_UPackage__Script_TobiiInteractions(), TEXT("TobiiBallisticData"), sizeof(FTobiiBallisticData), Get_Z_Construct_UScriptStruct_FTobiiBallisticData_CRC());
+		extern TOBIIINTERACTIONS_API uint32 Get_Z_Construct_UScriptStruct_FTobiiBallisticData_Hash();
+		Singleton = GetStaticStruct(Z_Construct_UScriptStruct_FTobiiBallisticData, Z_Construct_UPackage__Script_TobiiInteractions(), TEXT("TobiiBallisticData"), sizeof(FTobiiBallisticData), Get_Z_Construct_UScriptStruct_FTobiiBallisticData_Hash());
 	}
 	return Singleton;
+}
+template<> TOBIIINTERACTIONS_API UScriptStruct* StaticStruct<FTobiiBallisticData>()
+{
+	return FTobiiBallisticData::StaticStruct();
 }
 static FCompiledInDeferStruct Z_CompiledInDeferStruct_UScriptStruct_FTobiiBallisticData(FTobiiBallisticData::StaticStruct, TEXT("/Script/TobiiInteractions"), TEXT("TobiiBallisticData"), false, nullptr, nullptr);
 static struct FScriptStruct_TobiiInteractions_StaticRegisterNativesFTobiiBallisticData
@@ -584,35 +611,35 @@ static struct FScriptStruct_TobiiInteractions_StaticRegisterNativesFTobiiBallist
 		{ "ModuleRelativePath", "Public/TobiiInteractionsTypes.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiBallisticData_Statics::NewProp_TargetAcceleration = { UE4CodeGen_Private::EPropertyClass::Struct, "TargetAcceleration", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(FTobiiBallisticData, TargetAcceleration), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiBallisticData_Statics::NewProp_TargetAcceleration_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiBallisticData_Statics::NewProp_TargetAcceleration_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiBallisticData_Statics::NewProp_TargetAcceleration = { "TargetAcceleration", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FTobiiBallisticData, TargetAcceleration), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiBallisticData_Statics::NewProp_TargetAcceleration_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiBallisticData_Statics::NewProp_TargetAcceleration_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTobiiBallisticData_Statics::NewProp_TargetVelocity_MetaData[] = {
 		{ "Category", "Target Data" },
 		{ "ModuleRelativePath", "Public/TobiiInteractionsTypes.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiBallisticData_Statics::NewProp_TargetVelocity = { UE4CodeGen_Private::EPropertyClass::Struct, "TargetVelocity", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(FTobiiBallisticData, TargetVelocity), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiBallisticData_Statics::NewProp_TargetVelocity_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiBallisticData_Statics::NewProp_TargetVelocity_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiBallisticData_Statics::NewProp_TargetVelocity = { "TargetVelocity", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FTobiiBallisticData, TargetVelocity), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiBallisticData_Statics::NewProp_TargetVelocity_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiBallisticData_Statics::NewProp_TargetVelocity_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTobiiBallisticData_Statics::NewProp_TargetPosition_MetaData[] = {
 		{ "Category", "Target Data" },
 		{ "ModuleRelativePath", "Public/TobiiInteractionsTypes.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiBallisticData_Statics::NewProp_TargetPosition = { UE4CodeGen_Private::EPropertyClass::Struct, "TargetPosition", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(FTobiiBallisticData, TargetPosition), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiBallisticData_Statics::NewProp_TargetPosition_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiBallisticData_Statics::NewProp_TargetPosition_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiBallisticData_Statics::NewProp_TargetPosition = { "TargetPosition", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FTobiiBallisticData, TargetPosition), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiBallisticData_Statics::NewProp_TargetPosition_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiBallisticData_Statics::NewProp_TargetPosition_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTobiiBallisticData_Statics::NewProp_ProjectileAcceleration_MetaData[] = {
 		{ "Category", "Source Data" },
 		{ "ModuleRelativePath", "Public/TobiiInteractionsTypes.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiBallisticData_Statics::NewProp_ProjectileAcceleration = { UE4CodeGen_Private::EPropertyClass::Struct, "ProjectileAcceleration", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(FTobiiBallisticData, ProjectileAcceleration), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiBallisticData_Statics::NewProp_ProjectileAcceleration_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiBallisticData_Statics::NewProp_ProjectileAcceleration_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiBallisticData_Statics::NewProp_ProjectileAcceleration = { "ProjectileAcceleration", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FTobiiBallisticData, ProjectileAcceleration), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiBallisticData_Statics::NewProp_ProjectileAcceleration_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiBallisticData_Statics::NewProp_ProjectileAcceleration_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTobiiBallisticData_Statics::NewProp_ProjectileInitialPosition_MetaData[] = {
 		{ "Category", "Source Data" },
 		{ "ModuleRelativePath", "Public/TobiiInteractionsTypes.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiBallisticData_Statics::NewProp_ProjectileInitialPosition = { UE4CodeGen_Private::EPropertyClass::Struct, "ProjectileInitialPosition", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(FTobiiBallisticData, ProjectileInitialPosition), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiBallisticData_Statics::NewProp_ProjectileInitialPosition_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiBallisticData_Statics::NewProp_ProjectileInitialPosition_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiBallisticData_Statics::NewProp_ProjectileInitialPosition = { "ProjectileInitialPosition", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FTobiiBallisticData, ProjectileInitialPosition), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiBallisticData_Statics::NewProp_ProjectileInitialPosition_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiBallisticData_Statics::NewProp_ProjectileInitialPosition_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTobiiBallisticData_Statics::NewProp_ProjectileApexOffsetCm_MetaData[] = {
 		{ "Category", "General Data" },
@@ -620,7 +647,7 @@ static struct FScriptStruct_TobiiInteractions_StaticRegisterNativesFTobiiBallist
 		{ "ToolTip", "This is how high the projectile should be above the initial position at it's midpoint" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FTobiiBallisticData_Statics::NewProp_ProjectileApexOffsetCm = { UE4CodeGen_Private::EPropertyClass::Float, "ProjectileApexOffsetCm", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(FTobiiBallisticData, ProjectileApexOffsetCm), METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiBallisticData_Statics::NewProp_ProjectileApexOffsetCm_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiBallisticData_Statics::NewProp_ProjectileApexOffsetCm_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FTobiiBallisticData_Statics::NewProp_ProjectileApexOffsetCm = { "ProjectileApexOffsetCm", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FTobiiBallisticData, ProjectileApexOffsetCm), METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiBallisticData_Statics::NewProp_ProjectileApexOffsetCm_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiBallisticData_Statics::NewProp_ProjectileApexOffsetCm_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FTobiiBallisticData_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FTobiiBallisticData_Statics::NewProp_TargetAcceleration,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FTobiiBallisticData_Statics::NewProp_TargetVelocity,
@@ -634,19 +661,20 @@ static struct FScriptStruct_TobiiInteractions_StaticRegisterNativesFTobiiBallist
 		nullptr,
 		&NewStructOps,
 		"TobiiBallisticData",
-		RF_Public|RF_Transient|RF_MarkAsNative,
-		EStructFlags(0x00000001),
 		sizeof(FTobiiBallisticData),
 		alignof(FTobiiBallisticData),
-		Z_Construct_UScriptStruct_FTobiiBallisticData_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiBallisticData_Statics::PropPointers),
+		Z_Construct_UScriptStruct_FTobiiBallisticData_Statics::PropPointers,
+		ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiBallisticData_Statics::PropPointers),
+		RF_Public|RF_Transient|RF_MarkAsNative,
+		EStructFlags(0x00000001),
 		METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiBallisticData_Statics::Struct_MetaDataParams, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiBallisticData_Statics::Struct_MetaDataParams))
 	};
 	UScriptStruct* Z_Construct_UScriptStruct_FTobiiBallisticData()
 	{
 #if WITH_HOT_RELOAD
-		extern uint32 Get_Z_Construct_UScriptStruct_FTobiiBallisticData_CRC();
+		extern uint32 Get_Z_Construct_UScriptStruct_FTobiiBallisticData_Hash();
 		UPackage* Outer = Z_Construct_UPackage__Script_TobiiInteractions();
-		static UScriptStruct* ReturnStruct = FindExistingStructIfHotReloadOrDynamic(Outer, TEXT("TobiiBallisticData"), sizeof(FTobiiBallisticData), Get_Z_Construct_UScriptStruct_FTobiiBallisticData_CRC(), false);
+		static UScriptStruct* ReturnStruct = FindExistingStructIfHotReloadOrDynamic(Outer, TEXT("TobiiBallisticData"), sizeof(FTobiiBallisticData), Get_Z_Construct_UScriptStruct_FTobiiBallisticData_Hash(), false);
 #else
 		static UScriptStruct* ReturnStruct = nullptr;
 #endif
@@ -656,16 +684,20 @@ static struct FScriptStruct_TobiiInteractions_StaticRegisterNativesFTobiiBallist
 		}
 		return ReturnStruct;
 	}
-	uint32 Get_Z_Construct_UScriptStruct_FTobiiBallisticData_CRC() { return 846134756U; }
+	uint32 Get_Z_Construct_UScriptStruct_FTobiiBallisticData_Hash() { return 2370405156U; }
 class UScriptStruct* FTobiiAccelerationBasedHomingData::StaticStruct()
 {
 	static class UScriptStruct* Singleton = NULL;
 	if (!Singleton)
 	{
-		extern TOBIIINTERACTIONS_API uint32 Get_Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_CRC();
-		Singleton = GetStaticStruct(Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData, Z_Construct_UPackage__Script_TobiiInteractions(), TEXT("TobiiAccelerationBasedHomingData"), sizeof(FTobiiAccelerationBasedHomingData), Get_Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_CRC());
+		extern TOBIIINTERACTIONS_API uint32 Get_Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_Hash();
+		Singleton = GetStaticStruct(Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData, Z_Construct_UPackage__Script_TobiiInteractions(), TEXT("TobiiAccelerationBasedHomingData"), sizeof(FTobiiAccelerationBasedHomingData), Get_Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_Hash());
 	}
 	return Singleton;
+}
+template<> TOBIIINTERACTIONS_API UScriptStruct* StaticStruct<FTobiiAccelerationBasedHomingData>()
+{
+	return FTobiiAccelerationBasedHomingData::StaticStruct();
 }
 static FCompiledInDeferStruct Z_CompiledInDeferStruct_UScriptStruct_FTobiiAccelerationBasedHomingData(FTobiiAccelerationBasedHomingData::StaticStruct, TEXT("/Script/TobiiInteractions"), TEXT("TobiiAccelerationBasedHomingData"), false, nullptr, nullptr);
 static struct FScriptStruct_TobiiInteractions_StaticRegisterNativesFTobiiAccelerationBasedHomingData
@@ -729,42 +761,42 @@ static struct FScriptStruct_TobiiInteractions_StaticRegisterNativesFTobiiAcceler
 		{ "ModuleRelativePath", "Public/TobiiInteractionsTypes.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_Statics::NewProp_TargetAcceleration = { UE4CodeGen_Private::EPropertyClass::Struct, "TargetAcceleration", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(FTobiiAccelerationBasedHomingData, TargetAcceleration), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_Statics::NewProp_TargetAcceleration_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_Statics::NewProp_TargetAcceleration_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_Statics::NewProp_TargetAcceleration = { "TargetAcceleration", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FTobiiAccelerationBasedHomingData, TargetAcceleration), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_Statics::NewProp_TargetAcceleration_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_Statics::NewProp_TargetAcceleration_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_Statics::NewProp_TargetVelocity_MetaData[] = {
 		{ "Category", "Target Data" },
 		{ "ModuleRelativePath", "Public/TobiiInteractionsTypes.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_Statics::NewProp_TargetVelocity = { UE4CodeGen_Private::EPropertyClass::Struct, "TargetVelocity", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(FTobiiAccelerationBasedHomingData, TargetVelocity), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_Statics::NewProp_TargetVelocity_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_Statics::NewProp_TargetVelocity_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_Statics::NewProp_TargetVelocity = { "TargetVelocity", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FTobiiAccelerationBasedHomingData, TargetVelocity), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_Statics::NewProp_TargetVelocity_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_Statics::NewProp_TargetVelocity_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_Statics::NewProp_TargetPosition_MetaData[] = {
 		{ "Category", "Target Data" },
 		{ "ModuleRelativePath", "Public/TobiiInteractionsTypes.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_Statics::NewProp_TargetPosition = { UE4CodeGen_Private::EPropertyClass::Struct, "TargetPosition", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(FTobiiAccelerationBasedHomingData, TargetPosition), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_Statics::NewProp_TargetPosition_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_Statics::NewProp_TargetPosition_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_Statics::NewProp_TargetPosition = { "TargetPosition", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FTobiiAccelerationBasedHomingData, TargetPosition), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_Statics::NewProp_TargetPosition_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_Statics::NewProp_TargetPosition_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_Statics::NewProp_ProjectileAccelerationMagnitude_MetaData[] = {
 		{ "Category", "Source Data" },
 		{ "ModuleRelativePath", "Public/TobiiInteractionsTypes.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_Statics::NewProp_ProjectileAccelerationMagnitude = { UE4CodeGen_Private::EPropertyClass::Float, "ProjectileAccelerationMagnitude", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(FTobiiAccelerationBasedHomingData, ProjectileAccelerationMagnitude), METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_Statics::NewProp_ProjectileAccelerationMagnitude_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_Statics::NewProp_ProjectileAccelerationMagnitude_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_Statics::NewProp_ProjectileAccelerationMagnitude = { "ProjectileAccelerationMagnitude", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FTobiiAccelerationBasedHomingData, ProjectileAccelerationMagnitude), METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_Statics::NewProp_ProjectileAccelerationMagnitude_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_Statics::NewProp_ProjectileAccelerationMagnitude_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_Statics::NewProp_ProjectileVelocity_MetaData[] = {
 		{ "Category", "Source Data" },
 		{ "ModuleRelativePath", "Public/TobiiInteractionsTypes.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_Statics::NewProp_ProjectileVelocity = { UE4CodeGen_Private::EPropertyClass::Struct, "ProjectileVelocity", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(FTobiiAccelerationBasedHomingData, ProjectileVelocity), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_Statics::NewProp_ProjectileVelocity_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_Statics::NewProp_ProjectileVelocity_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_Statics::NewProp_ProjectileVelocity = { "ProjectileVelocity", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FTobiiAccelerationBasedHomingData, ProjectileVelocity), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_Statics::NewProp_ProjectileVelocity_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_Statics::NewProp_ProjectileVelocity_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_Statics::NewProp_ProjectilePosition_MetaData[] = {
 		{ "Category", "Source Data" },
 		{ "ModuleRelativePath", "Public/TobiiInteractionsTypes.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_Statics::NewProp_ProjectilePosition = { UE4CodeGen_Private::EPropertyClass::Struct, "ProjectilePosition", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(FTobiiAccelerationBasedHomingData, ProjectilePosition), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_Statics::NewProp_ProjectilePosition_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_Statics::NewProp_ProjectilePosition_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_Statics::NewProp_ProjectilePosition = { "ProjectilePosition", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FTobiiAccelerationBasedHomingData, ProjectilePosition), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_Statics::NewProp_ProjectilePosition_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_Statics::NewProp_ProjectilePosition_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_Statics::NewProp_bAttemptClosestApproachSolution_MetaData[] = {
 		{ "Category", "General Data" },
@@ -775,7 +807,7 @@ static struct FScriptStruct_TobiiInteractions_StaticRegisterNativesFTobiiAcceler
 	{
 		((FTobiiAccelerationBasedHomingData*)Obj)->bAttemptClosestApproachSolution = 1;
 	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_Statics::NewProp_bAttemptClosestApproachSolution = { UE4CodeGen_Private::EPropertyClass::Bool, "bAttemptClosestApproachSolution", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(FTobiiAccelerationBasedHomingData), &Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_Statics::NewProp_bAttemptClosestApproachSolution_SetBit, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_Statics::NewProp_bAttemptClosestApproachSolution_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_Statics::NewProp_bAttemptClosestApproachSolution_MetaData)) };
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_Statics::NewProp_bAttemptClosestApproachSolution = { "bAttemptClosestApproachSolution", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(FTobiiAccelerationBasedHomingData), &Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_Statics::NewProp_bAttemptClosestApproachSolution_SetBit, METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_Statics::NewProp_bAttemptClosestApproachSolution_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_Statics::NewProp_bAttemptClosestApproachSolution_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_Statics::NewProp_TargetAcceleration,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_Statics::NewProp_TargetVelocity,
@@ -790,19 +822,20 @@ static struct FScriptStruct_TobiiInteractions_StaticRegisterNativesFTobiiAcceler
 		nullptr,
 		&NewStructOps,
 		"TobiiAccelerationBasedHomingData",
-		RF_Public|RF_Transient|RF_MarkAsNative,
-		EStructFlags(0x00000001),
 		sizeof(FTobiiAccelerationBasedHomingData),
 		alignof(FTobiiAccelerationBasedHomingData),
-		Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_Statics::PropPointers),
+		Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_Statics::PropPointers,
+		ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_Statics::PropPointers),
+		RF_Public|RF_Transient|RF_MarkAsNative,
+		EStructFlags(0x00000001),
 		METADATA_PARAMS(Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_Statics::Struct_MetaDataParams, ARRAY_COUNT(Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_Statics::Struct_MetaDataParams))
 	};
 	UScriptStruct* Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData()
 	{
 #if WITH_HOT_RELOAD
-		extern uint32 Get_Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_CRC();
+		extern uint32 Get_Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_Hash();
 		UPackage* Outer = Z_Construct_UPackage__Script_TobiiInteractions();
-		static UScriptStruct* ReturnStruct = FindExistingStructIfHotReloadOrDynamic(Outer, TEXT("TobiiAccelerationBasedHomingData"), sizeof(FTobiiAccelerationBasedHomingData), Get_Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_CRC(), false);
+		static UScriptStruct* ReturnStruct = FindExistingStructIfHotReloadOrDynamic(Outer, TEXT("TobiiAccelerationBasedHomingData"), sizeof(FTobiiAccelerationBasedHomingData), Get_Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_Hash(), false);
 #else
 		static UScriptStruct* ReturnStruct = nullptr;
 #endif
@@ -812,7 +845,7 @@ static struct FScriptStruct_TobiiInteractions_StaticRegisterNativesFTobiiAcceler
 		}
 		return ReturnStruct;
 	}
-	uint32 Get_Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_CRC() { return 3042708994U; }
+	uint32 Get_Z_Construct_UScriptStruct_FTobiiAccelerationBasedHomingData_Hash() { return 1093280380U; }
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 #ifdef _MSC_VER
 #pragma warning (pop)

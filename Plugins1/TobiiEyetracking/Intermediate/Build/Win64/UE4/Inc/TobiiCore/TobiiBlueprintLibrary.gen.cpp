@@ -1,4 +1,4 @@
-// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -107,14 +107,14 @@ void EmptyLinkFunctionForGeneratedCodeTobiiBlueprintLibrary() {}
 	{
 		((TobiiBlueprintLibrary_eventConvertScreenCmCoordToPixelCoord_Parms*)Obj)->ReturnValue = 1;
 	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_ConvertScreenCmCoordToPixelCoord_Statics::NewProp_ReturnValue = { UE4CodeGen_Private::EPropertyClass::Bool, "ReturnValue", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000580, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(TobiiBlueprintLibrary_eventConvertScreenCmCoordToPixelCoord_Parms), &Z_Construct_UFunction_UTobiiBlueprintLibrary_ConvertScreenCmCoordToPixelCoord_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_ConvertScreenCmCoordToPixelCoord_Statics::NewProp_OutCoordinatePx = { UE4CodeGen_Private::EPropertyClass::Struct, "OutCoordinatePx", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000180, 1, nullptr, STRUCT_OFFSET(TobiiBlueprintLibrary_eventConvertScreenCmCoordToPixelCoord_Parms, OutCoordinatePx), Z_Construct_UScriptStruct_FVector2D, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_ConvertScreenCmCoordToPixelCoord_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(TobiiBlueprintLibrary_eventConvertScreenCmCoordToPixelCoord_Parms), &Z_Construct_UFunction_UTobiiBlueprintLibrary_ConvertScreenCmCoordToPixelCoord_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_ConvertScreenCmCoordToPixelCoord_Statics::NewProp_OutCoordinatePx = { "OutCoordinatePx", nullptr, (EPropertyFlags)0x0010000000000180, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(TobiiBlueprintLibrary_eventConvertScreenCmCoordToPixelCoord_Parms, OutCoordinatePx), Z_Construct_UScriptStruct_FVector2D, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UTobiiBlueprintLibrary_ConvertScreenCmCoordToPixelCoord_Statics::NewProp_InCoordinateCm_MetaData[] = {
 		{ "NativeConst", "" },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_ConvertScreenCmCoordToPixelCoord_Statics::NewProp_InCoordinateCm = { UE4CodeGen_Private::EPropertyClass::Struct, "InCoordinateCm", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000008000182, 1, nullptr, STRUCT_OFFSET(TobiiBlueprintLibrary_eventConvertScreenCmCoordToPixelCoord_Parms, InCoordinateCm), Z_Construct_UScriptStruct_FVector2D, METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_ConvertScreenCmCoordToPixelCoord_Statics::NewProp_InCoordinateCm_MetaData, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_ConvertScreenCmCoordToPixelCoord_Statics::NewProp_InCoordinateCm_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_ConvertScreenCmCoordToPixelCoord_Statics::NewProp_InCoordinateCm = { "InCoordinateCm", nullptr, (EPropertyFlags)0x0010000008000182, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(TobiiBlueprintLibrary_eventConvertScreenCmCoordToPixelCoord_Parms, InCoordinateCm), Z_Construct_UScriptStruct_FVector2D, METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_ConvertScreenCmCoordToPixelCoord_Statics::NewProp_InCoordinateCm_MetaData, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_ConvertScreenCmCoordToPixelCoord_Statics::NewProp_InCoordinateCm_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UTobiiBlueprintLibrary_ConvertScreenCmCoordToPixelCoord_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UTobiiBlueprintLibrary_ConvertScreenCmCoordToPixelCoord_Statics::NewProp_ReturnValue,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UTobiiBlueprintLibrary_ConvertScreenCmCoordToPixelCoord_Statics::NewProp_OutCoordinatePx,
@@ -126,7 +126,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiBlueprintLibrary() {}
 		{ "ModuleRelativePath", "Public/TobiiBlueprintLibrary.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiBlueprintLibrary_ConvertScreenCmCoordToPixelCoord_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiBlueprintLibrary, "ConvertScreenCmCoordToPixelCoord", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x14C22401, sizeof(TobiiBlueprintLibrary_eventConvertScreenCmCoordToPixelCoord_Parms), Z_Construct_UFunction_UTobiiBlueprintLibrary_ConvertScreenCmCoordToPixelCoord_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_ConvertScreenCmCoordToPixelCoord_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_ConvertScreenCmCoordToPixelCoord_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_ConvertScreenCmCoordToPixelCoord_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiBlueprintLibrary_ConvertScreenCmCoordToPixelCoord_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiBlueprintLibrary, nullptr, "ConvertScreenCmCoordToPixelCoord", sizeof(TobiiBlueprintLibrary_eventConvertScreenCmCoordToPixelCoord_Parms), Z_Construct_UFunction_UTobiiBlueprintLibrary_ConvertScreenCmCoordToPixelCoord_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_ConvertScreenCmCoordToPixelCoord_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14C22401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_ConvertScreenCmCoordToPixelCoord_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_ConvertScreenCmCoordToPixelCoord_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UTobiiBlueprintLibrary_ConvertScreenCmCoordToPixelCoord()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -161,14 +161,14 @@ void EmptyLinkFunctionForGeneratedCodeTobiiBlueprintLibrary() {}
 	{
 		((TobiiBlueprintLibrary_eventConvertScreenPixelCoordToCmCoord_Parms*)Obj)->ReturnValue = 1;
 	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_ConvertScreenPixelCoordToCmCoord_Statics::NewProp_ReturnValue = { UE4CodeGen_Private::EPropertyClass::Bool, "ReturnValue", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000580, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(TobiiBlueprintLibrary_eventConvertScreenPixelCoordToCmCoord_Parms), &Z_Construct_UFunction_UTobiiBlueprintLibrary_ConvertScreenPixelCoordToCmCoord_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_ConvertScreenPixelCoordToCmCoord_Statics::NewProp_OutCoordinateCm = { UE4CodeGen_Private::EPropertyClass::Struct, "OutCoordinateCm", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000180, 1, nullptr, STRUCT_OFFSET(TobiiBlueprintLibrary_eventConvertScreenPixelCoordToCmCoord_Parms, OutCoordinateCm), Z_Construct_UScriptStruct_FVector2D, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_ConvertScreenPixelCoordToCmCoord_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(TobiiBlueprintLibrary_eventConvertScreenPixelCoordToCmCoord_Parms), &Z_Construct_UFunction_UTobiiBlueprintLibrary_ConvertScreenPixelCoordToCmCoord_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_ConvertScreenPixelCoordToCmCoord_Statics::NewProp_OutCoordinateCm = { "OutCoordinateCm", nullptr, (EPropertyFlags)0x0010000000000180, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(TobiiBlueprintLibrary_eventConvertScreenPixelCoordToCmCoord_Parms, OutCoordinateCm), Z_Construct_UScriptStruct_FVector2D, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UTobiiBlueprintLibrary_ConvertScreenPixelCoordToCmCoord_Statics::NewProp_InCoordinatePx_MetaData[] = {
 		{ "NativeConst", "" },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_ConvertScreenPixelCoordToCmCoord_Statics::NewProp_InCoordinatePx = { UE4CodeGen_Private::EPropertyClass::Struct, "InCoordinatePx", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000008000182, 1, nullptr, STRUCT_OFFSET(TobiiBlueprintLibrary_eventConvertScreenPixelCoordToCmCoord_Parms, InCoordinatePx), Z_Construct_UScriptStruct_FVector2D, METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_ConvertScreenPixelCoordToCmCoord_Statics::NewProp_InCoordinatePx_MetaData, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_ConvertScreenPixelCoordToCmCoord_Statics::NewProp_InCoordinatePx_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_ConvertScreenPixelCoordToCmCoord_Statics::NewProp_InCoordinatePx = { "InCoordinatePx", nullptr, (EPropertyFlags)0x0010000008000182, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(TobiiBlueprintLibrary_eventConvertScreenPixelCoordToCmCoord_Parms, InCoordinatePx), Z_Construct_UScriptStruct_FVector2D, METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_ConvertScreenPixelCoordToCmCoord_Statics::NewProp_InCoordinatePx_MetaData, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_ConvertScreenPixelCoordToCmCoord_Statics::NewProp_InCoordinatePx_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UTobiiBlueprintLibrary_ConvertScreenPixelCoordToCmCoord_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UTobiiBlueprintLibrary_ConvertScreenPixelCoordToCmCoord_Statics::NewProp_ReturnValue,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UTobiiBlueprintLibrary_ConvertScreenPixelCoordToCmCoord_Statics::NewProp_OutCoordinateCm,
@@ -180,7 +180,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiBlueprintLibrary() {}
 		{ "ModuleRelativePath", "Public/TobiiBlueprintLibrary.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiBlueprintLibrary_ConvertScreenPixelCoordToCmCoord_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiBlueprintLibrary, "ConvertScreenPixelCoordToCmCoord", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x14C22401, sizeof(TobiiBlueprintLibrary_eventConvertScreenPixelCoordToCmCoord_Parms), Z_Construct_UFunction_UTobiiBlueprintLibrary_ConvertScreenPixelCoordToCmCoord_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_ConvertScreenPixelCoordToCmCoord_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_ConvertScreenPixelCoordToCmCoord_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_ConvertScreenPixelCoordToCmCoord_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiBlueprintLibrary_ConvertScreenPixelCoordToCmCoord_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiBlueprintLibrary, nullptr, "ConvertScreenPixelCoordToCmCoord", sizeof(TobiiBlueprintLibrary_eventConvertScreenPixelCoordToCmCoord_Parms), Z_Construct_UFunction_UTobiiBlueprintLibrary_ConvertScreenPixelCoordToCmCoord_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_ConvertScreenPixelCoordToCmCoord_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14C22401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_ConvertScreenPixelCoordToCmCoord_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_ConvertScreenPixelCoordToCmCoord_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UTobiiBlueprintLibrary_ConvertScreenPixelCoordToCmCoord()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -203,7 +203,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiBlueprintLibrary() {}
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_GetCombinedGazeData_Statics::NewProp_ReturnValue = { UE4CodeGen_Private::EPropertyClass::Struct, "ReturnValue", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000580, 1, nullptr, STRUCT_OFFSET(TobiiBlueprintLibrary_eventGetCombinedGazeData_Parms, ReturnValue), Z_Construct_UScriptStruct_FTobiiGazeData, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_GetCombinedGazeData_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(TobiiBlueprintLibrary_eventGetCombinedGazeData_Parms, ReturnValue), Z_Construct_UScriptStruct_FTobiiGazeData, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UTobiiBlueprintLibrary_GetCombinedGazeData_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UTobiiBlueprintLibrary_GetCombinedGazeData_Statics::NewProp_ReturnValue,
 	};
@@ -214,7 +214,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiBlueprintLibrary() {}
 		{ "ToolTip", "This is the main method to get basic eye tracking data. You should not be using this though for most things. Use the focus system instead if you can." },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiBlueprintLibrary_GetCombinedGazeData_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiBlueprintLibrary, "GetCombinedGazeData", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x14022401, sizeof(TobiiBlueprintLibrary_eventGetCombinedGazeData_Parms), Z_Construct_UFunction_UTobiiBlueprintLibrary_GetCombinedGazeData_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetCombinedGazeData_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetCombinedGazeData_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetCombinedGazeData_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiBlueprintLibrary_GetCombinedGazeData_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiBlueprintLibrary, nullptr, "GetCombinedGazeData", sizeof(TobiiBlueprintLibrary_eventGetCombinedGazeData_Parms), Z_Construct_UFunction_UTobiiBlueprintLibrary_GetCombinedGazeData_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetCombinedGazeData_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetCombinedGazeData_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetCombinedGazeData_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UTobiiBlueprintLibrary_GetCombinedGazeData()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -237,7 +237,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiBlueprintLibrary() {}
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_GetCombinedWorldGazeHitData_Statics::NewProp_ReturnValue = { UE4CodeGen_Private::EPropertyClass::Struct, "ReturnValue", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010008000000580, 1, nullptr, STRUCT_OFFSET(TobiiBlueprintLibrary_eventGetCombinedWorldGazeHitData_Parms, ReturnValue), Z_Construct_UScriptStruct_FHitResult, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_GetCombinedWorldGazeHitData_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010008000000580, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(TobiiBlueprintLibrary_eventGetCombinedWorldGazeHitData_Parms, ReturnValue), Z_Construct_UScriptStruct_FHitResult, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UTobiiBlueprintLibrary_GetCombinedWorldGazeHitData_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UTobiiBlueprintLibrary_GetCombinedWorldGazeHitData_Statics::NewProp_ReturnValue,
 	};
@@ -247,7 +247,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiBlueprintLibrary() {}
 		{ "ModuleRelativePath", "Public/TobiiBlueprintLibrary.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiBlueprintLibrary_GetCombinedWorldGazeHitData_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiBlueprintLibrary, "GetCombinedWorldGazeHitData", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x14022401, sizeof(TobiiBlueprintLibrary_eventGetCombinedWorldGazeHitData_Parms), Z_Construct_UFunction_UTobiiBlueprintLibrary_GetCombinedWorldGazeHitData_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetCombinedWorldGazeHitData_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetCombinedWorldGazeHitData_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetCombinedWorldGazeHitData_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiBlueprintLibrary_GetCombinedWorldGazeHitData_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiBlueprintLibrary, nullptr, "GetCombinedWorldGazeHitData", sizeof(TobiiBlueprintLibrary_eventGetCombinedWorldGazeHitData_Parms), Z_Construct_UFunction_UTobiiBlueprintLibrary_GetCombinedWorldGazeHitData_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetCombinedWorldGazeHitData_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetCombinedWorldGazeHitData_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetCombinedWorldGazeHitData_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UTobiiBlueprintLibrary_GetCombinedWorldGazeHitData()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -278,7 +278,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiBlueprintLibrary() {}
 		{ "NativeConst", "" },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_GetDesktopTrackBox_Statics::NewProp_ReturnValue = { UE4CodeGen_Private::EPropertyClass::Struct, "ReturnValue", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000008000582, 1, nullptr, STRUCT_OFFSET(TobiiBlueprintLibrary_eventGetDesktopTrackBox_Parms, ReturnValue), Z_Construct_UScriptStruct_FTobiiDesktopTrackBox, METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetDesktopTrackBox_Statics::NewProp_ReturnValue_MetaData, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetDesktopTrackBox_Statics::NewProp_ReturnValue_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_GetDesktopTrackBox_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000008000582, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(TobiiBlueprintLibrary_eventGetDesktopTrackBox_Parms, ReturnValue), Z_Construct_UScriptStruct_FTobiiDesktopTrackBox, METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetDesktopTrackBox_Statics::NewProp_ReturnValue_MetaData, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetDesktopTrackBox_Statics::NewProp_ReturnValue_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UTobiiBlueprintLibrary_GetDesktopTrackBox_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UTobiiBlueprintLibrary_GetDesktopTrackBox_Statics::NewProp_ReturnValue,
 	};
@@ -289,7 +289,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiBlueprintLibrary() {}
 		{ "ToolTip", "Track box information." },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiBlueprintLibrary_GetDesktopTrackBox_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiBlueprintLibrary, "GetDesktopTrackBox", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x14022401, sizeof(TobiiBlueprintLibrary_eventGetDesktopTrackBox_Parms), Z_Construct_UFunction_UTobiiBlueprintLibrary_GetDesktopTrackBox_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetDesktopTrackBox_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetDesktopTrackBox_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetDesktopTrackBox_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiBlueprintLibrary_GetDesktopTrackBox_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiBlueprintLibrary, nullptr, "GetDesktopTrackBox", sizeof(TobiiBlueprintLibrary_eventGetDesktopTrackBox_Parms), Z_Construct_UFunction_UTobiiBlueprintLibrary_GetDesktopTrackBox_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetDesktopTrackBox_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetDesktopTrackBox_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetDesktopTrackBox_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UTobiiBlueprintLibrary_GetDesktopTrackBox()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -312,7 +312,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiBlueprintLibrary() {}
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_GetDisplayInformation_Statics::NewProp_ReturnValue = { UE4CodeGen_Private::EPropertyClass::Struct, "ReturnValue", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000580, 1, nullptr, STRUCT_OFFSET(TobiiBlueprintLibrary_eventGetDisplayInformation_Parms, ReturnValue), Z_Construct_UScriptStruct_FTobiiDisplayInfo, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_GetDisplayInformation_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(TobiiBlueprintLibrary_eventGetDisplayInformation_Parms, ReturnValue), Z_Construct_UScriptStruct_FTobiiDisplayInfo, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UTobiiBlueprintLibrary_GetDisplayInformation_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UTobiiBlueprintLibrary_GetDisplayInformation_Statics::NewProp_ReturnValue,
 	};
@@ -323,7 +323,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiBlueprintLibrary() {}
 		{ "ToolTip", "Gets information about the display device and window used for the application." },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiBlueprintLibrary_GetDisplayInformation_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiBlueprintLibrary, "GetDisplayInformation", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x14022401, sizeof(TobiiBlueprintLibrary_eventGetDisplayInformation_Parms), Z_Construct_UFunction_UTobiiBlueprintLibrary_GetDisplayInformation_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetDisplayInformation_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetDisplayInformation_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetDisplayInformation_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiBlueprintLibrary_GetDisplayInformation_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiBlueprintLibrary, nullptr, "GetDisplayInformation", sizeof(TobiiBlueprintLibrary_eventGetDisplayInformation_Parms), Z_Construct_UFunction_UTobiiBlueprintLibrary_GetDisplayInformation_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetDisplayInformation_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetDisplayInformation_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetDisplayInformation_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UTobiiBlueprintLibrary_GetDisplayInformation()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -351,7 +351,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiBlueprintLibrary() {}
 	{
 		((TobiiBlueprintLibrary_eventGetEyetrackingEnabled_Parms*)Obj)->ReturnValue = 1;
 	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_GetEyetrackingEnabled_Statics::NewProp_ReturnValue = { UE4CodeGen_Private::EPropertyClass::Bool, "ReturnValue", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000580, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(TobiiBlueprintLibrary_eventGetEyetrackingEnabled_Parms), &Z_Construct_UFunction_UTobiiBlueprintLibrary_GetEyetrackingEnabled_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_GetEyetrackingEnabled_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(TobiiBlueprintLibrary_eventGetEyetrackingEnabled_Parms), &Z_Construct_UFunction_UTobiiBlueprintLibrary_GetEyetrackingEnabled_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UTobiiBlueprintLibrary_GetEyetrackingEnabled_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UTobiiBlueprintLibrary_GetEyetrackingEnabled_Statics::NewProp_ReturnValue,
 	};
@@ -361,7 +361,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiBlueprintLibrary() {}
 		{ "ModuleRelativePath", "Public/TobiiBlueprintLibrary.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiBlueprintLibrary_GetEyetrackingEnabled_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiBlueprintLibrary, "GetEyetrackingEnabled", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x14022401, sizeof(TobiiBlueprintLibrary_eventGetEyetrackingEnabled_Parms), Z_Construct_UFunction_UTobiiBlueprintLibrary_GetEyetrackingEnabled_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetEyetrackingEnabled_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetEyetrackingEnabled_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetEyetrackingEnabled_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiBlueprintLibrary_GetEyetrackingEnabled_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiBlueprintLibrary, nullptr, "GetEyetrackingEnabled", sizeof(TobiiBlueprintLibrary_eventGetEyetrackingEnabled_Parms), Z_Construct_UFunction_UTobiiBlueprintLibrary_GetEyetrackingEnabled_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetEyetrackingEnabled_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetEyetrackingEnabled_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetEyetrackingEnabled_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UTobiiBlueprintLibrary_GetEyetrackingEnabled()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -389,7 +389,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiBlueprintLibrary() {}
 	{
 		((TobiiBlueprintLibrary_eventGetEyetrackingFrozen_Parms*)Obj)->ReturnValue = 1;
 	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_GetEyetrackingFrozen_Statics::NewProp_ReturnValue = { UE4CodeGen_Private::EPropertyClass::Bool, "ReturnValue", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000580, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(TobiiBlueprintLibrary_eventGetEyetrackingFrozen_Parms), &Z_Construct_UFunction_UTobiiBlueprintLibrary_GetEyetrackingFrozen_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_GetEyetrackingFrozen_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(TobiiBlueprintLibrary_eventGetEyetrackingFrozen_Parms), &Z_Construct_UFunction_UTobiiBlueprintLibrary_GetEyetrackingFrozen_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UTobiiBlueprintLibrary_GetEyetrackingFrozen_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UTobiiBlueprintLibrary_GetEyetrackingFrozen_Statics::NewProp_ReturnValue,
 	};
@@ -399,7 +399,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiBlueprintLibrary() {}
 		{ "ModuleRelativePath", "Public/TobiiBlueprintLibrary.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiBlueprintLibrary_GetEyetrackingFrozen_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiBlueprintLibrary, "GetEyetrackingFrozen", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x14022401, sizeof(TobiiBlueprintLibrary_eventGetEyetrackingFrozen_Parms), Z_Construct_UFunction_UTobiiBlueprintLibrary_GetEyetrackingFrozen_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetEyetrackingFrozen_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetEyetrackingFrozen_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetEyetrackingFrozen_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiBlueprintLibrary_GetEyetrackingFrozen_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiBlueprintLibrary, nullptr, "GetEyetrackingFrozen", sizeof(TobiiBlueprintLibrary_eventGetEyetrackingFrozen_Parms), Z_Construct_UFunction_UTobiiBlueprintLibrary_GetEyetrackingFrozen_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetEyetrackingFrozen_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetEyetrackingFrozen_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetEyetrackingFrozen_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UTobiiBlueprintLibrary_GetEyetrackingFrozen()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -423,8 +423,8 @@ void EmptyLinkFunctionForGeneratedCodeTobiiBlueprintLibrary() {}
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_GetGazeTrackerStatus_Statics::NewProp_ReturnValue = { UE4CodeGen_Private::EPropertyClass::Enum, "ReturnValue", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000580, 1, nullptr, STRUCT_OFFSET(TobiiBlueprintLibrary_eventGetGazeTrackerStatus_Parms, ReturnValue), Z_Construct_UEnum_TobiiCore_ETobiiGazeTrackerStatus, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_GetGazeTrackerStatus_Statics::NewProp_ReturnValue_Underlying = { UE4CodeGen_Private::EPropertyClass::Byte, "UnderlyingType", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0000000000000000, 1, nullptr, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_GetGazeTrackerStatus_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(TobiiBlueprintLibrary_eventGetGazeTrackerStatus_Parms, ReturnValue), Z_Construct_UEnum_TobiiCore_ETobiiGazeTrackerStatus, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_GetGazeTrackerStatus_Statics::NewProp_ReturnValue_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UTobiiBlueprintLibrary_GetGazeTrackerStatus_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UTobiiBlueprintLibrary_GetGazeTrackerStatus_Statics::NewProp_ReturnValue,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UTobiiBlueprintLibrary_GetGazeTrackerStatus_Statics::NewProp_ReturnValue_Underlying,
@@ -436,7 +436,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiBlueprintLibrary() {}
 		{ "ToolTip", "This will indicate the readiness of the gaze tracking subsystem. For most applications this will also indicate head tracking readiness." },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiBlueprintLibrary_GetGazeTrackerStatus_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiBlueprintLibrary, "GetGazeTrackerStatus", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x14022401, sizeof(TobiiBlueprintLibrary_eventGetGazeTrackerStatus_Parms), Z_Construct_UFunction_UTobiiBlueprintLibrary_GetGazeTrackerStatus_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetGazeTrackerStatus_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetGazeTrackerStatus_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetGazeTrackerStatus_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiBlueprintLibrary_GetGazeTrackerStatus_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiBlueprintLibrary, nullptr, "GetGazeTrackerStatus", sizeof(TobiiBlueprintLibrary_eventGetGazeTrackerStatus_Parms), Z_Construct_UFunction_UTobiiBlueprintLibrary_GetGazeTrackerStatus_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetGazeTrackerStatus_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetGazeTrackerStatus_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetGazeTrackerStatus_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UTobiiBlueprintLibrary_GetGazeTrackerStatus()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -467,7 +467,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiBlueprintLibrary() {}
 		{ "NativeConst", "" },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_GetHeadPoseData_Statics::NewProp_ReturnValue = { UE4CodeGen_Private::EPropertyClass::Struct, "ReturnValue", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000008000582, 1, nullptr, STRUCT_OFFSET(TobiiBlueprintLibrary_eventGetHeadPoseData_Parms, ReturnValue), Z_Construct_UScriptStruct_FTobiiHeadPoseData, METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetHeadPoseData_Statics::NewProp_ReturnValue_MetaData, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetHeadPoseData_Statics::NewProp_ReturnValue_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_GetHeadPoseData_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000008000582, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(TobiiBlueprintLibrary_eventGetHeadPoseData_Parms, ReturnValue), Z_Construct_UScriptStruct_FTobiiHeadPoseData, METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetHeadPoseData_Statics::NewProp_ReturnValue_MetaData, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetHeadPoseData_Statics::NewProp_ReturnValue_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UTobiiBlueprintLibrary_GetHeadPoseData_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UTobiiBlueprintLibrary_GetHeadPoseData_Statics::NewProp_ReturnValue,
 	};
@@ -478,7 +478,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiBlueprintLibrary() {}
 		{ "ToolTip", "This is the main method to get basic head pose data." },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiBlueprintLibrary_GetHeadPoseData_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiBlueprintLibrary, "GetHeadPoseData", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x14022401, sizeof(TobiiBlueprintLibrary_eventGetHeadPoseData_Parms), Z_Construct_UFunction_UTobiiBlueprintLibrary_GetHeadPoseData_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetHeadPoseData_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetHeadPoseData_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetHeadPoseData_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiBlueprintLibrary_GetHeadPoseData_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiBlueprintLibrary, nullptr, "GetHeadPoseData", sizeof(TobiiBlueprintLibrary_eventGetHeadPoseData_Parms), Z_Construct_UFunction_UTobiiBlueprintLibrary_GetHeadPoseData_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetHeadPoseData_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetHeadPoseData_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetHeadPoseData_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UTobiiBlueprintLibrary_GetHeadPoseData()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -501,7 +501,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiBlueprintLibrary() {}
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_GetLeftGazeData_Statics::NewProp_ReturnValue = { UE4CodeGen_Private::EPropertyClass::Struct, "ReturnValue", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000580, 1, nullptr, STRUCT_OFFSET(TobiiBlueprintLibrary_eventGetLeftGazeData_Parms, ReturnValue), Z_Construct_UScriptStruct_FTobiiGazeData, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_GetLeftGazeData_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(TobiiBlueprintLibrary_eventGetLeftGazeData_Parms, ReturnValue), Z_Construct_UScriptStruct_FTobiiGazeData, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UTobiiBlueprintLibrary_GetLeftGazeData_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UTobiiBlueprintLibrary_GetLeftGazeData_Statics::NewProp_ReturnValue,
 	};
@@ -511,7 +511,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiBlueprintLibrary() {}
 		{ "ModuleRelativePath", "Public/TobiiBlueprintLibrary.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiBlueprintLibrary_GetLeftGazeData_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiBlueprintLibrary, "GetLeftGazeData", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x14022401, sizeof(TobiiBlueprintLibrary_eventGetLeftGazeData_Parms), Z_Construct_UFunction_UTobiiBlueprintLibrary_GetLeftGazeData_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetLeftGazeData_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetLeftGazeData_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetLeftGazeData_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiBlueprintLibrary_GetLeftGazeData_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiBlueprintLibrary, nullptr, "GetLeftGazeData", sizeof(TobiiBlueprintLibrary_eventGetLeftGazeData_Parms), Z_Construct_UFunction_UTobiiBlueprintLibrary_GetLeftGazeData_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetLeftGazeData_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetLeftGazeData_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetLeftGazeData_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UTobiiBlueprintLibrary_GetLeftGazeData()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -534,7 +534,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiBlueprintLibrary() {}
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_GetRightGazeData_Statics::NewProp_ReturnValue = { UE4CodeGen_Private::EPropertyClass::Struct, "ReturnValue", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000580, 1, nullptr, STRUCT_OFFSET(TobiiBlueprintLibrary_eventGetRightGazeData_Parms, ReturnValue), Z_Construct_UScriptStruct_FTobiiGazeData, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_GetRightGazeData_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(TobiiBlueprintLibrary_eventGetRightGazeData_Parms, ReturnValue), Z_Construct_UScriptStruct_FTobiiGazeData, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UTobiiBlueprintLibrary_GetRightGazeData_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UTobiiBlueprintLibrary_GetRightGazeData_Statics::NewProp_ReturnValue,
 	};
@@ -544,7 +544,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiBlueprintLibrary() {}
 		{ "ModuleRelativePath", "Public/TobiiBlueprintLibrary.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiBlueprintLibrary_GetRightGazeData_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiBlueprintLibrary, "GetRightGazeData", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x14022401, sizeof(TobiiBlueprintLibrary_eventGetRightGazeData_Parms), Z_Construct_UFunction_UTobiiBlueprintLibrary_GetRightGazeData_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetRightGazeData_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetRightGazeData_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetRightGazeData_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiBlueprintLibrary_GetRightGazeData_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiBlueprintLibrary, nullptr, "GetRightGazeData", sizeof(TobiiBlueprintLibrary_eventGetRightGazeData_Parms), Z_Construct_UFunction_UTobiiBlueprintLibrary_GetRightGazeData_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetRightGazeData_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetRightGazeData_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetRightGazeData_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UTobiiBlueprintLibrary_GetRightGazeData()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -569,8 +569,8 @@ void EmptyLinkFunctionForGeneratedCodeTobiiBlueprintLibrary() {}
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_GetTobiiFloat_Statics::NewProp_ReturnValue = { UE4CodeGen_Private::EPropertyClass::Float, "ReturnValue", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000580, 1, nullptr, STRUCT_OFFSET(TobiiBlueprintLibrary_eventGetTobiiFloat_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_GetTobiiFloat_Statics::NewProp_CVarName = { UE4CodeGen_Private::EPropertyClass::Str, "CVarName", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(TobiiBlueprintLibrary_eventGetTobiiFloat_Parms, CVarName), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_GetTobiiFloat_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(TobiiBlueprintLibrary_eventGetTobiiFloat_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_GetTobiiFloat_Statics::NewProp_CVarName = { "CVarName", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(TobiiBlueprintLibrary_eventGetTobiiFloat_Parms, CVarName), METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UTobiiBlueprintLibrary_GetTobiiFloat_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UTobiiBlueprintLibrary_GetTobiiFloat_Statics::NewProp_ReturnValue,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UTobiiBlueprintLibrary_GetTobiiFloat_Statics::NewProp_CVarName,
@@ -581,7 +581,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiBlueprintLibrary() {}
 		{ "ModuleRelativePath", "Public/TobiiBlueprintLibrary.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiBlueprintLibrary_GetTobiiFloat_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiBlueprintLibrary, "GetTobiiFloat", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x14022401, sizeof(TobiiBlueprintLibrary_eventGetTobiiFloat_Parms), Z_Construct_UFunction_UTobiiBlueprintLibrary_GetTobiiFloat_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetTobiiFloat_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetTobiiFloat_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetTobiiFloat_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiBlueprintLibrary_GetTobiiFloat_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiBlueprintLibrary, nullptr, "GetTobiiFloat", sizeof(TobiiBlueprintLibrary_eventGetTobiiFloat_Parms), Z_Construct_UFunction_UTobiiBlueprintLibrary_GetTobiiFloat_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetTobiiFloat_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetTobiiFloat_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetTobiiFloat_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UTobiiBlueprintLibrary_GetTobiiFloat()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -606,8 +606,8 @@ void EmptyLinkFunctionForGeneratedCodeTobiiBlueprintLibrary() {}
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_GetTobiiInt_Statics::NewProp_ReturnValue = { UE4CodeGen_Private::EPropertyClass::Int, "ReturnValue", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000580, 1, nullptr, STRUCT_OFFSET(TobiiBlueprintLibrary_eventGetTobiiInt_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_GetTobiiInt_Statics::NewProp_CVarName = { UE4CodeGen_Private::EPropertyClass::Str, "CVarName", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(TobiiBlueprintLibrary_eventGetTobiiInt_Parms, CVarName), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_GetTobiiInt_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(TobiiBlueprintLibrary_eventGetTobiiInt_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_GetTobiiInt_Statics::NewProp_CVarName = { "CVarName", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(TobiiBlueprintLibrary_eventGetTobiiInt_Parms, CVarName), METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UTobiiBlueprintLibrary_GetTobiiInt_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UTobiiBlueprintLibrary_GetTobiiInt_Statics::NewProp_ReturnValue,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UTobiiBlueprintLibrary_GetTobiiInt_Statics::NewProp_CVarName,
@@ -619,7 +619,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiBlueprintLibrary() {}
 		{ "ToolTip", "Use these functions to get and set CVars in runtime." },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiBlueprintLibrary_GetTobiiInt_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiBlueprintLibrary, "GetTobiiInt", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x14022401, sizeof(TobiiBlueprintLibrary_eventGetTobiiInt_Parms), Z_Construct_UFunction_UTobiiBlueprintLibrary_GetTobiiInt_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetTobiiInt_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetTobiiInt_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetTobiiInt_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiBlueprintLibrary_GetTobiiInt_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiBlueprintLibrary, nullptr, "GetTobiiInt", sizeof(TobiiBlueprintLibrary_eventGetTobiiInt_Parms), Z_Construct_UFunction_UTobiiBlueprintLibrary_GetTobiiInt_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetTobiiInt_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetTobiiInt_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_GetTobiiInt_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UTobiiBlueprintLibrary_GetTobiiInt()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -652,13 +652,13 @@ void EmptyLinkFunctionForGeneratedCodeTobiiBlueprintLibrary() {}
 	{
 		((TobiiBlueprintLibrary_eventIsXRPlayerController_Parms*)Obj)->ReturnValue = 1;
 	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_IsXRPlayerController_Statics::NewProp_ReturnValue = { UE4CodeGen_Private::EPropertyClass::Bool, "ReturnValue", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000580, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(TobiiBlueprintLibrary_eventIsXRPlayerController_Parms), &Z_Construct_UFunction_UTobiiBlueprintLibrary_IsXRPlayerController_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_IsXRPlayerController_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(TobiiBlueprintLibrary_eventIsXRPlayerController_Parms), &Z_Construct_UFunction_UTobiiBlueprintLibrary_IsXRPlayerController_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UTobiiBlueprintLibrary_IsXRPlayerController_Statics::NewProp_PlayerController_MetaData[] = {
 		{ "NativeConst", "" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_IsXRPlayerController_Statics::NewProp_PlayerController = { UE4CodeGen_Private::EPropertyClass::Object, "PlayerController", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000082, 1, nullptr, STRUCT_OFFSET(TobiiBlueprintLibrary_eventIsXRPlayerController_Parms, PlayerController), Z_Construct_UClass_APlayerController_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_IsXRPlayerController_Statics::NewProp_PlayerController_MetaData, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_IsXRPlayerController_Statics::NewProp_PlayerController_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_IsXRPlayerController_Statics::NewProp_PlayerController = { "PlayerController", nullptr, (EPropertyFlags)0x0010000000000082, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(TobiiBlueprintLibrary_eventIsXRPlayerController_Parms, PlayerController), Z_Construct_UClass_APlayerController_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_IsXRPlayerController_Statics::NewProp_PlayerController_MetaData, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_IsXRPlayerController_Statics::NewProp_PlayerController_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UTobiiBlueprintLibrary_IsXRPlayerController_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UTobiiBlueprintLibrary_IsXRPlayerController_Statics::NewProp_ReturnValue,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UTobiiBlueprintLibrary_IsXRPlayerController_Statics::NewProp_PlayerController,
@@ -670,7 +670,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiBlueprintLibrary() {}
 		{ "ToolTip", "Tests if a given player controller is XR enabled" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiBlueprintLibrary_IsXRPlayerController_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiBlueprintLibrary, "IsXRPlayerController", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x14022401, sizeof(TobiiBlueprintLibrary_eventIsXRPlayerController_Parms), Z_Construct_UFunction_UTobiiBlueprintLibrary_IsXRPlayerController_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_IsXRPlayerController_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_IsXRPlayerController_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_IsXRPlayerController_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiBlueprintLibrary_IsXRPlayerController_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiBlueprintLibrary, nullptr, "IsXRPlayerController", sizeof(TobiiBlueprintLibrary_eventIsXRPlayerController_Parms), Z_Construct_UFunction_UTobiiBlueprintLibrary_IsXRPlayerController_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_IsXRPlayerController_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_IsXRPlayerController_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_IsXRPlayerController_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UTobiiBlueprintLibrary_IsXRPlayerController()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -694,7 +694,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiBlueprintLibrary() {}
 		{ "ToolTip", "If you are persisting your custom CVar values, you should call this function when you start your application." },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiBlueprintLibrary_LoadTobiiSettings_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiBlueprintLibrary, "LoadTobiiSettings", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04022401, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_LoadTobiiSettings_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_LoadTobiiSettings_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiBlueprintLibrary_LoadTobiiSettings_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiBlueprintLibrary, nullptr, "LoadTobiiSettings", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_LoadTobiiSettings_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_LoadTobiiSettings_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UTobiiBlueprintLibrary_LoadTobiiSettings()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -717,7 +717,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiBlueprintLibrary() {}
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_SaveTobiiSetting_Statics::NewProp_CVarSettingToSave = { UE4CodeGen_Private::EPropertyClass::Str, "CVarSettingToSave", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(TobiiBlueprintLibrary_eventSaveTobiiSetting_Parms, CVarSettingToSave), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_SaveTobiiSetting_Statics::NewProp_CVarSettingToSave = { "CVarSettingToSave", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(TobiiBlueprintLibrary_eventSaveTobiiSetting_Parms, CVarSettingToSave), METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UTobiiBlueprintLibrary_SaveTobiiSetting_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UTobiiBlueprintLibrary_SaveTobiiSetting_Statics::NewProp_CVarSettingToSave,
 	};
@@ -728,7 +728,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiBlueprintLibrary() {}
 		{ "ToolTip", "If you want to persist a CVar to .ini, use this function." },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiBlueprintLibrary_SaveTobiiSetting_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiBlueprintLibrary, "SaveTobiiSetting", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04022401, sizeof(TobiiBlueprintLibrary_eventSaveTobiiSetting_Parms), Z_Construct_UFunction_UTobiiBlueprintLibrary_SaveTobiiSetting_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_SaveTobiiSetting_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_SaveTobiiSetting_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_SaveTobiiSetting_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiBlueprintLibrary_SaveTobiiSetting_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiBlueprintLibrary, nullptr, "SaveTobiiSetting", sizeof(TobiiBlueprintLibrary_eventSaveTobiiSetting_Parms), Z_Construct_UFunction_UTobiiBlueprintLibrary_SaveTobiiSetting_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_SaveTobiiSetting_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_SaveTobiiSetting_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_SaveTobiiSetting_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UTobiiBlueprintLibrary_SaveTobiiSetting()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -756,7 +756,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiBlueprintLibrary() {}
 	{
 		((TobiiBlueprintLibrary_eventSetEyetrackingEnabled_Parms*)Obj)->bEyetrackingEnabled = 1;
 	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_SetEyetrackingEnabled_Statics::NewProp_bEyetrackingEnabled = { UE4CodeGen_Private::EPropertyClass::Bool, "bEyetrackingEnabled", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(TobiiBlueprintLibrary_eventSetEyetrackingEnabled_Parms), &Z_Construct_UFunction_UTobiiBlueprintLibrary_SetEyetrackingEnabled_Statics::NewProp_bEyetrackingEnabled_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_SetEyetrackingEnabled_Statics::NewProp_bEyetrackingEnabled = { "bEyetrackingEnabled", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(TobiiBlueprintLibrary_eventSetEyetrackingEnabled_Parms), &Z_Construct_UFunction_UTobiiBlueprintLibrary_SetEyetrackingEnabled_Statics::NewProp_bEyetrackingEnabled_SetBit, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UTobiiBlueprintLibrary_SetEyetrackingEnabled_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UTobiiBlueprintLibrary_SetEyetrackingEnabled_Statics::NewProp_bEyetrackingEnabled,
 	};
@@ -767,7 +767,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiBlueprintLibrary() {}
 		{ "ToolTip", "This is just a helper function to set the eyetracking enabled CVar for blueprint convenience.\nSet eyetracking disabled if you don't need tracking and don't want to pay the CPU cost in some parts of your program." },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiBlueprintLibrary_SetEyetrackingEnabled_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiBlueprintLibrary, "SetEyetrackingEnabled", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04022401, sizeof(TobiiBlueprintLibrary_eventSetEyetrackingEnabled_Parms), Z_Construct_UFunction_UTobiiBlueprintLibrary_SetEyetrackingEnabled_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_SetEyetrackingEnabled_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_SetEyetrackingEnabled_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_SetEyetrackingEnabled_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiBlueprintLibrary_SetEyetrackingEnabled_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiBlueprintLibrary, nullptr, "SetEyetrackingEnabled", sizeof(TobiiBlueprintLibrary_eventSetEyetrackingEnabled_Parms), Z_Construct_UFunction_UTobiiBlueprintLibrary_SetEyetrackingEnabled_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_SetEyetrackingEnabled_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_SetEyetrackingEnabled_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_SetEyetrackingEnabled_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UTobiiBlueprintLibrary_SetEyetrackingEnabled()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -795,7 +795,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiBlueprintLibrary() {}
 	{
 		((TobiiBlueprintLibrary_eventSetEyetrackingFrozen_Parms*)Obj)->bEyetrackingFrozen = 1;
 	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_SetEyetrackingFrozen_Statics::NewProp_bEyetrackingFrozen = { UE4CodeGen_Private::EPropertyClass::Bool, "bEyetrackingFrozen", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(TobiiBlueprintLibrary_eventSetEyetrackingFrozen_Parms), &Z_Construct_UFunction_UTobiiBlueprintLibrary_SetEyetrackingFrozen_Statics::NewProp_bEyetrackingFrozen_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_SetEyetrackingFrozen_Statics::NewProp_bEyetrackingFrozen = { "bEyetrackingFrozen", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(TobiiBlueprintLibrary_eventSetEyetrackingFrozen_Parms), &Z_Construct_UFunction_UTobiiBlueprintLibrary_SetEyetrackingFrozen_Statics::NewProp_bEyetrackingFrozen_SetBit, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UTobiiBlueprintLibrary_SetEyetrackingFrozen_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UTobiiBlueprintLibrary_SetEyetrackingFrozen_Statics::NewProp_bEyetrackingFrozen,
 	};
@@ -806,7 +806,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiBlueprintLibrary() {}
 		{ "ToolTip", "This is just a helper function to set the eyetracking frozen CVar for blueprint convenience.\nFreezing the eyetracking can be very useful for debugging as well as when trying to show someone what effect eyetracking has." },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiBlueprintLibrary_SetEyetrackingFrozen_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiBlueprintLibrary, "SetEyetrackingFrozen", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04022401, sizeof(TobiiBlueprintLibrary_eventSetEyetrackingFrozen_Parms), Z_Construct_UFunction_UTobiiBlueprintLibrary_SetEyetrackingFrozen_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_SetEyetrackingFrozen_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_SetEyetrackingFrozen_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_SetEyetrackingFrozen_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiBlueprintLibrary_SetEyetrackingFrozen_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiBlueprintLibrary, nullptr, "SetEyetrackingFrozen", sizeof(TobiiBlueprintLibrary_eventSetEyetrackingFrozen_Parms), Z_Construct_UFunction_UTobiiBlueprintLibrary_SetEyetrackingFrozen_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_SetEyetrackingFrozen_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_SetEyetrackingFrozen_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_SetEyetrackingFrozen_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UTobiiBlueprintLibrary_SetEyetrackingFrozen()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -839,8 +839,8 @@ void EmptyLinkFunctionForGeneratedCodeTobiiBlueprintLibrary() {}
 		{ "NativeConst", "" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_SetTobiiFloat_Statics::NewProp_NewValue = { UE4CodeGen_Private::EPropertyClass::Float, "NewValue", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000082, 1, nullptr, STRUCT_OFFSET(TobiiBlueprintLibrary_eventSetTobiiFloat_Parms, NewValue), METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_SetTobiiFloat_Statics::NewProp_NewValue_MetaData, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_SetTobiiFloat_Statics::NewProp_NewValue_MetaData)) };
-	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_SetTobiiFloat_Statics::NewProp_CVarName = { UE4CodeGen_Private::EPropertyClass::Str, "CVarName", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(TobiiBlueprintLibrary_eventSetTobiiFloat_Parms, CVarName), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_SetTobiiFloat_Statics::NewProp_NewValue = { "NewValue", nullptr, (EPropertyFlags)0x0010000000000082, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(TobiiBlueprintLibrary_eventSetTobiiFloat_Parms, NewValue), METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_SetTobiiFloat_Statics::NewProp_NewValue_MetaData, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_SetTobiiFloat_Statics::NewProp_NewValue_MetaData)) };
+	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_SetTobiiFloat_Statics::NewProp_CVarName = { "CVarName", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(TobiiBlueprintLibrary_eventSetTobiiFloat_Parms, CVarName), METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UTobiiBlueprintLibrary_SetTobiiFloat_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UTobiiBlueprintLibrary_SetTobiiFloat_Statics::NewProp_NewValue,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UTobiiBlueprintLibrary_SetTobiiFloat_Statics::NewProp_CVarName,
@@ -851,7 +851,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiBlueprintLibrary() {}
 		{ "ModuleRelativePath", "Public/TobiiBlueprintLibrary.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiBlueprintLibrary_SetTobiiFloat_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiBlueprintLibrary, "SetTobiiFloat", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04022401, sizeof(TobiiBlueprintLibrary_eventSetTobiiFloat_Parms), Z_Construct_UFunction_UTobiiBlueprintLibrary_SetTobiiFloat_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_SetTobiiFloat_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_SetTobiiFloat_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_SetTobiiFloat_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiBlueprintLibrary_SetTobiiFloat_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiBlueprintLibrary, nullptr, "SetTobiiFloat", sizeof(TobiiBlueprintLibrary_eventSetTobiiFloat_Parms), Z_Construct_UFunction_UTobiiBlueprintLibrary_SetTobiiFloat_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_SetTobiiFloat_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_SetTobiiFloat_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_SetTobiiFloat_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UTobiiBlueprintLibrary_SetTobiiFloat()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -884,8 +884,8 @@ void EmptyLinkFunctionForGeneratedCodeTobiiBlueprintLibrary() {}
 		{ "NativeConst", "" },
 	};
 #endif
-	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_SetTobiiInt_Statics::NewProp_NewValue = { UE4CodeGen_Private::EPropertyClass::Int, "NewValue", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000082, 1, nullptr, STRUCT_OFFSET(TobiiBlueprintLibrary_eventSetTobiiInt_Parms, NewValue), METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_SetTobiiInt_Statics::NewProp_NewValue_MetaData, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_SetTobiiInt_Statics::NewProp_NewValue_MetaData)) };
-	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_SetTobiiInt_Statics::NewProp_CVarName = { UE4CodeGen_Private::EPropertyClass::Str, "CVarName", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(TobiiBlueprintLibrary_eventSetTobiiInt_Parms, CVarName), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_SetTobiiInt_Statics::NewProp_NewValue = { "NewValue", nullptr, (EPropertyFlags)0x0010000000000082, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(TobiiBlueprintLibrary_eventSetTobiiInt_Parms, NewValue), METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_SetTobiiInt_Statics::NewProp_NewValue_MetaData, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_SetTobiiInt_Statics::NewProp_NewValue_MetaData)) };
+	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_SetTobiiInt_Statics::NewProp_CVarName = { "CVarName", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(TobiiBlueprintLibrary_eventSetTobiiInt_Parms, CVarName), METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UTobiiBlueprintLibrary_SetTobiiInt_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UTobiiBlueprintLibrary_SetTobiiInt_Statics::NewProp_NewValue,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UTobiiBlueprintLibrary_SetTobiiInt_Statics::NewProp_CVarName,
@@ -896,7 +896,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiBlueprintLibrary() {}
 		{ "ModuleRelativePath", "Public/TobiiBlueprintLibrary.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiBlueprintLibrary_SetTobiiInt_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiBlueprintLibrary, "SetTobiiInt", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04022401, sizeof(TobiiBlueprintLibrary_eventSetTobiiInt_Parms), Z_Construct_UFunction_UTobiiBlueprintLibrary_SetTobiiInt_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_SetTobiiInt_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_SetTobiiInt_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_SetTobiiInt_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiBlueprintLibrary_SetTobiiInt_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiBlueprintLibrary, nullptr, "SetTobiiInt", sizeof(TobiiBlueprintLibrary_eventSetTobiiInt_Parms), Z_Construct_UFunction_UTobiiBlueprintLibrary_SetTobiiInt_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_SetTobiiInt_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_SetTobiiInt_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_SetTobiiInt_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UTobiiBlueprintLibrary_SetTobiiInt()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -931,14 +931,14 @@ void EmptyLinkFunctionForGeneratedCodeTobiiBlueprintLibrary() {}
 	{
 		((TobiiBlueprintLibrary_eventViewportCoordinateUNormToVirtualDesktopPixel_Parms*)Obj)->ReturnValue = 1;
 	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_ViewportCoordinateUNormToVirtualDesktopPixel_Statics::NewProp_ReturnValue = { UE4CodeGen_Private::EPropertyClass::Bool, "ReturnValue", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000580, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(TobiiBlueprintLibrary_eventViewportCoordinateUNormToVirtualDesktopPixel_Parms), &Z_Construct_UFunction_UTobiiBlueprintLibrary_ViewportCoordinateUNormToVirtualDesktopPixel_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_ViewportCoordinateUNormToVirtualDesktopPixel_Statics::NewProp_OutVirtualDesktopPixel = { UE4CodeGen_Private::EPropertyClass::Struct, "OutVirtualDesktopPixel", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000180, 1, nullptr, STRUCT_OFFSET(TobiiBlueprintLibrary_eventViewportCoordinateUNormToVirtualDesktopPixel_Parms, OutVirtualDesktopPixel), Z_Construct_UScriptStruct_FVector2D, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_ViewportCoordinateUNormToVirtualDesktopPixel_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(TobiiBlueprintLibrary_eventViewportCoordinateUNormToVirtualDesktopPixel_Parms), &Z_Construct_UFunction_UTobiiBlueprintLibrary_ViewportCoordinateUNormToVirtualDesktopPixel_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_ViewportCoordinateUNormToVirtualDesktopPixel_Statics::NewProp_OutVirtualDesktopPixel = { "OutVirtualDesktopPixel", nullptr, (EPropertyFlags)0x0010000000000180, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(TobiiBlueprintLibrary_eventViewportCoordinateUNormToVirtualDesktopPixel_Parms, OutVirtualDesktopPixel), Z_Construct_UScriptStruct_FVector2D, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UTobiiBlueprintLibrary_ViewportCoordinateUNormToVirtualDesktopPixel_Statics::NewProp_ViewportCoordinateUNorm_MetaData[] = {
 		{ "NativeConst", "" },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_ViewportCoordinateUNormToVirtualDesktopPixel_Statics::NewProp_ViewportCoordinateUNorm = { UE4CodeGen_Private::EPropertyClass::Struct, "ViewportCoordinateUNorm", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000008000182, 1, nullptr, STRUCT_OFFSET(TobiiBlueprintLibrary_eventViewportCoordinateUNormToVirtualDesktopPixel_Parms, ViewportCoordinateUNorm), Z_Construct_UScriptStruct_FVector2D, METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_ViewportCoordinateUNormToVirtualDesktopPixel_Statics::NewProp_ViewportCoordinateUNorm_MetaData, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_ViewportCoordinateUNormToVirtualDesktopPixel_Statics::NewProp_ViewportCoordinateUNorm_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_ViewportCoordinateUNormToVirtualDesktopPixel_Statics::NewProp_ViewportCoordinateUNorm = { "ViewportCoordinateUNorm", nullptr, (EPropertyFlags)0x0010000008000182, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(TobiiBlueprintLibrary_eventViewportCoordinateUNormToVirtualDesktopPixel_Parms, ViewportCoordinateUNorm), Z_Construct_UScriptStruct_FVector2D, METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_ViewportCoordinateUNormToVirtualDesktopPixel_Statics::NewProp_ViewportCoordinateUNorm_MetaData, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_ViewportCoordinateUNormToVirtualDesktopPixel_Statics::NewProp_ViewportCoordinateUNorm_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UTobiiBlueprintLibrary_ViewportCoordinateUNormToVirtualDesktopPixel_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UTobiiBlueprintLibrary_ViewportCoordinateUNormToVirtualDesktopPixel_Statics::NewProp_ReturnValue,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UTobiiBlueprintLibrary_ViewportCoordinateUNormToVirtualDesktopPixel_Statics::NewProp_OutVirtualDesktopPixel,
@@ -950,7 +950,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiBlueprintLibrary() {}
 		{ "ModuleRelativePath", "Public/TobiiBlueprintLibrary.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiBlueprintLibrary_ViewportCoordinateUNormToVirtualDesktopPixel_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiBlueprintLibrary, "ViewportCoordinateUNormToVirtualDesktopPixel", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x14C22401, sizeof(TobiiBlueprintLibrary_eventViewportCoordinateUNormToVirtualDesktopPixel_Parms), Z_Construct_UFunction_UTobiiBlueprintLibrary_ViewportCoordinateUNormToVirtualDesktopPixel_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_ViewportCoordinateUNormToVirtualDesktopPixel_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_ViewportCoordinateUNormToVirtualDesktopPixel_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_ViewportCoordinateUNormToVirtualDesktopPixel_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiBlueprintLibrary_ViewportCoordinateUNormToVirtualDesktopPixel_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiBlueprintLibrary, nullptr, "ViewportCoordinateUNormToVirtualDesktopPixel", sizeof(TobiiBlueprintLibrary_eventViewportCoordinateUNormToVirtualDesktopPixel_Parms), Z_Construct_UFunction_UTobiiBlueprintLibrary_ViewportCoordinateUNormToVirtualDesktopPixel_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_ViewportCoordinateUNormToVirtualDesktopPixel_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14C22401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_ViewportCoordinateUNormToVirtualDesktopPixel_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_ViewportCoordinateUNormToVirtualDesktopPixel_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UTobiiBlueprintLibrary_ViewportCoordinateUNormToVirtualDesktopPixel()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -985,14 +985,14 @@ void EmptyLinkFunctionForGeneratedCodeTobiiBlueprintLibrary() {}
 	{
 		((TobiiBlueprintLibrary_eventVirtualDesktopPixelToViewportCoordinateUNorm_Parms*)Obj)->ReturnValue = 1;
 	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_VirtualDesktopPixelToViewportCoordinateUNorm_Statics::NewProp_ReturnValue = { UE4CodeGen_Private::EPropertyClass::Bool, "ReturnValue", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000580, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(TobiiBlueprintLibrary_eventVirtualDesktopPixelToViewportCoordinateUNorm_Parms), &Z_Construct_UFunction_UTobiiBlueprintLibrary_VirtualDesktopPixelToViewportCoordinateUNorm_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_VirtualDesktopPixelToViewportCoordinateUNorm_Statics::NewProp_OutViewportCoordinateUNorm = { UE4CodeGen_Private::EPropertyClass::Struct, "OutViewportCoordinateUNorm", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000180, 1, nullptr, STRUCT_OFFSET(TobiiBlueprintLibrary_eventVirtualDesktopPixelToViewportCoordinateUNorm_Parms, OutViewportCoordinateUNorm), Z_Construct_UScriptStruct_FVector2D, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_VirtualDesktopPixelToViewportCoordinateUNorm_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(TobiiBlueprintLibrary_eventVirtualDesktopPixelToViewportCoordinateUNorm_Parms), &Z_Construct_UFunction_UTobiiBlueprintLibrary_VirtualDesktopPixelToViewportCoordinateUNorm_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_VirtualDesktopPixelToViewportCoordinateUNorm_Statics::NewProp_OutViewportCoordinateUNorm = { "OutViewportCoordinateUNorm", nullptr, (EPropertyFlags)0x0010000000000180, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(TobiiBlueprintLibrary_eventVirtualDesktopPixelToViewportCoordinateUNorm_Parms, OutViewportCoordinateUNorm), Z_Construct_UScriptStruct_FVector2D, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UTobiiBlueprintLibrary_VirtualDesktopPixelToViewportCoordinateUNorm_Statics::NewProp_VirtualDesktopPixel_MetaData[] = {
 		{ "NativeConst", "" },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_VirtualDesktopPixelToViewportCoordinateUNorm_Statics::NewProp_VirtualDesktopPixel = { UE4CodeGen_Private::EPropertyClass::Struct, "VirtualDesktopPixel", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000008000182, 1, nullptr, STRUCT_OFFSET(TobiiBlueprintLibrary_eventVirtualDesktopPixelToViewportCoordinateUNorm_Parms, VirtualDesktopPixel), Z_Construct_UScriptStruct_FVector2D, METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_VirtualDesktopPixelToViewportCoordinateUNorm_Statics::NewProp_VirtualDesktopPixel_MetaData, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_VirtualDesktopPixelToViewportCoordinateUNorm_Statics::NewProp_VirtualDesktopPixel_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_VirtualDesktopPixelToViewportCoordinateUNorm_Statics::NewProp_VirtualDesktopPixel = { "VirtualDesktopPixel", nullptr, (EPropertyFlags)0x0010000008000182, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(TobiiBlueprintLibrary_eventVirtualDesktopPixelToViewportCoordinateUNorm_Parms, VirtualDesktopPixel), Z_Construct_UScriptStruct_FVector2D, METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_VirtualDesktopPixelToViewportCoordinateUNorm_Statics::NewProp_VirtualDesktopPixel_MetaData, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_VirtualDesktopPixelToViewportCoordinateUNorm_Statics::NewProp_VirtualDesktopPixel_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UTobiiBlueprintLibrary_VirtualDesktopPixelToViewportCoordinateUNorm_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UTobiiBlueprintLibrary_VirtualDesktopPixelToViewportCoordinateUNorm_Statics::NewProp_ReturnValue,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UTobiiBlueprintLibrary_VirtualDesktopPixelToViewportCoordinateUNorm_Statics::NewProp_OutViewportCoordinateUNorm,
@@ -1005,7 +1005,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiBlueprintLibrary() {}
 		{ "ToolTip", "Use this function if you want to project slate information to viewport space. Includes DPI adjustments" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiBlueprintLibrary_VirtualDesktopPixelToViewportCoordinateUNorm_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiBlueprintLibrary, "VirtualDesktopPixelToViewportCoordinateUNorm", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x14C22401, sizeof(TobiiBlueprintLibrary_eventVirtualDesktopPixelToViewportCoordinateUNorm_Parms), Z_Construct_UFunction_UTobiiBlueprintLibrary_VirtualDesktopPixelToViewportCoordinateUNorm_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_VirtualDesktopPixelToViewportCoordinateUNorm_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_VirtualDesktopPixelToViewportCoordinateUNorm_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_VirtualDesktopPixelToViewportCoordinateUNorm_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiBlueprintLibrary_VirtualDesktopPixelToViewportCoordinateUNorm_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiBlueprintLibrary, nullptr, "VirtualDesktopPixelToViewportCoordinateUNorm", sizeof(TobiiBlueprintLibrary_eventVirtualDesktopPixelToViewportCoordinateUNorm_Parms), Z_Construct_UFunction_UTobiiBlueprintLibrary_VirtualDesktopPixelToViewportCoordinateUNorm_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_VirtualDesktopPixelToViewportCoordinateUNorm_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14C22401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_VirtualDesktopPixelToViewportCoordinateUNorm_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_VirtualDesktopPixelToViewportCoordinateUNorm_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UTobiiBlueprintLibrary_VirtualDesktopPixelToViewportCoordinateUNorm()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1035,14 +1035,14 @@ void EmptyLinkFunctionForGeneratedCodeTobiiBlueprintLibrary() {}
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_WorldSpaceDirectionToHMDSpaceDirection_Statics::NewProp_ReturnValue = { UE4CodeGen_Private::EPropertyClass::Struct, "ReturnValue", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000580, 1, nullptr, STRUCT_OFFSET(TobiiBlueprintLibrary_eventWorldSpaceDirectionToHMDSpaceDirection_Parms, ReturnValue), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_WorldSpaceDirectionToHMDSpaceDirection_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(TobiiBlueprintLibrary_eventWorldSpaceDirectionToHMDSpaceDirection_Parms, ReturnValue), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UTobiiBlueprintLibrary_WorldSpaceDirectionToHMDSpaceDirection_Statics::NewProp_WorldSpaceDirection_MetaData[] = {
 		{ "NativeConst", "" },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_WorldSpaceDirectionToHMDSpaceDirection_Statics::NewProp_WorldSpaceDirection = { UE4CodeGen_Private::EPropertyClass::Struct, "WorldSpaceDirection", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000008000182, 1, nullptr, STRUCT_OFFSET(TobiiBlueprintLibrary_eventWorldSpaceDirectionToHMDSpaceDirection_Parms, WorldSpaceDirection), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_WorldSpaceDirectionToHMDSpaceDirection_Statics::NewProp_WorldSpaceDirection_MetaData, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_WorldSpaceDirectionToHMDSpaceDirection_Statics::NewProp_WorldSpaceDirection_MetaData)) };
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_WorldSpaceDirectionToHMDSpaceDirection_Statics::NewProp_PlayerController = { UE4CodeGen_Private::EPropertyClass::Object, "PlayerController", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(TobiiBlueprintLibrary_eventWorldSpaceDirectionToHMDSpaceDirection_Parms, PlayerController), Z_Construct_UClass_APlayerController_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_WorldSpaceDirectionToHMDSpaceDirection_Statics::NewProp_WorldSpaceDirection = { "WorldSpaceDirection", nullptr, (EPropertyFlags)0x0010000008000182, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(TobiiBlueprintLibrary_eventWorldSpaceDirectionToHMDSpaceDirection_Parms, WorldSpaceDirection), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_WorldSpaceDirectionToHMDSpaceDirection_Statics::NewProp_WorldSpaceDirection_MetaData, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_WorldSpaceDirectionToHMDSpaceDirection_Statics::NewProp_WorldSpaceDirection_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UTobiiBlueprintLibrary_WorldSpaceDirectionToHMDSpaceDirection_Statics::NewProp_PlayerController = { "PlayerController", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(TobiiBlueprintLibrary_eventWorldSpaceDirectionToHMDSpaceDirection_Parms, PlayerController), Z_Construct_UClass_APlayerController_NoRegister, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UTobiiBlueprintLibrary_WorldSpaceDirectionToHMDSpaceDirection_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UTobiiBlueprintLibrary_WorldSpaceDirectionToHMDSpaceDirection_Statics::NewProp_ReturnValue,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UTobiiBlueprintLibrary_WorldSpaceDirectionToHMDSpaceDirection_Statics::NewProp_WorldSpaceDirection,
@@ -1055,7 +1055,7 @@ void EmptyLinkFunctionForGeneratedCodeTobiiBlueprintLibrary() {}
 		{ "ToolTip", "This function lets you move from world space to HMD local space. This can be useful if you want to get a gaze direction in HMD space for example." },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiBlueprintLibrary_WorldSpaceDirectionToHMDSpaceDirection_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiBlueprintLibrary, "WorldSpaceDirectionToHMDSpaceDirection", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x14C22401, sizeof(TobiiBlueprintLibrary_eventWorldSpaceDirectionToHMDSpaceDirection_Parms), Z_Construct_UFunction_UTobiiBlueprintLibrary_WorldSpaceDirectionToHMDSpaceDirection_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_WorldSpaceDirectionToHMDSpaceDirection_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_WorldSpaceDirectionToHMDSpaceDirection_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_WorldSpaceDirectionToHMDSpaceDirection_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UTobiiBlueprintLibrary_WorldSpaceDirectionToHMDSpaceDirection_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTobiiBlueprintLibrary, nullptr, "WorldSpaceDirectionToHMDSpaceDirection", sizeof(TobiiBlueprintLibrary_eventWorldSpaceDirectionToHMDSpaceDirection_Parms), Z_Construct_UFunction_UTobiiBlueprintLibrary_WorldSpaceDirectionToHMDSpaceDirection_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_WorldSpaceDirectionToHMDSpaceDirection_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14C22401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UTobiiBlueprintLibrary_WorldSpaceDirectionToHMDSpaceDirection_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UTobiiBlueprintLibrary_WorldSpaceDirectionToHMDSpaceDirection_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_UTobiiBlueprintLibrary_WorldSpaceDirectionToHMDSpaceDirection()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -1084,30 +1084,30 @@ void EmptyLinkFunctionForGeneratedCodeTobiiBlueprintLibrary() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_TobiiCore,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UTobiiBlueprintLibrary_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UTobiiBlueprintLibrary_ConvertScreenCmCoordToPixelCoord, "ConvertScreenCmCoordToPixelCoord" }, // 111116769
-		{ &Z_Construct_UFunction_UTobiiBlueprintLibrary_ConvertScreenPixelCoordToCmCoord, "ConvertScreenPixelCoordToCmCoord" }, // 1958313373
-		{ &Z_Construct_UFunction_UTobiiBlueprintLibrary_GetCombinedGazeData, "GetCombinedGazeData" }, // 2287067165
-		{ &Z_Construct_UFunction_UTobiiBlueprintLibrary_GetCombinedWorldGazeHitData, "GetCombinedWorldGazeHitData" }, // 3798819409
-		{ &Z_Construct_UFunction_UTobiiBlueprintLibrary_GetDesktopTrackBox, "GetDesktopTrackBox" }, // 3050387398
-		{ &Z_Construct_UFunction_UTobiiBlueprintLibrary_GetDisplayInformation, "GetDisplayInformation" }, // 3003635650
-		{ &Z_Construct_UFunction_UTobiiBlueprintLibrary_GetEyetrackingEnabled, "GetEyetrackingEnabled" }, // 2448144972
-		{ &Z_Construct_UFunction_UTobiiBlueprintLibrary_GetEyetrackingFrozen, "GetEyetrackingFrozen" }, // 268203841
-		{ &Z_Construct_UFunction_UTobiiBlueprintLibrary_GetGazeTrackerStatus, "GetGazeTrackerStatus" }, // 701860447
-		{ &Z_Construct_UFunction_UTobiiBlueprintLibrary_GetHeadPoseData, "GetHeadPoseData" }, // 4180382860
-		{ &Z_Construct_UFunction_UTobiiBlueprintLibrary_GetLeftGazeData, "GetLeftGazeData" }, // 3871875220
-		{ &Z_Construct_UFunction_UTobiiBlueprintLibrary_GetRightGazeData, "GetRightGazeData" }, // 449612616
-		{ &Z_Construct_UFunction_UTobiiBlueprintLibrary_GetTobiiFloat, "GetTobiiFloat" }, // 2787013990
-		{ &Z_Construct_UFunction_UTobiiBlueprintLibrary_GetTobiiInt, "GetTobiiInt" }, // 1067414511
-		{ &Z_Construct_UFunction_UTobiiBlueprintLibrary_IsXRPlayerController, "IsXRPlayerController" }, // 2450054055
-		{ &Z_Construct_UFunction_UTobiiBlueprintLibrary_LoadTobiiSettings, "LoadTobiiSettings" }, // 698910090
-		{ &Z_Construct_UFunction_UTobiiBlueprintLibrary_SaveTobiiSetting, "SaveTobiiSetting" }, // 3841379414
-		{ &Z_Construct_UFunction_UTobiiBlueprintLibrary_SetEyetrackingEnabled, "SetEyetrackingEnabled" }, // 3661708119
-		{ &Z_Construct_UFunction_UTobiiBlueprintLibrary_SetEyetrackingFrozen, "SetEyetrackingFrozen" }, // 592332010
-		{ &Z_Construct_UFunction_UTobiiBlueprintLibrary_SetTobiiFloat, "SetTobiiFloat" }, // 4204078303
-		{ &Z_Construct_UFunction_UTobiiBlueprintLibrary_SetTobiiInt, "SetTobiiInt" }, // 613057997
-		{ &Z_Construct_UFunction_UTobiiBlueprintLibrary_ViewportCoordinateUNormToVirtualDesktopPixel, "ViewportCoordinateUNormToVirtualDesktopPixel" }, // 3408468541
-		{ &Z_Construct_UFunction_UTobiiBlueprintLibrary_VirtualDesktopPixelToViewportCoordinateUNorm, "VirtualDesktopPixelToViewportCoordinateUNorm" }, // 2877707347
-		{ &Z_Construct_UFunction_UTobiiBlueprintLibrary_WorldSpaceDirectionToHMDSpaceDirection, "WorldSpaceDirectionToHMDSpaceDirection" }, // 987451344
+		{ &Z_Construct_UFunction_UTobiiBlueprintLibrary_ConvertScreenCmCoordToPixelCoord, "ConvertScreenCmCoordToPixelCoord" }, // 1582185383
+		{ &Z_Construct_UFunction_UTobiiBlueprintLibrary_ConvertScreenPixelCoordToCmCoord, "ConvertScreenPixelCoordToCmCoord" }, // 1818430547
+		{ &Z_Construct_UFunction_UTobiiBlueprintLibrary_GetCombinedGazeData, "GetCombinedGazeData" }, // 275661523
+		{ &Z_Construct_UFunction_UTobiiBlueprintLibrary_GetCombinedWorldGazeHitData, "GetCombinedWorldGazeHitData" }, // 1826888460
+		{ &Z_Construct_UFunction_UTobiiBlueprintLibrary_GetDesktopTrackBox, "GetDesktopTrackBox" }, // 3015280542
+		{ &Z_Construct_UFunction_UTobiiBlueprintLibrary_GetDisplayInformation, "GetDisplayInformation" }, // 2248979387
+		{ &Z_Construct_UFunction_UTobiiBlueprintLibrary_GetEyetrackingEnabled, "GetEyetrackingEnabled" }, // 2988667551
+		{ &Z_Construct_UFunction_UTobiiBlueprintLibrary_GetEyetrackingFrozen, "GetEyetrackingFrozen" }, // 253668411
+		{ &Z_Construct_UFunction_UTobiiBlueprintLibrary_GetGazeTrackerStatus, "GetGazeTrackerStatus" }, // 420539115
+		{ &Z_Construct_UFunction_UTobiiBlueprintLibrary_GetHeadPoseData, "GetHeadPoseData" }, // 1364600449
+		{ &Z_Construct_UFunction_UTobiiBlueprintLibrary_GetLeftGazeData, "GetLeftGazeData" }, // 4230398075
+		{ &Z_Construct_UFunction_UTobiiBlueprintLibrary_GetRightGazeData, "GetRightGazeData" }, // 177440912
+		{ &Z_Construct_UFunction_UTobiiBlueprintLibrary_GetTobiiFloat, "GetTobiiFloat" }, // 3987228834
+		{ &Z_Construct_UFunction_UTobiiBlueprintLibrary_GetTobiiInt, "GetTobiiInt" }, // 2128489700
+		{ &Z_Construct_UFunction_UTobiiBlueprintLibrary_IsXRPlayerController, "IsXRPlayerController" }, // 2448599495
+		{ &Z_Construct_UFunction_UTobiiBlueprintLibrary_LoadTobiiSettings, "LoadTobiiSettings" }, // 2916121090
+		{ &Z_Construct_UFunction_UTobiiBlueprintLibrary_SaveTobiiSetting, "SaveTobiiSetting" }, // 2711605501
+		{ &Z_Construct_UFunction_UTobiiBlueprintLibrary_SetEyetrackingEnabled, "SetEyetrackingEnabled" }, // 3360916522
+		{ &Z_Construct_UFunction_UTobiiBlueprintLibrary_SetEyetrackingFrozen, "SetEyetrackingFrozen" }, // 2170333680
+		{ &Z_Construct_UFunction_UTobiiBlueprintLibrary_SetTobiiFloat, "SetTobiiFloat" }, // 1281998927
+		{ &Z_Construct_UFunction_UTobiiBlueprintLibrary_SetTobiiInt, "SetTobiiInt" }, // 1266445636
+		{ &Z_Construct_UFunction_UTobiiBlueprintLibrary_ViewportCoordinateUNormToVirtualDesktopPixel, "ViewportCoordinateUNormToVirtualDesktopPixel" }, // 983623117
+		{ &Z_Construct_UFunction_UTobiiBlueprintLibrary_VirtualDesktopPixelToViewportCoordinateUNorm, "VirtualDesktopPixelToViewportCoordinateUNorm" }, // 108330301
+		{ &Z_Construct_UFunction_UTobiiBlueprintLibrary_WorldSpaceDirectionToHMDSpaceDirection, "WorldSpaceDirectionToHMDSpaceDirection" }, // 2597534132
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UTobiiBlueprintLibrary_Statics::Class_MetaDataParams[] = {
@@ -1121,13 +1121,17 @@ void EmptyLinkFunctionForGeneratedCodeTobiiBlueprintLibrary() {}
 	};
 	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_UTobiiBlueprintLibrary_Statics::ClassParams = {
 		&UTobiiBlueprintLibrary::StaticClass,
-		DependentSingletons, ARRAY_COUNT(DependentSingletons),
-		0x001000A0u,
-		FuncInfo, ARRAY_COUNT(FuncInfo),
-		nullptr, 0,
 		nullptr,
 		&StaticCppClassTypeInfo,
-		nullptr, 0,
+		DependentSingletons,
+		FuncInfo,
+		nullptr,
+		nullptr,
+		ARRAY_COUNT(DependentSingletons),
+		ARRAY_COUNT(FuncInfo),
+		0,
+		0,
+		0x001000A0u,
 		METADATA_PARAMS(Z_Construct_UClass_UTobiiBlueprintLibrary_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_UTobiiBlueprintLibrary_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_UTobiiBlueprintLibrary()
@@ -1139,7 +1143,11 @@ void EmptyLinkFunctionForGeneratedCodeTobiiBlueprintLibrary() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UTobiiBlueprintLibrary, 2434328752);
+	IMPLEMENT_CLASS(UTobiiBlueprintLibrary, 3646838512);
+	template<> TOBIICORE_API UClass* StaticClass<UTobiiBlueprintLibrary>()
+	{
+		return UTobiiBlueprintLibrary::StaticClass();
+	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UTobiiBlueprintLibrary(Z_Construct_UClass_UTobiiBlueprintLibrary, &UTobiiBlueprintLibrary::StaticClass, TEXT("/Script/TobiiCore"), TEXT("UTobiiBlueprintLibrary"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UTobiiBlueprintLibrary);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

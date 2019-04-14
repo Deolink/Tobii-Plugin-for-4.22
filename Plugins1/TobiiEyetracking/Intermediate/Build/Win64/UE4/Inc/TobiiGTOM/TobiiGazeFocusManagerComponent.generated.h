@@ -1,4 +1,4 @@
-// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -15,7 +15,7 @@ struct FTobiiGazeFocusData;
 #endif
 #define TOBIIGTOM_TobiiGazeFocusManagerComponent_generated_h
 
-#define D__jenkins_UE4_Stage_4_21_Package_HostProject_Plugins_TobiiEyetracking_Source_TobiiGTOM_Public_TobiiGazeFocusManagerComponent_h_21_DELEGATE \
+#define TobiiPlugin_Plugins_TobiiEyetracking_Source_TobiiGTOM_Public_TobiiGazeFocusManagerComponent_h_21_DELEGATE \
 struct _Script_TobiiGTOM_eventFocusableLostGazeFocusSignature_Parms \
 { \
 	UPrimitiveComponent* GazeComponent; \
@@ -28,7 +28,7 @@ static inline void FFocusableLostGazeFocusSignature_DelegateWrapper(const FMulti
 }
 
 
-#define D__jenkins_UE4_Stage_4_21_Package_HostProject_Plugins_TobiiEyetracking_Source_TobiiGTOM_Public_TobiiGazeFocusManagerComponent_h_20_DELEGATE \
+#define TobiiPlugin_Plugins_TobiiEyetracking_Source_TobiiGTOM_Public_TobiiGazeFocusManagerComponent_h_20_DELEGATE \
 struct _Script_TobiiGTOM_eventFocusableGainedGazeFocusSignature_Parms \
 { \
 	UPrimitiveComponent* GazeComponent; \
@@ -41,7 +41,7 @@ static inline void FFocusableGainedGazeFocusSignature_DelegateWrapper(const FMul
 }
 
 
-#define D__jenkins_UE4_Stage_4_21_Package_HostProject_Plugins_TobiiEyetracking_Source_TobiiGTOM_Public_TobiiGazeFocusManagerComponent_h_26_RPC_WRAPPERS \
+#define TobiiPlugin_Plugins_TobiiEyetracking_Source_TobiiGTOM_Public_TobiiGazeFocusManagerComponent_h_26_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execGetAllFocusData) \
 	{ \
@@ -62,7 +62,7 @@ static inline void FFocusableGainedGazeFocusSignature_DelegateWrapper(const FMul
 	}
 
 
-#define D__jenkins_UE4_Stage_4_21_Package_HostProject_Plugins_TobiiEyetracking_Source_TobiiGTOM_Public_TobiiGazeFocusManagerComponent_h_26_RPC_WRAPPERS_NO_PURE_DECLS \
+#define TobiiPlugin_Plugins_TobiiEyetracking_Source_TobiiGTOM_Public_TobiiGazeFocusManagerComponent_h_26_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execGetAllFocusData) \
 	{ \
@@ -83,7 +83,7 @@ static inline void FFocusableGainedGazeFocusSignature_DelegateWrapper(const FMul
 	}
 
 
-#define D__jenkins_UE4_Stage_4_21_Package_HostProject_Plugins_TobiiEyetracking_Source_TobiiGTOM_Public_TobiiGazeFocusManagerComponent_h_26_INCLASS_NO_PURE_DECLS \
+#define TobiiPlugin_Plugins_TobiiEyetracking_Source_TobiiGTOM_Public_TobiiGazeFocusManagerComponent_h_26_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUTobiiGazeFocusManagerComponent(); \
 	friend struct Z_Construct_UClass_UTobiiGazeFocusManagerComponent_Statics; \
@@ -92,7 +92,7 @@ public: \
 	DECLARE_SERIALIZER(UTobiiGazeFocusManagerComponent)
 
 
-#define D__jenkins_UE4_Stage_4_21_Package_HostProject_Plugins_TobiiEyetracking_Source_TobiiGTOM_Public_TobiiGazeFocusManagerComponent_h_26_INCLASS \
+#define TobiiPlugin_Plugins_TobiiEyetracking_Source_TobiiGTOM_Public_TobiiGazeFocusManagerComponent_h_26_INCLASS \
 private: \
 	static void StaticRegisterNativesUTobiiGazeFocusManagerComponent(); \
 	friend struct Z_Construct_UClass_UTobiiGazeFocusManagerComponent_Statics; \
@@ -101,7 +101,7 @@ public: \
 	DECLARE_SERIALIZER(UTobiiGazeFocusManagerComponent)
 
 
-#define D__jenkins_UE4_Stage_4_21_Package_HostProject_Plugins_TobiiEyetracking_Source_TobiiGTOM_Public_TobiiGazeFocusManagerComponent_h_26_STANDARD_CONSTRUCTORS \
+#define TobiiPlugin_Plugins_TobiiEyetracking_Source_TobiiGTOM_Public_TobiiGazeFocusManagerComponent_h_26_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UTobiiGazeFocusManagerComponent(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UTobiiGazeFocusManagerComponent) \
@@ -114,7 +114,7 @@ private: \
 public:
 
 
-#define D__jenkins_UE4_Stage_4_21_Package_HostProject_Plugins_TobiiEyetracking_Source_TobiiGTOM_Public_TobiiGazeFocusManagerComponent_h_26_ENHANCED_CONSTRUCTORS \
+#define TobiiPlugin_Plugins_TobiiEyetracking_Source_TobiiGTOM_Public_TobiiGazeFocusManagerComponent_h_26_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UTobiiGazeFocusManagerComponent(UTobiiGazeFocusManagerComponent&&); \
@@ -125,32 +125,34 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UTobiiGazeFocusManagerComponent); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UTobiiGazeFocusManagerComponent)
 
 
-#define D__jenkins_UE4_Stage_4_21_Package_HostProject_Plugins_TobiiEyetracking_Source_TobiiGTOM_Public_TobiiGazeFocusManagerComponent_h_26_PRIVATE_PROPERTY_OFFSET
-#define D__jenkins_UE4_Stage_4_21_Package_HostProject_Plugins_TobiiEyetracking_Source_TobiiGTOM_Public_TobiiGazeFocusManagerComponent_h_23_PROLOG
-#define D__jenkins_UE4_Stage_4_21_Package_HostProject_Plugins_TobiiEyetracking_Source_TobiiGTOM_Public_TobiiGazeFocusManagerComponent_h_26_GENERATED_BODY_LEGACY \
+#define TobiiPlugin_Plugins_TobiiEyetracking_Source_TobiiGTOM_Public_TobiiGazeFocusManagerComponent_h_26_PRIVATE_PROPERTY_OFFSET
+#define TobiiPlugin_Plugins_TobiiEyetracking_Source_TobiiGTOM_Public_TobiiGazeFocusManagerComponent_h_23_PROLOG
+#define TobiiPlugin_Plugins_TobiiEyetracking_Source_TobiiGTOM_Public_TobiiGazeFocusManagerComponent_h_26_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	D__jenkins_UE4_Stage_4_21_Package_HostProject_Plugins_TobiiEyetracking_Source_TobiiGTOM_Public_TobiiGazeFocusManagerComponent_h_26_PRIVATE_PROPERTY_OFFSET \
-	D__jenkins_UE4_Stage_4_21_Package_HostProject_Plugins_TobiiEyetracking_Source_TobiiGTOM_Public_TobiiGazeFocusManagerComponent_h_26_RPC_WRAPPERS \
-	D__jenkins_UE4_Stage_4_21_Package_HostProject_Plugins_TobiiEyetracking_Source_TobiiGTOM_Public_TobiiGazeFocusManagerComponent_h_26_INCLASS \
-	D__jenkins_UE4_Stage_4_21_Package_HostProject_Plugins_TobiiEyetracking_Source_TobiiGTOM_Public_TobiiGazeFocusManagerComponent_h_26_STANDARD_CONSTRUCTORS \
+	TobiiPlugin_Plugins_TobiiEyetracking_Source_TobiiGTOM_Public_TobiiGazeFocusManagerComponent_h_26_PRIVATE_PROPERTY_OFFSET \
+	TobiiPlugin_Plugins_TobiiEyetracking_Source_TobiiGTOM_Public_TobiiGazeFocusManagerComponent_h_26_RPC_WRAPPERS \
+	TobiiPlugin_Plugins_TobiiEyetracking_Source_TobiiGTOM_Public_TobiiGazeFocusManagerComponent_h_26_INCLASS \
+	TobiiPlugin_Plugins_TobiiEyetracking_Source_TobiiGTOM_Public_TobiiGazeFocusManagerComponent_h_26_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define D__jenkins_UE4_Stage_4_21_Package_HostProject_Plugins_TobiiEyetracking_Source_TobiiGTOM_Public_TobiiGazeFocusManagerComponent_h_26_GENERATED_BODY \
+#define TobiiPlugin_Plugins_TobiiEyetracking_Source_TobiiGTOM_Public_TobiiGazeFocusManagerComponent_h_26_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	D__jenkins_UE4_Stage_4_21_Package_HostProject_Plugins_TobiiEyetracking_Source_TobiiGTOM_Public_TobiiGazeFocusManagerComponent_h_26_PRIVATE_PROPERTY_OFFSET \
-	D__jenkins_UE4_Stage_4_21_Package_HostProject_Plugins_TobiiEyetracking_Source_TobiiGTOM_Public_TobiiGazeFocusManagerComponent_h_26_RPC_WRAPPERS_NO_PURE_DECLS \
-	D__jenkins_UE4_Stage_4_21_Package_HostProject_Plugins_TobiiEyetracking_Source_TobiiGTOM_Public_TobiiGazeFocusManagerComponent_h_26_INCLASS_NO_PURE_DECLS \
-	D__jenkins_UE4_Stage_4_21_Package_HostProject_Plugins_TobiiEyetracking_Source_TobiiGTOM_Public_TobiiGazeFocusManagerComponent_h_26_ENHANCED_CONSTRUCTORS \
+	TobiiPlugin_Plugins_TobiiEyetracking_Source_TobiiGTOM_Public_TobiiGazeFocusManagerComponent_h_26_PRIVATE_PROPERTY_OFFSET \
+	TobiiPlugin_Plugins_TobiiEyetracking_Source_TobiiGTOM_Public_TobiiGazeFocusManagerComponent_h_26_RPC_WRAPPERS_NO_PURE_DECLS \
+	TobiiPlugin_Plugins_TobiiEyetracking_Source_TobiiGTOM_Public_TobiiGazeFocusManagerComponent_h_26_INCLASS_NO_PURE_DECLS \
+	TobiiPlugin_Plugins_TobiiEyetracking_Source_TobiiGTOM_Public_TobiiGazeFocusManagerComponent_h_26_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
+template<> TOBIIGTOM_API UClass* StaticClass<class UTobiiGazeFocusManagerComponent>();
+
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID D__jenkins_UE4_Stage_4_21_Package_HostProject_Plugins_TobiiEyetracking_Source_TobiiGTOM_Public_TobiiGazeFocusManagerComponent_h
+#define CURRENT_FILE_ID TobiiPlugin_Plugins_TobiiEyetracking_Source_TobiiGTOM_Public_TobiiGazeFocusManagerComponent_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
