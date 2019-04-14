@@ -13,10 +13,10 @@
 
 UTobiiRadialMenuSlot::UTobiiRadialMenuSlot(const FObjectInitializer& ObjectInitializer)
 	: Super(ObjectInitializer)
-	, Slot(nullptr)
 	, Offset(0.0f, 0.0f)
 	, Scale(1.0f)
 	, Alpha(1.0f)
+	, Slot(nullptr)
 {
 }
 

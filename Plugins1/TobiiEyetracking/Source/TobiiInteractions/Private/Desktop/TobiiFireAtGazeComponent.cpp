@@ -20,8 +20,8 @@
 static TAutoConsoleVariable<int32> CVarFireAtGazeEnabled(TEXT("tobii.interaction.FireAtGazeEnabled"), 1, TEXT("Fire at gaze lets you fire where you look when not in ADS (Aim Down Sights) mode. 0 - Fire at gaze is disabled. 1 - Fire at gaze is enabled."));
 
 UTobiiFireAtGazeComponent::UTobiiFireAtGazeComponent()
-	: CameraComponent(nullptr)
-	, FocusManager(nullptr)
+	: FocusManager(nullptr)
+	, CameraComponent(nullptr)
 
 	, FireAtGazeTargetActor(nullptr)
 	, FireAtGazeTargetLocation(0.0f, 0.0f, 0.0f)

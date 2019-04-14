@@ -295,8 +295,8 @@ UTobiiGazeFocusableComponent::UTobiiGazeFocusableComponent()
 	, DefaultMaxFocusDistance(0.0f)
 	, DefaultFocusLayer("Default")
 
-	, bRefreshedOnce(false)
 	, bApplyCleanUIToNonSelectedWidgets(false)
+	, bRefreshedOnce(false)
 {
 	PrimaryComponentTick.bCanEverTick = true;
 }

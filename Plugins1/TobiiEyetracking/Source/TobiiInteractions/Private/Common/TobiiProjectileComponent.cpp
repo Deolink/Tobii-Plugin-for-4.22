@@ -13,17 +13,18 @@
 #include "Runtime/Engine/Classes/Engine/World.h"
 
 UTobiiProjectileComponent::UTobiiProjectileComponent()
-	: HomingBehavior(ETobiiProjectileHomingBehavior::Acceleration)
-	, GuidanceSystem(ETobiiProjectileGuidanceSystem::ComplexPrediction)
-	, InitialVelocity(1.0f, 0.0f, 0.0f)
-	, InitialFuelSecs(0.0f)
-	, MaxLifeTimeSecs(0.0f)
-	, GuidanceSystemUpdateFreq(0.0f)
-	, GuidanceSystemMaximumTargetAngleDeg(0.0f)
-	, SteeringMaxTurnSpeedDegPerSec(10.0f)
-
+	: InitialVelocity(1.0f, 0.0f, 0.0f)
 	, bAffectedByGravity(true)
 	, WorldSpaceGravity(0.0f, 0.0f, 0.0f)
+	, InitialFuelSecs(0.0f)
+	, MaxLifeTimeSecs(0.0f)
+	
+	, HomingBehavior(ETobiiProjectileHomingBehavior::Acceleration)
+
+	, SteeringMaxTurnSpeedDegPerSec(10.0f)
+	, GuidanceSystem(ETobiiProjectileGuidanceSystem::ComplexPrediction)
+	, GuidanceSystemUpdateFreq(0.0f)
+	, GuidanceSystemMaximumTargetAngleDeg(0.0f)
 {
 	HomingAccelerationMagnitude = 10000.0f;
 	PrimaryComponentTick.bCanEverTick = true;

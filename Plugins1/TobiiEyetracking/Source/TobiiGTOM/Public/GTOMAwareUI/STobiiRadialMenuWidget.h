@@ -83,8 +83,8 @@ public:
 	}
 
 		SLATE_SUPPORTS_SLOT(STobiiRadialMenuWidget::FSlot)
-		SLATE_ARGUMENT(bool, UseHardBorder)
 		SLATE_ARGUMENT(FColor, BorderColor)
+		SLATE_ARGUMENT(bool, UseHardBorder)		
 		SLATE_ARGUMENT(FColor, PanelColor)
 		SLATE_ARGUMENT(float, BorderThicknessPx)
 		SLATE_ARGUMENT(float, SegmentSeparationPx)

@@ -17,8 +17,8 @@
 #include "Editor/UnrealEd/Public/Editor.h"
 
 FTobiiEditorExtension::FTobiiEditorExtension(FTobiiCoreModule* InCoreModule)
-	: bIsEditorInitialized(false)
-	, CoreModule(InCoreModule)
+	: CoreModule(InCoreModule)
+	, bIsEditorInitialized(false)
 {
 	// Defer Level Editor UI extensions until Level Editor has been loaded:
 	if (FModuleManager::Get().IsModuleLoaded("LevelEditor"))

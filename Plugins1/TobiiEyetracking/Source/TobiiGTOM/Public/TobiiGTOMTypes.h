@@ -34,8 +34,8 @@ struct FTobiiGazeFocusData
 
 public:
 	FTobiiGazeFocusData()
-		: FocusedPrimitiveComponent()
-		, FocusedActor()
+		: FocusedActor()
+		, FocusedPrimitiveComponent()
 		, FocusedWidget()
 		, LastVisibleWorldLocation(0.0f, 0.0f, 0.0f)
 		, FocusConfidence(0.0f)
